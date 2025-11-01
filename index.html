@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Lessons - Welcome</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container landing-page">
+        <header>
+            <h1>Welcome to Grammar Lessons</h1>
+            <p class="subtitle">Your resource for mastering academic writing conventions</p>
+        </header>
+
+        <main class="landing-content">
+            <div class="intro-text">
+                <p>This site provides clear, practical guidance on grammar and writing conventions for academic contexts. Academic English is a specific dialect that anyone can learn and use effectively in appropriate settings.</p>
+            </div>
+
+            <div class="course-selection">
+                <h2>Please select your course to begin:</h2>
+                <form id="courseForm">
+                    <div class="form-group">
+                        <label for="courseSelect">Course:</label>
+                        <select id="courseSelect" name="course" required>
+                            <option value="">-- Select your course --</option>
+                            <option value="ENC1101">ENC1101</option>
+                            <option value="ENC1102">ENC1102</option>
+                            <option value="ENC2210">ENC2210</option>
+                            <option value="LIT1000">LIT1000</option>
+                            <option value="ENCV0025">ENCV0025</option>
+                            <option value="ENCV0027">ENCV0027</option>
+                            <option value="REAV0017">REAV0017</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group hidden" id="otherCourseGroup">
+                        <label for="otherCourse">Enter course code (7-8 characters, no spaces):</label>
+                        <input
+                            type="text"
+                            id="otherCourse"
+                            name="otherCourse"
+                            pattern="[A-Za-z0-9]{7,8}"
+                            maxlength="8"
+                            placeholder="e.g., ENC1234"
+                        >
+                        <small class="hint">Course code must be 7-8 characters with no spaces or punctuation</small>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Enter Site</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>Designed to support student writers in developing academic writing skills</p>
+        </footer>
+    </div>
+
+    <script type="module" src="js/firebase-config.js"></script>
+    <script>
+        document.getElementById('courseSelect').addEventListener('change', function() {
+            const otherGroup = document.getElementById('otherCourseGroup');
+            const otherInput = document.getElementById('otherCourse');
+
+            if (this.value === 'Other') {
+                otherGroup.classList.remove('hidden');
+                otherInput.required = true;
+            } else {
+                otherGroup.classList.add('hidden');
+                otherInput.required = false;
+                otherInput.value = '';
+            }
+        });
+
+        document.getElementById('courseForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const courseSelect = document.getElementById('courseSelect');
+            const otherCourse = document.getElementById('otherCourse');
+
+            let course = courseSelect.value;
+            if (course === 'Other') {
+                course = otherCourse.value.toUpperCase();
+            }
+
+            // Store course in sessionStorage
+            sessionStorage.setItem('userCourse', course);
+
+            // Log to Firebase (will be implemented in firebase-config.js)
+            if (window.logCourseSelection) {
+                window.logCourseSelection(course);
+            }
+
+            // Redirect to main page
+            window.location.href = 'main.html';
+        });
+    </script>
+</body>
+</html>

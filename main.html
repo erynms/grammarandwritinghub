@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Lessons - Main</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Grammar Lessons</h1>
+            <p class="course-indicator">Course: <span id="userCourse"></span></p>
+        </header>
+
+        <nav class="main-nav">
+            <button class="nav-btn active" data-view="topics">Browse Topics</button>
+            <button class="nav-btn" data-view="ask">Ask a Question</button>
+        </nav>
+
+        <main>
+            <!-- Topics Browse View -->
+            <div id="topicsView" class="view active">
+                <div class="search-box">
+                    <input type="text" id="topicSearch" placeholder="Search topics...">
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Topics</button>
+                    <button class="filter-btn" data-category="sentence-basics">Sentence Basics</button>
+                    <button class="filter-btn" data-category="punctuation">Punctuation & Mechanics</button>
+                    <button class="filter-btn" data-category="academic-writing">Academic Writing</button>
+                    <button class="filter-btn" data-category="mla-style">MLA Style</button>
+                    <button class="filter-btn" data-category="common-errors">Common Errors</button>
+                </div>
+
+                <div id="topicsList" class="topics-grid">
+                    <!-- Topics will be loaded here dynamically -->
+                </div>
+            </div>
+
+            <!-- Ask Question View -->
+            <div id="askView" class="view">
+                <div class="question-section">
+                    <h2>Ask Your Grammar Question</h2>
+                    <p>Type your question below, and we'll help you find the right resources.</p>
+
+                    <textarea
+                        id="questionInput"
+                        placeholder="Example: What's the difference between active and passive voice?"
+                        rows="5"
+                    ></textarea>
+
+                    <button id="submitQuestion" class="btn-primary">Get Help</button>
+                </div>
+
+                <div id="questionResponse" class="response-section hidden">
+                    <!-- Response will be displayed here -->
+                </div>
+            </div>
+
+            <!-- Topic Detail View -->
+            <div id="topicDetailView" class="view">
+                <button id="backToTopics" class="btn-secondary">← Back to Topics</button>
+
+                <div id="topicContent">
+                    <!-- Topic content will be loaded here -->
+                </div>
+
+                <button id="tutorMeBtn" class="btn-primary tutor-btn">Tutor Me!</button>
+            </div>
+
+            <!-- Quiz View -->
+            <div id="quizView" class="view">
+                <button id="backToTopic" class="btn-secondary">← Back to Topic</button>
+
+                <div id="quizContent">
+                    <!-- Quiz will be loaded here -->
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Remember: Academic English is a learned skill that anyone can master!</p>
+        </footer>
+    </div>
+
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/question-analyzer.js"></script>
+    <script type="module" src="js/quiz-generator.js"></script>
+</body>
+</html>
