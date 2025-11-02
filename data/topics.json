@@ -1,0 +1,1550 @@
+[
+  {
+    "id": "sentence-fragments",
+    "title": "Sentence Fragments",
+    "category": "sentence-basics",
+    "description": "Understanding and fixing incomplete sentences",
+    "keywords": ["fragment", "incomplete sentence", "sentence structure"],
+    "content": "<p>A sentence fragment is an incomplete sentence that's missing a subject, a verb, or doesn't express a complete thought. While fragments are common in casual conversation, academic writing requires complete sentences.</p><p>Every complete sentence needs three things: a subject (who or what), a verb (action or state of being), and a complete thought that can stand alone.</p><p>Remember: In academic contexts, we use complete sentences to ensure clarity and precision. This doesn't mean other ways of communicating are incorrect—just that formal writing has specific conventions.</p>",
+    "examples": [
+      {
+        "label": "Fragment",
+        "text": "Because I was tired."
+      },
+      {
+        "label": "Complete",
+        "text": "I went to bed early because I was tired."
+      },
+      {
+        "label": "Fragment",
+        "text": "Running through the park."
+      },
+      {
+        "label": "Complete",
+        "text": "She was running through the park."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Sentence Fragments",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/sentence_fragments.html"
+      },
+      {
+        "title": "UNC Writing Center: Fragments and Run-ons",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/fragments-and-run-ons/"
+      },
+      {
+        "title": "Guide to Grammar: Fragments",
+        "url": "https://guidetogrammar.org/grammar/fragments.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Conjunction Junction",
+        "url": "https://www.youtube.com/watch?v=ODGA7ssL-6g"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which of the following is a sentence fragment?",
+          "sentences": [
+            "The cat slept on the windowsill.",
+            "After we finished dinner.",
+            "She studied for three hours.",
+            "They arrived early."
+          ],
+          "correctIndex": 1,
+          "explanation": "'After we finished dinner' is a dependent clause that cannot stand alone. It needs to be connected to an independent clause to form a complete sentence."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How can you fix the fragment 'While walking to class'?",
+          "options": [
+            "While walking to class.",
+            "While walking to class, I saw my friend.",
+            "Walking to class.",
+            "While walking."
+          ],
+          "answer": "While walking to class, I saw my friend.",
+          "explanation": "Adding an independent clause ('I saw my friend') creates a complete sentence with both a dependent clause and an independent clause."
+        },
+        {
+          "type": "true-false",
+          "question": "A group of words must have both a subject and a verb to be a complete sentence.",
+          "answer": "True",
+          "explanation": "True. A complete sentence requires a subject, a verb, and must express a complete thought that can stand independently."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence is complete?",
+          "sentences": [
+            "Because the weather was nice.",
+            "The students who studied hard.",
+            "We went to the beach.",
+            "Especially on Sundays."
+          ],
+          "correctIndex": 2,
+          "explanation": "'We went to the beach' has a subject (we), a verb (went), and expresses a complete thought."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What makes 'Running quickly down the street' a fragment?",
+          "options": [
+            "It has no verb",
+            "It has no subject",
+            "It's too short",
+            "It uses an -ing word"
+          ],
+          "answer": "It has no subject",
+          "explanation": "While it has a verb form (running), there's no clear subject performing the action, making it incomplete."
+        }
+      ]
+    }
+  },
+  {
+    "id": "run-on-sentences",
+    "title": "Run-on Sentences",
+    "category": "sentence-basics",
+    "description": "Identifying and correcting run-on sentences",
+    "keywords": ["run-on", "run on", "fused sentence", "comma splice"],
+    "content": "<p>A run-on sentence occurs when two or more independent clauses (complete sentences) are joined without proper punctuation or connecting words. There are two main types: fused sentences (no punctuation between clauses) and comma splices (only a comma between clauses).</p><p>Academic writing uses specific punctuation to show the relationship between ideas. This helps readers follow your thinking clearly.</p>",
+    "examples": [
+      {
+        "label": "Run-on (Fused)",
+        "text": "I love reading it helps me relax."
+      },
+      {
+        "label": "Corrected (Period)",
+        "text": "I love reading. It helps me relax."
+      },
+      {
+        "label": "Run-on (Comma Splice)",
+        "text": "I love reading, it helps me relax."
+      },
+      {
+        "label": "Corrected (Semicolon)",
+        "text": "I love reading; it helps me relax."
+      },
+      {
+        "label": "Corrected (Conjunction)",
+        "text": "I love reading because it helps me relax."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Run-on Sentences",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/run_on_sentences.html"
+      },
+      {
+        "title": "UNC Writing Center: Fragments and Run-ons",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/fragments-and-run-ons/"
+      },
+      {
+        "title": "Guide to Grammar: Run-on Sentences",
+        "url": "https://guidetogrammar.org/grammar/runons.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which sentence is a run-on?",
+          "sentences": [
+            "The sun was setting, and the sky turned orange.",
+            "She studied hard she passed the exam.",
+            "After the rain stopped, we went outside.",
+            "They wanted to leave early."
+          ],
+          "correctIndex": 1,
+          "explanation": "This is a fused sentence with two independent clauses joined without any punctuation or connecting word."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is the best way to fix this run-on: 'It was cold outside, I wore a jacket'?",
+          "options": [
+            "It was cold outside I wore a jacket.",
+            "It was cold outside, so I wore a jacket.",
+            "It was cold outside, I wore a jacket.",
+            "It was cold, outside I wore a jacket."
+          ],
+          "answer": "It was cold outside, so I wore a jacket.",
+          "explanation": "Adding a coordinating conjunction (so) after the comma properly connects the two independent clauses and shows the relationship between them."
+        },
+        {
+          "type": "true-false",
+          "question": "A comma by itself can join two independent clauses.",
+          "answer": "False",
+          "explanation": "False. Using only a comma to join independent clauses creates a comma splice, which is a type of run-on sentence. You need a comma plus a coordinating conjunction, or use a semicolon instead."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which punctuation mark can join two closely related independent clauses?",
+          "options": [
+            "Comma",
+            "Semicolon",
+            "Apostrophe",
+            "Quotation mark"
+          ],
+          "answer": "Semicolon",
+          "explanation": "A semicolon can join two independent clauses that are closely related in meaning."
+        }
+      ]
+    }
+  },
+  {
+    "id": "comma-splices",
+    "title": "Comma Splices",
+    "category": "sentence-basics",
+    "description": "Understanding and fixing comma splice errors",
+    "keywords": ["comma splice", "comma error", "independent clause"],
+    "content": "<p>A comma splice occurs when two independent clauses are joined with only a comma, without a coordinating conjunction. This is one of the most common errors in student writing.</p><p>There are several ways to fix a comma splice: use a period to make two sentences, add a coordinating conjunction after the comma, use a semicolon, or make one clause dependent on the other.</p>",
+    "examples": [
+      {
+        "label": "Comma Splice",
+        "text": "The exam was difficult, I studied for hours."
+      },
+      {
+        "label": "Fixed with Period",
+        "text": "The exam was difficult. I studied for hours."
+      },
+      {
+        "label": "Fixed with Conjunction",
+        "text": "The exam was difficult, so I studied for hours."
+      },
+      {
+        "label": "Fixed with Semicolon",
+        "text": "The exam was difficult; I studied for hours."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Comma Splices",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/commas/extended_rules_for_commas.html"
+      },
+      {
+        "title": "UNC Writing Center: Comma Splices",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/commas-semicolons-and-colons/"
+      },
+      {
+        "title": "Guide to Grammar: Comma Splices",
+        "url": "https://guidetogrammar.org/grammar/commas.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which sentence contains a comma splice?",
+          "sentences": [
+            "I wanted to go, but I was too tired.",
+            "She likes coffee, he prefers tea.",
+            "After the movie ended, we went home.",
+            "The dog barked loudly."
+          ],
+          "correctIndex": 1,
+          "explanation": "'She likes coffee, he prefers tea' joins two independent clauses with only a comma—that's a comma splice."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which coordinating conjunction could fix this comma splice: 'I was hungry, I made a sandwich'?",
+          "options": [
+            "because",
+            "so",
+            "although",
+            "while"
+          ],
+          "answer": "so",
+          "explanation": "'So' is a coordinating conjunction (FANBOYS: for, and, nor, but, or, yet, so) that can follow a comma to join independent clauses. The others are subordinating conjunctions."
+        },
+        {
+          "type": "true-false",
+          "question": "Semicolons can be used to fix comma splices.",
+          "answer": "True",
+          "explanation": "True. A semicolon can join two closely related independent clauses, making it one way to fix a comma splice."
+        }
+      ]
+    }
+  },
+  {
+    "id": "subject-verb-agreement",
+    "title": "Subject-Verb Agreement",
+    "category": "sentence-basics",
+    "description": "Making subjects and verbs agree in number",
+    "keywords": ["subject-verb agreement", "agreement", "singular", "plural", "verb tense"],
+    "content": "<p>Subject-verb agreement means that singular subjects take singular verbs, and plural subjects take plural verbs. This is a standard convention in academic English that helps maintain clarity.</p><p>The basic rule: if your subject is singular (one person or thing), use a singular verb. If your subject is plural (more than one), use a plural verb. Watch out for tricky situations like words between the subject and verb, or indefinite pronouns.</p>",
+    "examples": [
+      {
+        "label": "Correct (Singular)",
+        "text": "The student writes every day."
+      },
+      {
+        "label": "Correct (Plural)",
+        "text": "The students write every day."
+      },
+      {
+        "label": "Incorrect",
+        "text": "The student write every day."
+      },
+      {
+        "label": "Tricky but Correct",
+        "text": "The box of chocolates is on the table."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Subject-Verb Agreement",
+        "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+      },
+      {
+        "title": "UNC Writing Center: Subject-Verb Agreement",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/subject-verb-agreement/"
+      },
+      {
+        "title": "Guide to Grammar: Agreement",
+        "url": "https://guidetogrammar.org/grammar/sv_agr.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence has correct subject-verb agreement?",
+          "options": [
+            "The dogs barks loudly.",
+            "The dog bark loudly.",
+            "The dogs bark loudly.",
+            "The dogs barking loudly."
+          ],
+          "answer": "The dogs bark loudly.",
+          "explanation": "'Dogs' is plural, so it needs the plural verb 'bark' (not 'barks')."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct verb: 'Everyone ____ ready for the test.'",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "be"
+          ],
+          "answer": "is",
+          "explanation": "'Everyone' is a singular indefinite pronoun, so it takes the singular verb 'is.'"
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence has correct subject-verb agreement?",
+          "sentences": [
+            "The list of items are on the desk.",
+            "The books on the shelf is dusty.",
+            "The children plays in the park.",
+            "The professor teaches three classes."
+          ],
+          "correctIndex": 3,
+          "explanation": "'The professor teaches' is correct—singular subject with singular verb. The others have agreement errors."
+        }
+      ]
+    }
+  },
+  {
+    "id": "active-voice",
+    "title": "Active Voice",
+    "category": "academic-writing",
+    "description": "Using active voice for clear, direct writing",
+    "keywords": ["active voice", "active", "voice", "subject", "action"],
+    "content": "<p>In active voice, the subject performs the action: 'The researcher conducted the study.' Active voice is generally clearer and more direct than passive voice, making it preferred in most academic writing.</p><p>Active voice helps readers immediately understand who is doing what. It creates more engaging, easier-to-follow sentences.</p>",
+    "examples": [
+      {
+        "label": "Active Voice",
+        "text": "The student wrote the essay."
+      },
+      {
+        "label": "Passive Voice",
+        "text": "The essay was written by the student."
+      },
+      {
+        "label": "Active Voice",
+        "text": "Researchers discovered a new species."
+      },
+      {
+        "label": "Passive Voice",
+        "text": "A new species was discovered by researchers."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Active vs. Passive Voice",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/active_and_passive_voice/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Passive Voice",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/passive-voice/"
+      },
+      {
+        "title": "Guide to Grammar: Active/Passive Voice",
+        "url": "https://guidetogrammar.org/grammar/passive.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses active voice?",
+          "sentences": [
+            "The ball was thrown by Maria.",
+            "The experiment was conducted carefully.",
+            "Maria threw the ball.",
+            "The results were analyzed by the team."
+          ],
+          "correctIndex": 2,
+          "explanation": "'Maria threw the ball' is active voice—the subject (Maria) performs the action (threw)."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Convert to active voice: 'The book was read by thousands of students.'",
+          "options": [
+            "The book read thousands of students.",
+            "Thousands of students read the book.",
+            "The book was reading thousands of students.",
+            "Reading the book was thousands of students."
+          ],
+          "answer": "Thousands of students read the book.",
+          "explanation": "In active voice, the subject (thousands of students) performs the action (read) on the object (the book)."
+        },
+        {
+          "type": "true-false",
+          "question": "Active voice is always better than passive voice in academic writing.",
+          "answer": "False",
+          "explanation": "False. While active voice is often clearer, passive voice has appropriate uses, such as when the action is more important than who performed it, or when the performer is unknown."
+        }
+      ]
+    }
+  },
+  {
+    "id": "passive-voice",
+    "title": "Passive Voice",
+    "category": "academic-writing",
+    "description": "Understanding when and how to use passive voice",
+    "keywords": ["passive voice", "passive", "voice", "be verb"],
+    "content": "<p>In passive voice, the subject receives the action: 'The study was conducted by the researcher.' While active voice is often preferred, passive voice has legitimate uses in academic writing.</p><p>Use passive voice when: the action is more important than who did it, the doer is unknown or obvious, or you want to emphasize what was done rather than who did it. In scientific writing, passive voice is sometimes used to maintain objectivity.</p>",
+    "examples": [
+      {
+        "label": "Appropriate Passive",
+        "text": "The samples were analyzed for contamination."
+      },
+      {
+        "label": "Appropriate Passive",
+        "text": "Mistakes were made in the initial calculation."
+      },
+      {
+        "label": "Better as Active",
+        "text": "The report was written by me. → I wrote the report."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Active vs. Passive Voice",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/active_and_passive_voice/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Passive Voice",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/passive-voice/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses passive voice?",
+          "sentences": [
+            "The teacher graded the papers.",
+            "Students completed the assignment.",
+            "The papers were graded overnight.",
+            "We submitted our work on time."
+          ],
+          "correctIndex": 2,
+          "explanation": "'The papers were graded overnight' is passive—the subject (papers) receives the action."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is a good reason to use passive voice?",
+          "options": [
+            "To make writing more complicated",
+            "When you don't know who performed the action",
+            "To avoid all responsibility",
+            "To make sentences longer"
+          ],
+          "answer": "When you don't know who performed the action",
+          "explanation": "Passive voice is appropriate when the doer is unknown, unimportant, or obvious from context."
+        }
+      ]
+    }
+  },
+  {
+    "id": "thesis-statement",
+    "title": "Thesis Statements",
+    "category": "academic-writing",
+    "description": "Writing clear, arguable thesis statements",
+    "keywords": ["thesis", "thesis statement", "main argument", "claim"],
+    "content": "<p>A thesis statement is the central claim or main point of your essay. It tells readers what you will argue and usually appears at the end of your introduction.</p><p>A strong thesis is specific, arguable, and focused. It's not just a fact or observation—it's a claim that you'll support with evidence. Think of it as a promise to your reader about what your essay will demonstrate.</p>",
+    "examples": [
+      {
+        "label": "Weak (Too Broad)",
+        "text": "Social media affects society."
+      },
+      {
+        "label": "Strong",
+        "text": "Social media platforms have fundamentally altered how young adults form and maintain relationships by prioritizing quantity of connections over quality of interaction."
+      },
+      {
+        "label": "Weak (Just a Fact)",
+        "text": "Many students use laptops in class."
+      },
+      {
+        "label": "Strong",
+        "text": "While laptops can be valuable learning tools, their unrestricted use in classrooms ultimately hinders student engagement and comprehension."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Developing a Thesis",
+        "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/thesis_statement_tips.html"
+      },
+      {
+        "title": "UNC Writing Center: Thesis Statements",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/thesis-statements/"
+      },
+      {
+        "title": "Harvard Writing Center: Developing a Thesis",
+        "url": "https://writingcenter.fas.harvard.edu/pages/developing-thesis"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which is the strongest thesis statement?",
+          "sentences": [
+            "This paper is about climate change.",
+            "Climate change is bad.",
+            "Climate change exists.",
+            "Governments must implement carbon pricing to effectively reduce emissions and combat climate change."
+          ],
+          "correctIndex": 3,
+          "explanation": "This thesis is specific, arguable, and makes a clear claim that can be supported with evidence."
+        },
+        {
+          "type": "true-false",
+          "question": "A thesis statement should always be a fact that everyone agrees with.",
+          "answer": "False",
+          "explanation": "False. A thesis should be arguable—something you need to prove with evidence, not a simple fact."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Where does the thesis statement typically appear?",
+          "options": [
+            "In the conclusion",
+            "At the end of the introduction",
+            "In the first sentence of the essay",
+            "In the title"
+          ],
+          "answer": "At the end of the introduction",
+          "explanation": "The thesis statement typically appears at the end of the introductory paragraph, after you've provided context for your argument."
+        }
+      ]
+    }
+  },
+  {
+    "id": "topic-sentences",
+    "title": "Topic Sentences",
+    "category": "academic-writing",
+    "description": "Crafting effective topic sentences for paragraphs",
+    "keywords": ["topic sentence", "paragraph", "main idea"],
+    "content": "<p>A topic sentence states the main idea of a paragraph. It usually appears at the beginning and tells readers what the paragraph will discuss.</p><p>Think of topic sentences as mini-thesis statements for each paragraph. They should connect back to your thesis while introducing the specific point this paragraph will make. Good topic sentences help readers follow your argument.</p>",
+    "examples": [
+      {
+        "label": "Weak",
+        "text": "There are many reasons for this."
+      },
+      {
+        "label": "Strong",
+        "text": "The economic impact of remote work has been particularly significant in urban housing markets."
+      },
+      {
+        "label": "Weak",
+        "text": "Another thing to consider is education."
+      },
+      {
+        "label": "Strong",
+        "text": "Educational inequality begins long before students enter college, with underfunded K-12 schools creating persistent achievement gaps."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Paragraphs and Topic Sentences",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Paragraphs",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/paragraphs/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What is the main purpose of a topic sentence?",
+          "options": [
+            "To conclude the paragraph",
+            "To state the main idea of the paragraph",
+            "To provide evidence",
+            "To repeat the thesis"
+          ],
+          "answer": "To state the main idea of the paragraph",
+          "explanation": "A topic sentence introduces the main idea that the paragraph will develop and support."
+        },
+        {
+          "type": "true-false",
+          "question": "Every paragraph should have a topic sentence.",
+          "answer": "True",
+          "explanation": "True. Topic sentences help organize your writing and guide readers through your argument."
+        }
+      ]
+    }
+  },
+  {
+    "id": "paragraph-development",
+    "title": "Paragraph Development",
+    "category": "academic-writing",
+    "description": "Building well-developed, unified paragraphs",
+    "keywords": ["paragraph", "development", "support", "evidence"],
+    "content": "<p>A well-developed paragraph has a clear main idea (topic sentence), supporting evidence, analysis, and unity. Each sentence should relate to the paragraph's main point.</p><p>Think of paragraph structure as: Point (topic sentence) → Evidence (support your point) → Explanation (show how evidence supports your point) → Link (connect to thesis or transition to next idea).</p>",
+    "examples": [
+      {
+        "label": "Underdeveloped",
+        "text": "Exercise is important for health. It helps people feel better. Everyone should exercise more."
+      },
+      {
+        "label": "Well-Developed",
+        "text": "Regular exercise significantly improves mental health outcomes. A 2020 study published in the Journal of Health Psychology found that participants who engaged in 30 minutes of moderate exercise five times per week reported 40% fewer symptoms of anxiety and depression compared to sedentary individuals. This improvement occurs because physical activity stimulates the production of endorphins and reduces cortisol levels, creating a biological basis for improved mood. These findings suggest that incorporating regular exercise into daily routines can be as effective as some traditional interventions for managing mild to moderate mental health concerns."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: On Paragraphs",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Paragraphs",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/paragraphs/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What should come after presenting evidence in a paragraph?",
+          "options": [
+            "The topic sentence",
+            "A new topic",
+            "Analysis explaining how the evidence supports your point",
+            "The conclusion of the essay"
+          ],
+          "answer": "Analysis explaining how the evidence supports your point",
+          "explanation": "After presenting evidence, you need to explain its significance and show how it supports your point—don't assume readers will make the connection themselves."
+        },
+        {
+          "type": "true-false",
+          "question": "A paragraph can discuss multiple unrelated ideas.",
+          "answer": "False",
+          "explanation": "False. Paragraphs should have unity—all sentences should relate to the main idea stated in the topic sentence."
+        }
+      ]
+    }
+  },
+  {
+    "id": "commas",
+    "title": "Comma Usage",
+    "category": "punctuation",
+    "description": "Using commas correctly in various situations",
+    "keywords": ["comma", "punctuation", "pause"],
+    "content": "<p>Commas serve many purposes: separating items in a list, joining independent clauses with conjunctions, setting off introductory elements, and more. Learning the main comma rules helps make your writing clearer.</p><p>Key uses: 1) After introductory elements, 2) Before coordinating conjunctions joining independent clauses, 3) Between items in a series, 4) Around non-essential information, 5) Between coordinate adjectives.</p>",
+    "examples": [
+      {
+        "label": "After Introductory Element",
+        "text": "After the concert ended, we went home."
+      },
+      {
+        "label": "With Conjunction",
+        "text": "I wanted to go, but I was too tired."
+      },
+      {
+        "label": "Series",
+        "text": "We need eggs, milk, bread, and butter."
+      },
+      {
+        "label": "Non-essential Info",
+        "text": "My sister, who lives in Boston, is visiting."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Extended Comma Rules",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/commas/extended_rules_for_commas.html"
+      },
+      {
+        "title": "UNC Writing Center: Commas",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/commas/"
+      },
+      {
+        "title": "Guide to Grammar: Commas",
+        "url": "https://guidetogrammar.org/grammar/commas.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence uses commas correctly?",
+          "options": [
+            "After we ate we went home.",
+            "After we ate, we went home.",
+            "After, we ate we went home.",
+            "After we, ate we went home."
+          ],
+          "answer": "After we ate, we went home.",
+          "explanation": "Use a comma after an introductory clause (After we ate)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses commas correctly?",
+          "sentences": [
+            "I bought apples oranges and bananas.",
+            "I bought apples, oranges and, bananas.",
+            "I bought apples, oranges, and bananas.",
+            "I bought, apples oranges and bananas."
+          ],
+          "correctIndex": 2,
+          "explanation": "Items in a series should be separated by commas, with a comma before 'and' (Oxford comma) for clarity."
+        },
+        {
+          "type": "true-false",
+          "question": "You should use a comma before 'and' when it joins two independent clauses.",
+          "answer": "True",
+          "explanation": "True. When 'and' joins two independent clauses (complete sentences), use a comma before it."
+        }
+      ]
+    }
+  },
+  {
+    "id": "apostrophes",
+    "title": "Apostrophes",
+    "category": "punctuation",
+    "description": "Using apostrophes for possession and contractions",
+    "keywords": ["apostrophe", "possessive", "contraction", "its", "it's"],
+    "content": "<p>Apostrophes have two main uses: showing possession (ownership) and forming contractions (combining words). Knowing when and where to use apostrophes prevents common errors.</p><p>For possession: Add 's to singular nouns (the student's book) and just an apostrophe after plural nouns ending in s (the students' books). For contractions: The apostrophe replaces missing letters (don't = do not).</p>",
+    "examples": [
+      {
+        "label": "Singular Possessive",
+        "text": "The teacher's desk is organized."
+      },
+      {
+        "label": "Plural Possessive",
+        "text": "The teachers' lounge is on the second floor."
+      },
+      {
+        "label": "Contraction",
+        "text": "It's (it is) a beautiful day."
+      },
+      {
+        "label": "Possessive Pronoun (NO apostrophe)",
+        "text": "The dog wagged its tail."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Apostrophes",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/apostrophe_introduction.html"
+      },
+      {
+        "title": "UNC Writing Center: Apostrophes",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/apostrophes/"
+      },
+      {
+        "title": "Guide to Grammar: Apostrophes",
+        "url": "https://guidetogrammar.org/grammar/marks/apostrophe.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence uses apostrophes correctly?",
+          "options": [
+            "The cats toy is missing.",
+            "The cat's toy is missing.",
+            "The cats' toy is missing.",
+            "The cat's toy's is missing."
+          ],
+          "answer": "The cat's toy is missing.",
+          "explanation": "For a singular possessive (one cat owns the toy), add 's to the noun."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is correct?",
+          "options": [
+            "Its a nice day outside.",
+            "Its' a nice day outside.",
+            "It's a nice day outside.",
+            "Its's a nice day outside."
+          ],
+          "answer": "It's a nice day outside.",
+          "explanation": "It's = it is (contraction). Its = possessive form (no apostrophe)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence is correct?",
+          "sentences": [
+            "The dogs bowl is empty.",
+            "The dog's bowl is empty.",
+            "The dogs' bowl's is empty.",
+            "The dog's bowl's is empty."
+          ],
+          "correctIndex": 1,
+          "explanation": "'The dog's bowl' shows that the bowl belongs to the dog (singular possessive)."
+        }
+      ]
+    }
+  },
+  {
+    "id": "semicolons",
+    "title": "Semicolons",
+    "category": "punctuation",
+    "description": "Using semicolons to connect related ideas",
+    "keywords": ["semicolon", "punctuation", "independent clause"],
+    "content": "<p>Semicolons connect two closely related independent clauses without a coordinating conjunction. They're stronger than a comma but not as final as a period.</p><p>Use semicolons when: 1) Joining related independent clauses, or 2) Separating items in a complex list (especially when items contain commas). Don't use semicolons to connect a dependent clause to an independent clause.</p>",
+    "examples": [
+      {
+        "label": "Connecting Clauses",
+        "text": "She loves reading; her favorite genre is mystery."
+      },
+      {
+        "label": "Complex List",
+        "text": "The team includes Ana, the designer; Marcus, the developer; and Joy, the project manager."
+      },
+      {
+        "label": "Incorrect",
+        "text": "I was tired; because I stayed up late."
+      },
+      {
+        "label": "Correct",
+        "text": "I was tired because I stayed up late."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Semicolons",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/semicolons.html"
+      },
+      {
+        "title": "UNC Writing Center: Semicolons, Colons, and Commas",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/commas-semicolons-and-colons/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence uses a semicolon correctly?",
+          "options": [
+            "I like pizza; but not pasta.",
+            "I like pizza; my sister prefers tacos.",
+            "I like; pizza and pasta.",
+            "I like pizza; because it's delicious."
+          ],
+          "answer": "I like pizza; my sister prefers tacos.",
+          "explanation": "Semicolons join two independent clauses that are closely related."
+        },
+        {
+          "type": "true-false",
+          "question": "You can use a semicolon before 'because.'",
+          "answer": "False",
+          "explanation": "False. 'Because' introduces a dependent clause, and semicolons should only join independent clauses."
+        }
+      ]
+    }
+  },
+  {
+    "id": "colons",
+    "title": "Colons",
+    "category": "punctuation",
+    "description": "Using colons to introduce lists and explanations",
+    "keywords": ["colon", "punctuation", "list"],
+    "content": "<p>Colons introduce lists, explanations, or elaborations. What comes before the colon should be a complete sentence (independent clause).</p><p>Common uses: 1) Introducing a list, 2) Introducing an explanation or example, 3) Introducing a quote (in some cases). The key rule: the part before the colon must be able to stand alone as a complete sentence.</p>",
+    "examples": [
+      {
+        "label": "Introducing a List",
+        "text": "You'll need three things: patience, practice, and persistence."
+      },
+      {
+        "label": "Introducing Explanation",
+        "text": "The decision was clear: we had to move forward."
+      },
+      {
+        "label": "Incorrect",
+        "text": "The ingredients are: flour, sugar, and eggs."
+      },
+      {
+        "label": "Correct",
+        "text": "The ingredients are flour, sugar, and eggs."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Colons",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/colon_use.html"
+      },
+      {
+        "title": "UNC Writing Center: Colons",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/commas-semicolons-and-colons/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence uses a colon correctly?",
+          "options": [
+            "I need: bread, milk, and eggs.",
+            "I need the following items: bread, milk, and eggs.",
+            "I: need bread, milk, and eggs.",
+            "I need bread: milk, and eggs."
+          ],
+          "answer": "I need the following items: bread, milk, and eggs.",
+          "explanation": "The part before the colon ('I need the following items') is a complete sentence, which is required."
+        },
+        {
+          "type": "true-false",
+          "question": "What comes before a colon must be a complete sentence.",
+          "answer": "True",
+          "explanation": "True. The clause before a colon should be able to stand alone as a complete sentence."
+        }
+      ]
+    }
+  },
+  {
+    "id": "capitalization",
+    "title": "Capitalization",
+    "category": "punctuation",
+    "description": "Understanding capitalization rules in academic writing",
+    "keywords": ["capitalization", "capital letters", "proper nouns"],
+    "content": "<p>Capitalization rules help distinguish proper nouns (specific names) from common nouns (general things). In academic writing, consistent capitalization is important for clarity.</p><p>Capitalize: 1) First word of a sentence, 2) Proper nouns (specific names of people, places, organizations), 3) Major words in titles, 4) The pronoun 'I'. Don't capitalize: common nouns, seasons (unless part of a proper name), family relationships used generally.</p>",
+    "examples": [
+      {
+        "label": "Correct",
+        "text": "I visited New York City with my mother last spring."
+      },
+      {
+        "label": "Incorrect",
+        "text": "I visited new york city with my Mother last Spring."
+      },
+      {
+        "label": "Correct",
+        "text": "My English professor assigned a book."
+      },
+      {
+        "label": "Correct",
+        "text": "I spoke with Professor Martinez."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Capitalization",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/help_with_capitals.html"
+      },
+      {
+        "title": "UNC Writing Center: Capitalization",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/capitalization/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence has correct capitalization?",
+          "options": [
+            "I saw my Uncle at the store.",
+            "I saw my uncle at the Store.",
+            "I saw my uncle at the store.",
+            "i saw my Uncle at the Store."
+          ],
+          "answer": "I saw my uncle at the store.",
+          "explanation": "'Uncle' and 'store' are common nouns here, not proper names, so they shouldn't be capitalized."
+        },
+        {
+          "type": "true-false",
+          "question": "Seasons (spring, summer, fall, winter) should always be capitalized.",
+          "answer": "False",
+          "explanation": "False. Seasons are only capitalized when they're part of a proper name, like 'Spring Festival' or 'Winter Olympics.'"
+        }
+      ]
+    }
+  },
+  {
+    "id": "quotation-marks",
+    "title": "Quotation Marks",
+    "category": "punctuation",
+    "description": "Using quotation marks correctly with direct quotes",
+    "keywords": ["quotation marks", "quotes", "dialogue", "direct quote"],
+    "content": "<p>Quotation marks enclose direct quotes, dialogue, and titles of short works. In academic writing, they're most commonly used when incorporating source material.</p><p>Key rules: 1) Periods and commas go inside quotation marks, 2) Colons and semicolons go outside, 3) Use single quotes for quotes within quotes, 4) Introduce quotes with signal phrases.</p>",
+    "examples": [
+      {
+        "label": "Direct Quote",
+        "text": "According to Smith, \"Education is the key to success.\""
+      },
+      {
+        "label": "Title of Short Work",
+        "text": "We read Poe's \"The Tell-Tale Heart\" in class."
+      },
+      {
+        "label": "Dialogue",
+        "text": "She said, \"I'll be there at noon.\""
+      },
+      {
+        "label": "Quote within Quote",
+        "text": "The article states, \"Critics call it 'revolutionary' in approach.\""
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Quotation Marks",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/quotation_marks/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Quotations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/quotations/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence punctuates the quote correctly?",
+          "options": [
+            "She said, \"I am ready\".",
+            "She said, \"I am ready.\"",
+            "She said \"I am ready.\"",
+            "She said \"I am ready\"."
+          ],
+          "answer": "She said, \"I am ready.\"",
+          "explanation": "The period goes inside the quotation marks, and there should be a comma before the quote begins."
+        },
+        {
+          "type": "true-false",
+          "question": "Periods always go inside quotation marks in American English.",
+          "answer": "True",
+          "explanation": "True. In American English, periods and commas always go inside closing quotation marks."
+        }
+      ]
+    }
+  },
+  {
+    "id": "transitions",
+    "title": "Transitions",
+    "category": "academic-writing",
+    "description": "Using transitional words and phrases effectively",
+    "keywords": ["transitions", "transition words", "connecting ideas", "flow"],
+    "content": "<p>Transitions are words or phrases that connect ideas and help your writing flow smoothly. They show relationships between sentences and paragraphs, guiding readers through your argument.</p><p>Common types: 1) Addition (furthermore, moreover, additionally), 2) Contrast (however, nevertheless, on the other hand), 3) Cause/Effect (therefore, consequently, as a result), 4) Time (meanwhile, subsequently, finally), 5) Example (for instance, specifically, to illustrate).</p>",
+    "examples": [
+      {
+        "label": "Addition",
+        "text": "The study found significant results. Moreover, these results were replicated in later research."
+      },
+      {
+        "label": "Contrast",
+        "text": "Many expected the proposal to fail. However, it passed with overwhelming support."
+      },
+      {
+        "label": "Cause/Effect",
+        "text": "The experiment was flawed. Consequently, the results cannot be trusted."
+      },
+      {
+        "label": "Example",
+        "text": "Several factors contributed to the outcome. For instance, funding played a crucial role."
+      }
+    ],
+    "resources": [
+      {
+        "title": "UNC Writing Center: Transitions",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/transitions/"
+      },
+      {
+        "title": "Purdue OWL: Transitional Devices",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/transitions_and_transitional_devices/index.html"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which transition word shows contrast?",
+          "options": [
+            "Furthermore",
+            "Therefore",
+            "However",
+            "Additionally"
+          ],
+          "answer": "However",
+          "explanation": "'However' signals a contrast or difference from the previous idea."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which transition would best show cause and effect?",
+          "options": [
+            "Meanwhile",
+            "Consequently",
+            "Similarly",
+            "In addition"
+          ],
+          "answer": "Consequently",
+          "explanation": "'Consequently' shows that something happened as a result of what came before."
+        }
+      ]
+    }
+  },
+  {
+    "id": "parallel-structure",
+    "title": "Parallel Structure",
+    "category": "sentence-basics",
+    "description": "Maintaining parallel structure in lists and comparisons",
+    "keywords": ["parallel structure", "parallelism", "grammar consistency"],
+    "content": "<p>Parallel structure means using the same grammatical form for items in a list or comparison. This creates rhythm and clarity in your writing.</p><p>When listing actions, ideas, or qualities, keep them in the same grammatical form. If you start with verbs, use all verbs. If you use nouns, use all nouns. This applies to lists, comparisons, and paired ideas.</p>",
+    "examples": [
+      {
+        "label": "Not Parallel",
+        "text": "I like reading, to write, and going for walks."
+      },
+      {
+        "label": "Parallel",
+        "text": "I like reading, writing, and walking."
+      },
+      {
+        "label": "Not Parallel",
+        "text": "The job requires attention to detail, being organized, and you must communicate well."
+      },
+      {
+        "label": "Parallel",
+        "text": "The job requires attention to detail, organization, and strong communication skills."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Parallel Structure",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html"
+      },
+      {
+        "title": "UNC Writing Center: Parallel Structure",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/parallel-structure/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence has correct parallel structure?",
+          "options": [
+            "She enjoys hiking, to swim, and biking.",
+            "She enjoys hiking, swimming, and biking.",
+            "She enjoys hiking, swimming, and to bike.",
+            "She enjoys to hike, swimming, and biking."
+          ],
+          "answer": "She enjoys hiking, swimming, and biking.",
+          "explanation": "All three items use the -ing form (gerunds), maintaining parallel structure."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence maintains parallel structure?",
+          "sentences": [
+            "The teacher is kind, helpful, and has patience.",
+            "The teacher is kind, helpful, and patient.",
+            "The teacher is kind, being helpful, and patient.",
+            "The teacher is kind, helpful, and she has patience."
+          ],
+          "correctIndex": 1,
+          "explanation": "All three items are adjectives (kind, helpful, patient), maintaining parallel structure."
+        }
+      ]
+    }
+  },
+  {
+    "id": "pronoun-agreement",
+    "title": "Pronoun Agreement",
+    "category": "sentence-basics",
+    "description": "Making pronouns agree with their antecedents",
+    "keywords": ["pronoun", "agreement", "antecedent", "reference"],
+    "content": "<p>Pronouns must agree with their antecedents (the nouns they replace) in number and gender. Singular antecedents take singular pronouns; plural antecedents take plural pronouns.</p><p>Common issues: 1) Indefinite pronouns (everyone, somebody) are usually singular, 2) Company/organization names are usually singular, 3) Avoid unclear pronoun references.</p>",
+    "examples": [
+      {
+        "label": "Correct",
+        "text": "Each student must bring their materials. (or: his or her materials)"
+      },
+      {
+        "label": "Incorrect",
+        "text": "Everyone should do what they want. (traditionally incorrect, but increasingly accepted)"
+      },
+      {
+        "label": "Correct",
+        "text": "The company announced its new policy."
+      },
+      {
+        "label": "Unclear Reference",
+        "text": "John told Mark that he was wrong. (Who was wrong?)"
+      },
+      {
+        "label": "Clear",
+        "text": "John told Mark, \"You were wrong.\""
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Pronoun Agreement",
+        "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronoun_antecedent_agreement.html"
+      },
+      {
+        "title": "UNC Writing Center: Pronouns",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/pronouns/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence has correct pronoun agreement?",
+          "options": [
+            "Each of the students brought their lunch.",
+            "Each of the students brought his or her lunch.",
+            "Each of the students brought they lunch.",
+            "Each of the students brought its lunch."
+          ],
+          "answer": "Each of the students brought his or her lunch.",
+          "explanation": "'Each' is singular, so traditionally it takes singular pronouns. Note: 'their' is increasingly accepted in informal writing."
+        },
+        {
+          "type": "true-false",
+          "question": "The pronoun 'they' can only be used for plural antecedents.",
+          "answer": "False",
+          "explanation": "False. Singular 'they' is increasingly accepted in both informal and formal writing as a gender-neutral pronoun."
+        }
+      ]
+    }
+  },
+  {
+    "id": "dangling-modifiers",
+    "title": "Dangling Modifiers",
+    "category": "sentence-basics",
+    "description": "Avoiding and fixing dangling modifiers",
+    "keywords": ["dangling modifier", "modifier", "misplaced modifier"],
+    "content": "<p>A dangling modifier is a descriptive phrase that doesn't clearly connect to what it's supposed to describe. This happens when the word being modified is missing or too far from the modifier.</p><p>To fix: Make sure the word being described appears right after the modifier, or restructure the sentence to make the connection clear.</p>",
+    "examples": [
+      {
+        "label": "Dangling",
+        "text": "Walking to class, the rain started falling."
+      },
+      {
+        "label": "Corrected",
+        "text": "Walking to class, I noticed the rain started falling."
+      },
+      {
+        "label": "Dangling",
+        "text": "After studying all night, the test was easy."
+      },
+      {
+        "label": "Corrected",
+        "text": "After studying all night, I found the test easy."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Dangling Modifiers",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/danglingmodifiers.html"
+      },
+      {
+        "title": "UNC Writing Center: Modifiers",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/modifiers/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which sentence has a dangling modifier?",
+          "sentences": [
+            "After finishing my homework, I watched TV.",
+            "Running late, the bus had already left.",
+            "She quickly finished her essay.",
+            "Before leaving, we locked the door."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Running late' modifies 'the bus,' but buses don't run late—people do. It should be: 'Because I was running late, the bus had already left.'"
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How can you fix: 'Covered in frosting, we ate the cake'?",
+          "options": [
+            "Covered in frosting, the cake we ate.",
+            "We ate the cake covered in frosting.",
+            "Covered in frosting, eating the cake.",
+            "We covered in frosting ate the cake."
+          ],
+          "answer": "We ate the cake covered in frosting.",
+          "explanation": "Moving 'covered in frosting' next to 'cake' makes it clear that the cake (not we) was covered in frosting."
+        }
+      ]
+    }
+  },
+  {
+    "id": "prepositional-phrases",
+    "title": "Prepositional Phrases",
+    "category": "sentence-basics",
+    "description": "Understanding and using prepositional phrases",
+    "keywords": ["prepositional phrase", "preposition", "phrase"],
+    "content": "<p>A prepositional phrase begins with a preposition (in, on, at, by, with, etc.) and ends with a noun or pronoun (the object of the preposition). These phrases add detail about time, location, direction, or other relationships.</p><p>Common prepositions: in, on, at, by, with, from, to, for, of, about, under, over, between, among, through, during, before, after.</p>",
+    "examples": [
+      {
+        "label": "Location",
+        "text": "The book is on the table."
+      },
+      {
+        "label": "Time",
+        "text": "We'll meet after class."
+      },
+      {
+        "label": "Direction",
+        "text": "She walked toward the library."
+      },
+      {
+        "label": "Multiple Phrases",
+        "text": "In the morning, I walk to school with my friend."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Prepositions",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/prepositions.html"
+      },
+      {
+        "title": "Guide to Grammar: Prepositions",
+        "url": "https://guidetogrammar.org/grammar/prepositions.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Identify the prepositional phrase: 'The cat sat on the windowsill.'",
+          "options": [
+            "The cat",
+            "sat on",
+            "on the windowsill",
+            "the windowsill"
+          ],
+          "answer": "on the windowsill",
+          "explanation": "The prepositional phrase starts with the preposition 'on' and ends with the object 'windowsill.'"
+        },
+        {
+          "type": "true-false",
+          "question": "A sentence can have more than one prepositional phrase.",
+          "answer": "True",
+          "explanation": "True. Sentences can contain multiple prepositional phrases, as in: 'In the morning, I walked through the park with my dog.'"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wordiness",
+    "title": "Avoiding Wordiness",
+    "category": "academic-writing",
+    "description": "Writing concisely and eliminating unnecessary words",
+    "keywords": ["wordiness", "concise writing", "clarity", "brevity"],
+    "content": "<p>Wordiness occurs when you use more words than necessary to express an idea. Academic writing values clarity and precision, which often means using fewer, more precise words.</p><p>Common sources of wordiness: redundant phrases, passive voice, excessive nominalizations (turning verbs into nouns), and filler words. Aim to express ideas as directly as possible.</p>",
+    "examples": [
+      {
+        "label": "Wordy",
+        "text": "Due to the fact that it was raining, we decided to stay home."
+      },
+      {
+        "label": "Concise",
+        "text": "Because it was raining, we stayed home."
+      },
+      {
+        "label": "Wordy",
+        "text": "In my personal opinion, I think that the study is very interesting."
+      },
+      {
+        "label": "Concise",
+        "text": "The study is interesting."
+      },
+      {
+        "label": "Wordy",
+        "text": "The reason why she left is because she was tired."
+      },
+      {
+        "label": "Concise",
+        "text": "She left because she was tired."
+      }
+    ],
+    "resources": [
+      {
+        "title": "UNC Writing Center: Conciseness",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/conciseness-handout/"
+      },
+      {
+        "title": "Purdue OWL: Paramedic Method (Concision)",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/index.html"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which is the most concise version?",
+          "options": [
+            "At this point in time, we are currently working on the project.",
+            "Currently at this point in time we work on the project.",
+            "We are currently working on the project.",
+            "At this point we are working on the project currently."
+          ],
+          "answer": "We are currently working on the project.",
+          "explanation": "This version eliminates redundant phrases like 'at this point in time' while maintaining clarity."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which phrase is redundant?",
+          "options": [
+            "Completely finished",
+            "Quickly ran",
+            "Very tired",
+            "Extremely happy"
+          ],
+          "answer": "Completely finished",
+          "explanation": "'Finished' already means complete, so 'completely finished' is redundant."
+        }
+      ]
+    }
+  },
+  {
+    "id": "formal-tone",
+    "title": "Formal Academic Tone",
+    "category": "academic-writing",
+    "description": "Maintaining appropriate tone in academic writing",
+    "keywords": ["tone", "formal writing", "academic voice", "style"],
+    "content": "<p>Academic writing typically uses a formal tone that's clear, objective, and professional. This doesn't mean being stuffy or using complicated words—it means being precise and respectful of your subject and audience.</p><p>Key elements: avoid contractions, minimize first/second person (I/you) in most academic writing, use precise vocabulary, avoid slang and colloquialisms, maintain objectivity.</p>",
+    "examples": [
+      {
+        "label": "Too Informal",
+        "text": "The experiment was super cool and it totally proved the hypothesis."
+      },
+      {
+        "label": "Formal",
+        "text": "The experiment successfully demonstrated the validity of the hypothesis."
+      },
+      {
+        "label": "Too Informal",
+        "text": "A lot of people think that social media is bad for you."
+      },
+      {
+        "label": "Formal",
+        "text": "Research suggests that excessive social media use correlates with negative mental health outcomes."
+      }
+    ],
+    "resources": [
+      {
+        "title": "UNC Writing Center: Style",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/style/"
+      },
+      {
+        "title": "Purdue OWL: Academic Writing Style",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence has an appropriate academic tone?",
+          "options": [
+            "The results were pretty awesome and showed we were right.",
+            "The results confirmed our hypothesis.",
+            "We were totally right about what would happen.",
+            "The experiment was super successful."
+          ],
+          "answer": "The results confirmed our hypothesis.",
+          "explanation": "This version is clear, precise, and maintains professional tone without informal language."
+        },
+        {
+          "type": "true-false",
+          "question": "Contractions (like can't, won't, it's) should generally be avoided in formal academic writing.",
+          "answer": "True",
+          "explanation": "True. While contractions are fine in informal writing, academic writing typically avoids them for a more formal tone."
+        }
+      ]
+    }
+  },
+  {
+    "id": "second-person",
+    "title": "Avoiding Second Person",
+    "category": "academic-writing",
+    "description": "Understanding when to avoid 'you' in academic writing",
+    "keywords": ["second person", "you", "point of view", "academic style"],
+    "content": "<p>Most academic writing avoids second person (you, your) because it's too informal and makes assumptions about the reader. Instead, use third person or occasionally first person.</p><p>Exceptions: Some disciplines and writing contexts do use 'you,' particularly in instructional writing or when directly addressing readers. Know your audience and assignment requirements.</p>",
+    "examples": [
+      {
+        "label": "Second Person (Avoid)",
+        "text": "When you read this poem, you can see the symbolism."
+      },
+      {
+        "label": "Third Person (Better)",
+        "text": "Readers can identify the symbolism throughout the poem."
+      },
+      {
+        "label": "Second Person (Avoid)",
+        "text": "You should consider multiple perspectives when analyzing data."
+      },
+      {
+        "label": "Third Person (Better)",
+        "text": "Researchers should consider multiple perspectives when analyzing data."
+      }
+    ],
+    "resources": [
+      {
+        "title": "UNC Writing Center: Point of View",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/point-of-view/"
+      },
+      {
+        "title": "Purdue OWL: Appropriate Point of View",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/point_of_view.html"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence avoids second person?",
+          "options": [
+            "You can see that the author uses metaphor.",
+            "One can see that the author uses metaphor.",
+            "When you look closely, you see metaphor.",
+            "You should notice the metaphor."
+          ],
+          "answer": "One can see that the author uses metaphor.",
+          "explanation": "Using 'one' or reconstructing to avoid direct address maintains academic formality."
+        },
+        {
+          "type": "true-false",
+          "question": "Second person (you) is never acceptable in any type of academic writing.",
+          "answer": "False",
+          "explanation": "False. Some writing contexts, like instructional guides or reflective pieces, may appropriately use second person."
+        }
+      ]
+    }
+  }
+]
