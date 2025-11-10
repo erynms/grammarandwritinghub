@@ -1,0 +1,320 @@
+{
+  "welcomeMessage": "Welcome to the Grammar & Writing Support Center! I'm here to help you with questions about grammar, mechanics, and writing in Standard Academic English. You can click on a common question below or type your own question in the chat box.",
+  "topics": [
+    {
+      "id": "commas",
+      "title": "Comma Usage",
+      "keywords": ["comma", "commas", "punctuation", "comma splice", "oxford comma", "serial comma"],
+      "summary": "Commas are used to separate elements in a sentence, indicate pauses, and clarify meaning. Common uses include separating items in a list, setting off introductory elements, and joining independent clauses with coordinating conjunctions.",
+      "explanation": "**Key Rules for Commas:**\n\n1. **Series/Lists**: Use commas to separate three or more items (The essay needs clarity, brevity, and precision).\n\n2. **Introductory Elements**: Place a comma after introductory phrases or clauses (After reviewing the draft, I revised the thesis).\n\n3. **Independent Clauses**: Use a comma with coordinating conjunctions (for, and, nor, but, or, yet, so) to join independent clauses (The argument was clear, but the evidence was weak).\n\n4. **Nonessential Information**: Set off nonessential phrases with commas (My professor, Dr. Smith, requires MLA format).\n\n**Common Errors:**\n- **Comma Splice**: Incorrectly joining two independent clauses with only a comma (Wrong: The essay is due Monday, I need more time).\n- **Missing Comma**: Forgetting the comma with coordinating conjunctions or after introductory elements.\n\nStandard Academic English follows these conventions to ensure clarity and precision in scholarly writing.",
+      "culturalNote": "While comma conventions vary across English dialects and informal writing, academic writing follows specific rules to maintain consistency and clarity in scholarly communication.",
+      "relatedTopics": ["incomplete-sentences", "run-on-sentences"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides",
+          "description": "Comprehensive writing and grammar resources"
+        },
+        {
+          "title": "The Guide to Grammar and Writing - Commas",
+          "url": "https://guidetogrammar.org/grammar/marks/comma.htm",
+          "source": "Grammar Guide",
+          "description": "Detailed rules and examples for comma usage"
+        },
+        {
+          "title": "Purdue OWL: Extended Rules for Commas",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/commas/extended_rules_for_commas.html",
+          "source": "Purdue OWL",
+          "description": "Comprehensive guide to comma rules in academic writing"
+        },
+        {
+          "title": "UNC Writing Center: Commas",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/commas/",
+          "source": "UNC Writing Center",
+          "description": "Clear explanations of comma usage with examples"
+        }
+      ]
+    },
+    {
+      "id": "incomplete-sentences",
+      "title": "Incomplete Sentences and Sentence Fragments",
+      "keywords": ["fragment", "fragments", "incomplete sentence", "sentence fragment", "dependent clause"],
+      "summary": "A sentence fragment is an incomplete sentence that lacks a subject, verb, or complete thought. In Standard Academic English, complete sentences are essential for clear communication.",
+      "explanation": "**What Makes a Complete Sentence:**\n- A subject (who or what the sentence is about)\n- A predicate (verb and additional information)\n- A complete thought\n\n**Common Types of Fragments:**\n\n1. **Dependent Clause Fragment**: Because the research was inconclusive. (Missing independent clause)\n   - Fix: Because the research was inconclusive, further study is needed.\n\n2. **Missing Subject**: Conducted the experiment carefully. (Who conducted?)\n   - Fix: The researchers conducted the experiment carefully.\n\n3. **Missing Verb**: The results of the study. (What about the results?)\n   - Fix: The results of the study were surprising.\n\n4. **-ing Phrase**: The author arguing for reform. (Incomplete verb)\n   - Fix: The author argues for reform.\n\n**When Fragments Are Acceptable:**\nIn informal writing and dialogue, fragments may be used for emphasis. However, academic writing requires complete sentences to maintain clarity and professionalism.",
+      "culturalNote": "Different dialects and speech patterns may use fragments naturally in conversation. In academic contexts, complete sentences serve the specific purpose of ensuring precision and clarity in scholarly discourse.",
+      "relatedTopics": ["commas", "subject-verb-agreement"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Guide to Grammar: Sentence Fragments",
+          "url": "https://guidetogrammar.org/grammar/fragments.htm",
+          "source": "Grammar Guide"
+        },
+        {
+          "title": "Purdue OWL: Sentence Fragments",
+          "url": "https://owl.purdue.edu/owl/general_writing/mechanics/sentence_fragments.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Fragments and Run-ons",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/fragments-and-run-ons/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "active-voice",
+      "title": "Active Voice",
+      "keywords": ["active voice", "passive voice", "voice", "active", "passive"],
+      "summary": "Active voice occurs when the subject performs the action. It creates clearer, more direct sentences than passive voice.",
+      "explanation": "**Active vs. Passive Voice:**\n\n**Active Voice**: The subject performs the action.\n- The researcher conducted the study. (Subject: researcher; Action: conducted)\n- Students submit essays online. (Subject: students; Action: submit)\n\n**Passive Voice**: The subject receives the action.\n- The study was conducted by the researcher.\n- Essays are submitted online by students.\n\n**Why Active Voice Matters in Academic Writing:**\n1. **Clarity**: Identifies who is responsible for actions\n2. **Conciseness**: Uses fewer words\n3. **Directness**: Creates stronger, more engaging prose\n4. **Accountability**: Makes clear who performed research or made claims\n\n**When to Use Passive Voice:**\n- When the actor is unknown or irrelevant (The samples were contaminated)\n- When emphasizing the action over the actor (The experiment was replicated three times)\n- In methods sections where the focus is on procedures\n\n**How to Identify and Fix:**\n- Look for \"to be\" verbs (is, are, was, were) + past participle\n- Ask: Who is performing this action?\n- Rewrite with the actor as the subject\n\nExample: \"The essay was written by me\" → \"I wrote the essay\"",
+      "culturalNote": "Active voice is privileged in Standard Academic English for its directness and clarity. This convention serves the academic purpose of precise attribution of ideas and actions.",
+      "relatedTopics": ["wordiness", "subject-verb-agreement"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Guide to Grammar: Active/Passive Voice",
+          "url": "https://guidetogrammar.org/grammar/passive.htm",
+          "source": "Grammar Guide"
+        },
+        {
+          "title": "Purdue OWL: Active and Passive Voice",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/active_and_passive_voice/index.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Passive Voice",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/passive-voice/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "prepositional-phrases",
+      "title": "Prepositional Phrases",
+      "keywords": ["preposition", "prepositional phrase", "prepositions", "phrase"],
+      "summary": "A prepositional phrase consists of a preposition and its object, providing information about location, time, or relationship. Used effectively, they add detail; overused, they create wordiness.",
+      "explanation": "**Structure of Prepositional Phrases:**\nPreposition + Object (+ any modifiers)\n- in the library\n- during the semester\n- with great enthusiasm\n- about the assignment\n\n**Common Prepositions:**\nabout, above, across, after, against, along, among, around, at, before, behind, below, beneath, beside, between, beyond, by, despite, down, during, except, for, from, in, inside, into, like, near, of, off, on, onto, out, outside, over, past, since, through, to, toward, under, underneath, until, up, upon, with, within, without\n\n**Functions in Sentences:**\n1. **Location**: The books are on the desk.\n2. **Time**: We meet during office hours.\n3. **Direction**: She walked toward the library.\n4. **Relationship**: The essay by the student was excellent.\n\n**Avoiding Overuse:**\nToo many prepositional phrases create wordiness:\n- Wordy: The study of the effects of stress on students in college was conducted.\n- Better: The study examined how stress affects college students.\n\n**Common Errors:**\n- Ending sentences with prepositions (acceptable in modern academic writing when natural)\n- Using unnecessary prepositional phrases when simpler words exist",
+      "relatedTopics": ["wordiness", "commas"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Guide to Grammar: Prepositions",
+          "url": "https://guidetogrammar.org/grammar/prepositions.htm",
+          "source": "Grammar Guide"
+        },
+        {
+          "title": "Purdue OWL: Prepositions",
+          "url": "https://owl.purdue.edu/owl/general_writing/mechanics/prepositions/index.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Prepositions",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/prepositions/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "subject-verb-agreement",
+      "title": "Subject-Verb Agreement",
+      "keywords": ["subject verb agreement", "agreement", "subject", "verb", "singular", "plural"],
+      "summary": "Subjects and verbs must agree in number (singular or plural). This is a fundamental rule in Standard Academic English.",
+      "explanation": "**Basic Rule:**\nSingular subjects take singular verbs; plural subjects take plural verbs.\n- The student writes. (singular)\n- The students write. (plural)\n\n**Common Challenges:**\n\n1. **Compound Subjects:**\n   - AND = plural: The professor and the student are present.\n   - OR/NOR = matches nearest: Neither the students nor the professor is available.\n\n2. **Indefinite Pronouns:**\n   - Singular: everyone, everybody, someone, somebody, anyone, anybody, each, either, neither\n     - Everyone writes their own essay. (Note: 'their' is acceptable in modern academic style)\n   - Plural: both, few, many, several\n     - Several students are absent.\n\n3. **Collective Nouns:**\n   - Usually singular in American English: The committee meets weekly.\n   - Plural when emphasizing individuals: The committee disagree on the policy.\n\n4. **Phrases Between Subject and Verb:**\n   - The essay, along with the notes, is due Monday.\n   - The results of the study are conclusive.\n\n5. **Inverted Sentences:**\n   - There are three reasons for this claim.\n   - Here is the evidence.\n\n**Tricky Examples:**\n- The data is/are → Both acceptable, 'data is' increasingly common\n- The number of students is → 'number' is the subject\n- A number of students are → 'students' is emphasized",
+      "culturalNote": "Subject-verb agreement rules in Standard Academic English differ from some English dialects where agreement patterns vary. These conventions ensure consistency in formal academic communication.",
+      "relatedTopics": ["incomplete-sentences", "active-voice"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Guide to Grammar: Subject-Verb Agreement",
+          "url": "https://guidetogrammar.org/grammar/sv_agr.htm",
+          "source": "Grammar Guide"
+        },
+        {
+          "title": "Purdue OWL: Subject-Verb Agreement",
+          "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Subject-Verb Agreement",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/subject-verb-agreement/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "tone",
+      "title": "Academic Tone",
+      "keywords": ["tone", "formal", "academic tone", "voice", "formality", "register"],
+      "summary": "Academic tone is formal, objective, and precise. It avoids casual language, maintains professional distance, and focuses on evidence and analysis rather than personal opinion.",
+      "explanation": "**Characteristics of Academic Tone:**\n\n1. **Formal Language**:\n   - Avoid contractions: \"do not\" instead of \"don't\"\n   - Avoid slang or colloquialisms: \"many\" instead of \"a lot of\"\n   - Use precise vocabulary: \"demonstrate\" instead of \"show\"\n\n2. **Objective Stance**:\n   - Minimize personal pronouns (I, you, we) when possible\n   - Focus on evidence: \"The research demonstrates\" vs. \"I think\"\n   - Present multiple perspectives fairly\n\n3. **Precise and Clear**:\n   - Avoid vague language: \"significant impact\" instead of \"big effect\"\n   - Define technical terms\n   - Use specific examples and data\n\n4. **Confident but Cautious**:\n   - Use hedging language appropriately: \"suggests,\" \"indicates,\" \"may\"\n   - Avoid absolute statements unless fully supported\n   - Present claims with appropriate strength\n\n**Examples of Tone Shifts:**\n\n❌ Informal: \"Everyone knows that social media is super bad for you.\"\n✅ Academic: \"Research indicates that excessive social media use correlates with increased anxiety in adolescents (Smith, 2023).\"\n\n❌ Too casual: \"The author makes a pretty good point about climate change.\"\n✅ Academic: \"The author presents a compelling argument regarding climate change mitigation strategies.\"\n\n**When to Use First Person:**\n- In personal narratives or reflections (if assigned)\n- When describing your research methods\n- When making an argument (used sparingly)\n\nDisciplines vary: sciences often avoid first person; humanities may embrace it more.",
+      "culturalNote": "Academic tone represents the conventions of Standard Academic English. While this formal register may differ from conversational styles or other dialects, it serves the specific purpose of scholarly communication and maintains consistency across academic discourse.",
+      "relatedTopics": ["active-voice", "wordiness"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Purdue OWL: Academic Writing Style",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Academic Style",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/style/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "topic-sentences",
+      "title": "Topic Sentences",
+      "keywords": ["topic sentence", "paragraph", "main idea", "topic"],
+      "summary": "A topic sentence states the main idea of a paragraph. It typically appears at the beginning and guides readers through your argument.",
+      "explanation": "**Purpose of Topic Sentences:**\n- Introduce the paragraph's main point\n- Connect to the thesis statement\n- Guide readers through your organization\n- Create coherence in your essay\n\n**Characteristics of Strong Topic Sentences:**\n\n1. **Specific**: Clearly identifies the paragraph's focus\n   - Weak: \"Social media has effects on people.\"\n   - Strong: \"Social media platforms amplify political polarization by creating echo chambers.\"\n\n2. **Arguable**: Makes a claim, not just a fact\n   - Fact: \"Shakespeare wrote Hamlet in 1600.\"\n   - Arguable: \"Hamlet's indecision reflects Renaissance anxieties about political succession.\"\n\n3. **Connected**: Links to the thesis and previous paragraphs\n   - Use transition words: furthermore, however, consequently, additionally\n   - Reference previous points: \"Beyond these economic factors...\"\n\n4. **Forecasts**: Hints at the paragraph's development\n   - \"Three factors contribute to this phenomenon...\"\n   - \"This evidence contradicts the traditional interpretation...\"\n\n**Formula for Topic Sentences:**\n[Transition] + [Specific claim related to thesis] + [Hint at development]\n\n**Example Progression:**\n- Thesis: \"Online learning offers flexibility but requires strong self-discipline.\"\n- Topic Sentence 1: \"Online courses provide students with unprecedented scheduling flexibility.\"\n- Topic Sentence 2: \"However, this flexibility demands significant self-motivation.\"\n- Topic Sentence 3: \"Consequently, successful online learners develop effective time-management strategies.\"\n\n**Testing Your Topic Sentences:**\n- Does it connect clearly to your thesis?\n- Could a reader predict the paragraph's content?\n- Does it make a claim rather than state a fact?\n- Does it transition smoothly from the previous paragraph?",
+      "relatedTopics": ["thesis-development", "tone"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Purdue OWL: Paragraphs and Topic Sentences",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/index.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Paragraphs",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/paragraphs/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "thesis-development",
+      "title": "Thesis Development",
+      "keywords": ["thesis", "thesis statement", "argument", "main idea", "claim"],
+      "summary": "A thesis statement presents your essay's central argument or main point. It should be specific, arguable, and guide the entire essay's structure.",
+      "explanation": "**What Makes a Strong Thesis:**\n\n1. **Arguable**: Makes a claim that requires evidence\n   - Not arguable: \"Social media exists.\"\n   - Arguable: \"Social media platforms should be regulated as publishers.\"\n\n2. **Specific**: Clearly defines the scope\n   - Vague: \"Climate change is a problem.\"\n   - Specific: \"Implementing carbon pricing mechanisms offers the most effective approach to reducing industrial emissions.\"\n\n3. **Complex**: Acknowledges nuance\n   - Simple: \"College is expensive.\"\n   - Complex: \"While college costs have risen dramatically, the long-term economic benefits justify the investment for most students.\"\n\n4. **Unified**: Focuses on one central idea\n   - Unfocused: \"Social media affects politics, mental health, and business practices.\"\n   - Focused: \"Social media platforms have fundamentally altered political discourse by prioritizing engagement over accuracy.\"\n\n**Thesis Development Process:**\n\n1. **Start with a Question**: What do I want to explore?\n2. **Research and Think**: What evidence exists?\n3. **Make a Claim**: What do I believe based on evidence?\n4. **Refine**: Make it specific and arguable\n5. **Test**: Does every paragraph support this claim?\n\n**Types of Thesis Statements:**\n\n**Analytical**: Breaks down an idea\n- \"Shakespeare's Hamlet uses three types of imagery to explore themes of corruption.\"\n\n**Expository**: Explains or informs\n- \"The Civil Rights Movement employed both legal challenges and direct action to achieve legislative change.\"\n\n**Argumentative**: Takes a position\n- \"Universities should eliminate standardized test requirements for admission.\"\n\n**Placement:**\n- Usually at the end of the introduction\n- Sometimes appears earlier in shorter essays\n- May be refined and restated in the conclusion\n\n**Revising Your Thesis:**\n- After drafting, ask: Does my essay prove this claim?\n- Revise thesis to match what you actually argued\n- Ensure it's neither too broad nor too narrow\n- Check that it reflects the essay's organization",
+      "relatedTopics": ["topic-sentences", "tone"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Purdue OWL: Developing a Thesis",
+          "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/thesis_statement_tips.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Thesis Statements",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/thesis-statements/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "mla-outlining",
+      "title": "MLA Outlining",
+      "keywords": ["outline", "mla outline", "organization", "structure", "outlining"],
+      "summary": "An outline organizes your ideas before writing. MLA format uses a specific hierarchical structure with Roman numerals, letters, and numbers.",
+      "explanation": "**MLA Outline Structure:**\n\n**Format:**\n```\nThesis: [Your thesis statement]\n\nI. First main point\n   A. Supporting point\n      1. Detail or example\n      2. Detail or example\n         a. Sub-detail\n         b. Sub-detail\n   B. Supporting point\nII. Second main point\n   A. Supporting point\n   B. Supporting point\nIII. Third main point\n```\n\n**Outline Levels:**\n- **I, II, III...** (Roman numerals) = Main points/body paragraphs\n- **A, B, C...** (Capital letters) = Supporting points\n- **1, 2, 3...** (Arabic numbers) = Details, examples, evidence\n- **a, b, c...** (Lowercase letters) = Sub-details\n\n**Rules for MLA Outlines:**\n\n1. **Parallel Structure**: Use consistent grammatical forms\n   - All topics or all sentences\n   - Not mixed: \"I. Causes of pollution\" and \"II. Why we should recycle\"\n\n2. **Two-Item Minimum**: If you have an \"A,\" you need a \"B\"\n   - Each level requires at least two items\n   - If you can't think of two, incorporate into the level above\n\n3. **Consistent Format**: Choose topic or sentence outline\n   - **Topic Outline**: Phrases (\"Causes of climate change\")\n   - **Sentence Outline**: Complete sentences (\"Climate change has multiple causes.\")\n\n4. **Logical Order**: Organize chronologically, by importance, or by category\n\n**Sample MLA Outline:**\n\n```\nThesis: Social media platforms should implement stricter age verification to protect adolescent mental health.\n\nI. Current age verification methods are inadequate\n   A. Self-reported ages are easily falsified\n   B. Platforms lack incentive to verify rigorously\n   \nII. Adolescent mental health risks are well-documented\n   A. Correlation with anxiety and depression\n      1. Studies from Journal of Adolescent Health\n      2. Longitudinal data from 2015-2023\n   B. Sleep disruption patterns\n   C. Social comparison effects\n   \nIII. Effective verification methods exist\n   A. Biometric verification technology\n   B. Parental consent systems\n   C. AI-based behavioral analysis\n   \nIV. Privacy concerns can be addressed\n   A. Decentralized verification systems\n   B. Regulatory oversight requirements\n```\n\n**Tips:**\n- Create your outline before writing your first draft\n- Revise outline as your ideas develop\n- Each main point should support your thesis\n- Ensure logical flow between sections",
+      "relatedTopics": ["thesis-development", "topic-sentences"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Purdue OWL: Developing an Outline",
+          "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/developing_an_outline/index.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "Purdue OWL: MLA Formatting and Style",
+          "url": "https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html",
+          "source": "Purdue OWL"
+        }
+      ]
+    },
+    {
+      "id": "annotated-bibliography-mla",
+      "title": "Annotated Works Cited (MLA)",
+      "keywords": ["annotated bibliography", "works cited", "annotation", "mla citation", "bibliography"],
+      "summary": "An annotated bibliography includes citations followed by brief summaries and evaluations of each source. In MLA format, it's called an Annotated Works Cited page.",
+      "explanation": "**Purpose of Annotations:**\n- Summarize the source's main arguments\n- Evaluate the source's credibility and relevance\n- Explain how you'll use the source in your research\n- Demonstrate your understanding of sources\n\n**MLA Format for Annotated Works Cited:**\n\n1. **Citation**: Standard MLA Works Cited entry\n2. **Annotation**: Paragraph(s) after the citation\n   - Indented 1 inch (same as hanging indent)\n   - Single-spaced within entries\n   - Double-spaced between entries\n\n**Annotation Structure (typically 150-200 words):**\n\n**Paragraph 1: Summary**\n- What is the main argument or purpose?\n- What topics are covered?\n- What are the key findings or conclusions?\n\n**Paragraph 2: Evaluation**\n- What are the author's credentials?\n- Is the source credible and current?\n- Are there any biases or limitations?\n- How does it compare to other sources?\n\n**Paragraph 3: Relevance**\n- How will you use this source?\n- Which part of your argument does it support?\n- What specific information is most useful?\n\n**Example Entry:**\n\n```\nSmith, Sarah. \"Social Media and Adolescent Mental Health: A \n    Longitudinal Study.\" Journal of Adolescent Psychology, vol. 45, \n    no. 3, 2023, pp. 234-256.\n    \n    Smith's longitudinal study examines 1,000 adolescents over five \n    years, tracking social media usage and mental health indicators. \n    The research demonstrates a significant correlation between \n    daily social media use exceeding three hours and increased \n    anxiety and depression symptoms. The study controls for \n    pre-existing conditions and socioeconomic factors, strengthening \n    its conclusions.\n    \n    Smith is a professor of developmental psychology at Stanford \n    University with extensive publication history in peer-reviewed \n    journals. The study employs rigorous methodology and large \n    sample size, though it focuses solely on American adolescents, \n    which may limit generalizability. The peer-review process and \n    institutional backing enhance credibility.\n    \n    This source provides crucial statistical evidence for my \n    argument that social media platforms need stricter age \n    verification. I will use the correlation data in my second \n    body paragraph to establish the mental health risks. The \n    longitudinal methodology makes it particularly valuable for \n    demonstrating causation rather than mere correlation.\n```\n\n**Tips:**\n- Write in your own words (don't copy the abstract)\n- Use present tense for discussing source content\n- Be concise but thorough\n- Maintain consistent annotation length across entries\n- Alphabetize by author's last name (standard MLA order)\n\n**Common Mistakes to Avoid:**\n- Copying the source's abstract\n- Making annotations too brief or too long\n- Forgetting to explain relevance to your project\n- Inconsistent formatting between entries",
+      "relatedTopics": ["mla-outlining", "thesis-development"],
+      "resources": [
+        {
+          "title": "EFSC Library: Citation Help",
+          "url": "https://libguides.easternflorida.edu/cite",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Purdue OWL: Annotated Bibliographies",
+          "url": "https://owl.purdue.edu/owl/general_writing/common_writing_assignments/annotated_bibliographies/index.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "Purdue OWL: MLA Works Cited",
+          "url": "https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_page_basic_format.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Annotated Bibliographies",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/annotated-bibliographies/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    },
+    {
+      "id": "wordiness",
+      "title": "Eliminating Wordiness",
+      "keywords": ["wordiness", "concise", "conciseness", "wordy", "brevity", "redundant"],
+      "summary": "Wordiness weakens writing by using more words than necessary. Academic writing values conciseness and precision.",
+      "explanation": "**Common Sources of Wordiness:**\n\n1. **Redundant Phrases**:\n   - ❌ past history → ✅ history\n   - ❌ end result → ✅ result\n   - ❌ completely unanimous → ✅ unanimous\n   - ❌ advance planning → ✅ planning\n   - ❌ each and every → ✅ each or every\n\n2. **Unnecessary Phrases**:\n   - ❌ due to the fact that → ✅ because\n   - ❌ in spite of the fact that → ✅ although\n   - ❌ at this point in time → ✅ now\n   - ❌ in order to → ✅ to\n   - ❌ for the purpose of → ✅ to\n\n3. **Weak Verb + Noun Constructions**:\n   - ❌ make a decision → ✅ decide\n   - ❌ give consideration to → ✅ consider\n   - ❌ conduct an investigation → ✅ investigate\n   - ❌ make an assumption → ✅ assume\n   - ❌ reach a conclusion → ✅ conclude\n\n4. **Passive Voice Wordiness**:\n   - ❌ It was believed by the researchers that... → ✅ The researchers believed...\n   - ❌ The study was conducted by Smith. → ✅ Smith conducted the study.\n\n5. **Unnecessary Qualifiers**:\n   - ❌ quite, very, really, somewhat, rather\n   - Use specific modifiers instead: significant, substantial, minor\n\n6. **Expletive Constructions**:\n   - ❌ There are three reasons that support this claim. → ✅ Three reasons support this claim.\n   - ❌ It is important to note that... → ✅ [Often unnecessary; just state the point]\n\n**Revision Strategy:**\n\n**Original (wordy):**\n\"In spite of the fact that there are many students who have a preference for online learning, it is necessary for them to develop time management skills in order to be successful.\"\n\n**Revised (concise):**\n\"Although many students prefer online learning, they must develop time management skills to succeed.\"\n\n**How to Revise:**\n1. **Identify the core meaning**: What am I really saying?\n2. **Find the action**: What's the main verb?\n3. **Remove filler**: Delete \"it is,\" \"there are,\" \"the fact that\"\n4. **Use strong verbs**: Replace verb + noun with single verb\n5. **Cut modifiers**: Remove \"very,\" \"quite,\" \"really\"\n6. **Check every word**: Does this word add meaning?\n\n**Balance:**\nConciseness doesn't mean brevity at all costs. Sometimes:\n- Longer phrases add rhythm or emphasis\n- Transition phrases improve flow\n- Qualifiers express necessary nuance (\"may,\" \"suggests\")\n\nGoal: Every word should serve a purpose.",
+      "relatedTopics": ["active-voice", "prepositional-phrases", "tone"],
+      "resources": [
+        {
+          "title": "EFSC Writing Resources",
+          "url": "https://libguides.easternflorida.edu/writing",
+          "source": "EFSC LibGuides"
+        },
+        {
+          "title": "Purdue OWL: Conciseness",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/index.html",
+          "source": "Purdue OWL"
+        },
+        {
+          "title": "UNC Writing Center: Wordiness",
+          "url": "https://writingcenter.unc.edu/tips-and-tools/word-choice/",
+          "source": "UNC Writing Center"
+        }
+      ]
+    }
+  ],
+  "fallbackMessage": "I'm not sure I understood your question. Could you try rephrasing it or check your spelling? You can also browse the common questions above or email Professor Hille at shorthille@easternflorida.edu for personalized help."
+}
