@@ -8,7 +8,12 @@ let answers = [];
 
 // Initialize quiz for a topic
 window.initializeQuiz = function(topic) {
+    console.log('initializeQuiz called with topic:', topic.title);
+    console.log('Topic has quiz?', !!topic.quiz);
+    console.log('Quiz has questions?', topic.quiz?.questions);
+
     if (!topic.quiz || !topic.quiz.questions || topic.quiz.questions.length === 0) {
+        console.error('No quiz available for topic:', topic.title);
         alert('No quiz available for this topic yet.');
         return;
     }
@@ -18,23 +23,34 @@ window.initializeQuiz = function(topic) {
     score = 0;
     answers = [];
 
+    console.log('Initializing quiz with', topic.quiz.questions.length, 'questions');
+
     // Shuffle questions for variety
     const questions = [...topic.quiz.questions];
     shuffleArray(questions);
     currentQuiz.quiz.shuffledQuestions = questions;
 
+    console.log('About to call displayQuestion()');
     displayQuestion();
+    console.log('displayQuestion() completed');
 };
 
 // Display current question
 function displayQuestion() {
+    console.log('displayQuestion called');
     const quizContent = document.getElementById('quizContent');
+    console.log('quizContent element:', quizContent);
+
     const questions = currentQuiz.quiz.shuffledQuestions;
+    console.log('Shuffled questions:', questions);
+
     const question = questions[currentQuestionIndex];
+    console.log('Current question:', question);
 
     const totalQuestions = questions.length;
     const questionNumber = currentQuestionIndex + 1;
     const progress = (questionNumber / totalQuestions) * 100;
+    console.log('Progress:', progress + '%');
 
     let html = `
         <div class="quiz-header">
@@ -77,10 +93,13 @@ function displayQuestion() {
     html += '<button id="submitAnswer" class="btn-primary">Submit Answer</button>';
     html += '</div>';
 
+    console.log('Setting quizContent innerHTML, HTML length:', html.length);
     quizContent.innerHTML = html;
+    console.log('HTML set successfully');
 
     // Add event listeners
     setupQuestionListeners(question);
+    console.log('Event listeners set up');
 }
 
 // Render multiple choice question
