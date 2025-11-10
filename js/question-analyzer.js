@@ -158,7 +158,18 @@ const keywordMappings = {
     'quote': ['quotation-marks', 'mla-quotes'],
     'parallel structure': ['parallel-structure'],
     'modifier': ['modifiers', 'dangling-modifiers'],
-    'dangling modifier': ['dangling-modifiers']
+    'dangling modifier': ['dangling-modifiers'],
+    'its': ['its-vs-its', 'apostrophes'],
+    "it's": ['its-vs-its'],
+    'their': ['their-there-theyre'],
+    'there': ['their-there-theyre'],
+    "they're": ['their-there-theyre'],
+    'affect': ['affect-vs-effect'],
+    'effect': ['affect-vs-effect'],
+    'in-text citation': ['mla-in-text'],
+    'parenthetical': ['mla-in-text'],
+    'bibliography': ['mla-works-cited'],
+    'reference': ['mla-works-cited']
 };
 
 // Analyze a user's question

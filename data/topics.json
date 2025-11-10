@@ -1546,5 +1546,435 @@
         }
       ]
     }
+  },
+  {
+    "id": "its-vs-its",
+    "title": "Its vs. It's",
+    "category": "common-errors",
+    "description": "Understanding the difference between its (possessive) and it's (contraction)",
+    "keywords": ["its", "it's", "contraction", "possessive", "apostrophe"],
+    "content": "<p>This is one of the most common errors in student writing. The confusion comes from mixing up possessive forms and contractions.</p><p><strong>It's</strong> = contraction meaning \"it is\" or \"it has\"<br><strong>Its</strong> = possessive pronoun meaning \"belonging to it\"</p><p>Tip: If you can replace the word with \"it is\" or \"it has,\" use <strong>it's</strong>. If not, use <strong>its</strong>.</p>",
+    "examples": [
+      {
+        "label": "Correct (Contraction)",
+        "text": "It's raining outside. (It is raining)"
+      },
+      {
+        "label": "Correct (Possessive)",
+        "text": "The dog wagged its tail."
+      },
+      {
+        "label": "Incorrect",
+        "text": "The car lost it's wheel."
+      },
+      {
+        "label": "Correct",
+        "text": "The car lost its wheel."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Its vs. It's",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/its_versus_its.html"
+      },
+      {
+        "title": "UNC Writing Center: Apostrophes",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/apostrophes/"
+      },
+      {
+        "title": "Grammar Girl: Its vs. It's",
+        "url": "https://www.quickanddirtytips.com/articles/its-versus-its/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct word: 'The company announced ___ new policy.'",
+          "options": [
+            "its",
+            "it's",
+            "its'",
+            "it is"
+          ],
+          "answer": "its",
+          "explanation": "Use 'its' (possessive) because the policy belongs to the company. You can't substitute 'it is' here."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct word: '___ been a long day.'",
+          "options": [
+            "Its",
+            "It's",
+            "Its'",
+            "It has"
+          ],
+          "answer": "It's",
+          "explanation": "Use 'it's' because it's a contraction of 'it has.' Both 'It's' and 'It has' work here."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence is correct?",
+          "sentences": [
+            "Its a beautiful morning.",
+            "The bird built it's nest.",
+            "The book has its pages torn.",
+            "Its' time to go."
+          ],
+          "correctIndex": 2,
+          "explanation": "'The book has its pages torn' correctly uses 'its' as possessive."
+        },
+        {
+          "type": "true-false",
+          "question": "The word 'its'' (with an apostrophe at the end) is a valid word.",
+          "answer": "False",
+          "explanation": "False. There is no such word as 'its'.' Use 'its' for possessive or 'it's' for contraction."
+        }
+      ]
+    }
+  },
+  {
+    "id": "their-there-theyre",
+    "title": "Their, There, and They're",
+    "category": "common-errors",
+    "description": "Distinguishing between three commonly confused words",
+    "keywords": ["their", "there", "they're", "theyre", "homophones"],
+    "content": "<p>These three words sound the same but have completely different meanings and uses.</p><p><strong>Their</strong> = possessive pronoun (belonging to them)<br><strong>There</strong> = location or used with 'is/are'<br><strong>They're</strong> = contraction meaning \"they are\"</p><p>Tip: Replace the word in your sentence. If \"they are\" fits, use <strong>they're</strong>. If you're talking about a place or using \"is/are,\" use <strong>there</strong>. If you mean something belongs to them, use <strong>their</strong>.</p>",
+    "examples": [
+      {
+        "label": "Their (Possessive)",
+        "text": "The students submitted their assignments."
+      },
+      {
+        "label": "There (Location)",
+        "text": "Put the book over there."
+      },
+      {
+        "label": "There (With is/are)",
+        "text": "There are three reasons for this decision."
+      },
+      {
+        "label": "They're (Contraction)",
+        "text": "They're going to the library. (They are going)"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Common Writing Errors",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/index.html"
+      },
+      {
+        "title": "Guide to Grammar: There, Their, They're",
+        "url": "https://guidetogrammar.org/grammar/confusion.htm"
+      },
+      {
+        "title": "Grammar Bytes: Their/There/They're",
+        "url": "https://www.chompchomp.com/terms/homophone.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct word: '___ going to the store.'",
+          "options": [
+            "Their",
+            "There",
+            "They're",
+            "Theyre"
+          ],
+          "answer": "They're",
+          "explanation": "Use 'they're' because it means 'they are.' 'They are going to the store' makes sense."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct word: '___ are several options available.'",
+          "options": [
+            "Their",
+            "There",
+            "They're",
+            "Theyre"
+          ],
+          "answer": "There",
+          "explanation": "Use 'there' with 'are' to indicate existence or availability."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct word: 'The team celebrated ___ victory.'",
+          "options": [
+            "their",
+            "there",
+            "they're",
+            "theyre"
+          ],
+          "answer": "their",
+          "explanation": "Use 'their' because the victory belongs to the team (possessive)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence is correct?",
+          "sentences": [
+            "Their is a problem with this plan.",
+            "There going to be late.",
+            "They're books are on the shelf.",
+            "There are many reasons to agree."
+          ],
+          "correctIndex": 3,
+          "explanation": "'There are many reasons' correctly uses 'there' with 'are.'"
+        }
+      ]
+    }
+  },
+  {
+    "id": "affect-vs-effect",
+    "title": "Affect vs. Effect",
+    "category": "common-errors",
+    "description": "Understanding when to use affect (verb) vs. effect (noun)",
+    "keywords": ["affect", "effect", "verb", "noun"],
+    "content": "<p>These words are commonly confused because they sound similar and are related in meaning.</p><p><strong>Affect</strong> (verb) = to influence or change something<br><strong>Effect</strong> (noun) = the result or consequence of something</p><p>Memory trick: <strong>A</strong>ffect is an <strong>A</strong>ction (verb). <strong>E</strong>ffect is the <strong>E</strong>nd result (noun).</p>",
+    "examples": [
+      {
+        "label": "Affect (Verb)",
+        "text": "The weather will affect our plans."
+      },
+      {
+        "label": "Effect (Noun)",
+        "text": "The new law had a positive effect on the community."
+      },
+      {
+        "label": "Common Mistake",
+        "text": "Incorrect: The rain will effect the game. → Correct: The rain will affect the game."
+      },
+      {
+        "label": "Note",
+        "text": "Occasionally 'effect' can be a verb meaning 'to bring about' (effect change), but this is less common."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Commonly Confused Words",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Word Choice",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/word-choice/"
+      },
+      {
+        "title": "Grammar Girl: Affect vs. Effect",
+        "url": "https://www.quickanddirtytips.com/articles/affect-versus-effect/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct word: 'How will this decision ___ the students?'",
+          "options": [
+            "affect",
+            "effect",
+            "effects",
+            "affects"
+          ],
+          "answer": "affect",
+          "explanation": "Use 'affect' (verb) because the decision will influence/change something for the students."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Choose the correct word: 'The study examined the ___ of sleep on performance.'",
+          "options": [
+            "affect",
+            "effect",
+            "effects",
+            "affecting"
+          ],
+          "answer": "effect",
+          "explanation": "Use 'effect' (noun) because we're talking about the result or impact of sleep."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence is correct?",
+          "sentences": [
+            "The medicine had no affect on my symptoms.",
+            "Poor nutrition can effect your health.",
+            "The changes will effect everyone in the office.",
+            "Climate change affects global temperatures."
+          ],
+          "correctIndex": 3,
+          "explanation": "'Climate change affects global temperatures' correctly uses 'affects' as a verb."
+        },
+        {
+          "type": "true-false",
+          "question": "Affect is usually a verb, and effect is usually a noun.",
+          "answer": "True",
+          "explanation": "True. While there are exceptions, this is the most common usage pattern."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mla-in-text",
+    "title": "MLA In-Text Citations",
+    "category": "mla-style",
+    "description": "Properly citing sources within your text using MLA format",
+    "keywords": ["mla", "citation", "in-text", "parenthetical", "cite", "sources"],
+    "content": "<p>In-text citations give credit to sources you use in your writing. They appear in parentheses within your text and correspond to entries on your Works Cited page.</p><p>Basic format: (Author's Last Name Page Number)<br>Example: (Smith 42)</p><p>Key rules:<br>- No comma between name and page number<br>- No 'p.' or 'pg.' before page number<br>- Place citation before period at end of sentence<br>- If no author, use shortened title in quotes</p>",
+    "examples": [
+      {
+        "label": "Basic Citation",
+        "text": "According to research, climate patterns are changing (Johnson 15)."
+      },
+      {
+        "label": "Author Named in Sentence",
+        "text": "Johnson argues that climate patterns are changing (15)."
+      },
+      {
+        "label": "No Author",
+        "text": "Recent studies show concerning trends (\"Climate Report\" 23)."
+      },
+      {
+        "label": "Two Authors",
+        "text": "The study found significant results (Smith and Jones 87)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: MLA In-Text Citations",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_in_text_citations_the_basics.html"
+      },
+      {
+        "title": "MLA Style Center: In-Text Citations",
+        "url": "https://style.mla.org/works-cited/in-text-citations/"
+      },
+      {
+        "title": "UNC Writing Center: MLA Citations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/mla-citations/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which in-text citation is formatted correctly?",
+          "options": [
+            "(Smith, p. 42)",
+            "(Smith 42)",
+            "(Smith, 42)",
+            "(Smith pg. 42)"
+          ],
+          "answer": "(Smith 42)",
+          "explanation": "MLA format uses author's last name and page number with no comma or abbreviation."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Where should the in-text citation be placed?",
+          "options": [
+            "Before the quote",
+            "After the period",
+            "Before the period at the end of the sentence",
+            "At the beginning of the paragraph"
+          ],
+          "answer": "Before the period at the end of the sentence",
+          "explanation": "The citation goes before the final period: (Author Page)."
+        },
+        {
+          "type": "true-false",
+          "question": "If the author's name appears in your sentence, you still need to include it in the parenthetical citation.",
+          "answer": "False",
+          "explanation": "False. If you mention the author in your sentence, only include the page number in parentheses."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How do you cite a source with two authors?",
+          "options": [
+            "(Smith, Jones 45)",
+            "(Smith & Jones 45)",
+            "(Smith and Jones 45)",
+            "(Smith et al. 45)"
+          ],
+          "answer": "(Smith and Jones 45)",
+          "explanation": "For two authors, use 'and' between the names: (Smith and Jones 45)."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mla-works-cited",
+    "title": "MLA Works Cited",
+    "category": "mla-style",
+    "description": "Creating a properly formatted Works Cited page in MLA style",
+    "keywords": ["works cited", "bibliography", "references", "mla", "citation"],
+    "content": "<p>The Works Cited page lists all sources you cited in your paper. It appears on a separate page at the end of your document.</p><p>Key formatting rules:<br>- Title: \"Works Cited\" (centered, not bold or italicized)<br>- Alphabetize entries by author's last name<br>- Use hanging indent (first line flush left, subsequent lines indented)<br>- Double-space everything<br>- Include: Author. Title. Container, other contributors, version, number, publisher, date, location.</p>",
+    "examples": [
+      {
+        "label": "Book",
+        "text": "Smith, John. The Art of Writing. Oxford UP, 2020."
+      },
+      {
+        "label": "Article from Website",
+        "text": "Jones, Mary. \"Digital Literacy in Education.\" Education Today, 15 Mar. 2021, www.edtoday.com/digital-literacy."
+      },
+      {
+        "label": "Journal Article",
+        "text": "Brown, Sarah. \"Teaching Grammar Effectively.\" Journal of Education, vol. 45, no. 2, 2019, pp. 112-125."
+      },
+      {
+        "label": "Hanging Indent Visual",
+        "text": "[First line starts here]\n     [Second line indented]\n     [Third line indented]"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: MLA Works Cited",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_page_basic_format.html"
+      },
+      {
+        "title": "MLA Style Center: Works Cited",
+        "url": "https://style.mla.org/works-cited/works-cited-a-quick-guide/"
+      },
+      {
+        "title": "UNC Writing Center: MLA Works Cited",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/mla-citations/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What is the correct title for the reference page in MLA format?",
+          "options": [
+            "References",
+            "Bibliography",
+            "Works Cited",
+            "Sources"
+          ],
+          "answer": "Works Cited",
+          "explanation": "MLA format uses 'Works Cited' as the title for the reference page."
+        },
+        {
+          "type": "true-false",
+          "question": "Works Cited entries should be in alphabetical order by the author's last name.",
+          "answer": "True",
+          "explanation": "True. Entries are alphabetized by the first word in the entry, usually the author's last name."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What type of indentation is used for Works Cited entries?",
+          "options": [
+            "First line indent",
+            "Hanging indent",
+            "Block indent",
+            "No indent"
+          ],
+          "answer": "Hanging indent",
+          "explanation": "Use a hanging indent: first line flush left, subsequent lines indented."
+        },
+        {
+          "type": "true-false",
+          "question": "The Works Cited page should be single-spaced to save space.",
+          "answer": "False",
+          "explanation": "False. Like the rest of your MLA paper, the Works Cited page should be double-spaced."
+        }
+      ]
+    }
   }
 ]

@@ -597,6 +597,41 @@ header h1 {
     border-color: #2c5aa0;
 }
 
+/* Email Professor Section */
+.email-professor-section {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #e0e0e0;
+    text-align: center;
+}
+
+.email-btn {
+    margin: 0 auto;
+}
+
+.professor-email {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    border-left: 4px solid #2c5aa0;
+}
+
+.professor-email p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.professor-email a {
+    color: #2c5aa0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.professor-email a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     text-align: center;

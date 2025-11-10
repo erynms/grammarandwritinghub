@@ -30,6 +30,9 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // Set up topic detail view
     setupTopicDetail();
+
+    // Set up email professor buttons
+    setupEmailButtons();
 });
 
 // Load topics from JSON file
@@ -345,6 +348,35 @@ function startQuiz(topic) {
     showView('quizView');
     if (window.initializeQuiz) {
         window.initializeQuiz(topic);
+    }
+}
+
+// Set up email professor buttons
+function setupEmailButtons() {
+    // Browse topics email button
+    const emailBtnBrowse = document.getElementById('emailProfessorBrowse');
+    const emailDisplayBrowse = document.getElementById('professorEmailBrowse');
+
+    if (emailBtnBrowse) {
+        emailBtnBrowse.addEventListener('click', function() {
+            emailDisplayBrowse.classList.toggle('hidden');
+            emailBtnBrowse.textContent = emailDisplayBrowse.classList.contains('hidden')
+                ? 'Email Your Professor'
+                : 'Hide Email';
+        });
+    }
+
+    // Ask question email button
+    const emailBtnAsk = document.getElementById('emailProfessorAsk');
+    const emailDisplayAsk = document.getElementById('professorEmailAsk');
+
+    if (emailBtnAsk) {
+        emailBtnAsk.addEventListener('click', function() {
+            emailDisplayAsk.classList.toggle('hidden');
+            emailBtnAsk.textContent = emailDisplayAsk.classList.contains('hidden')
+                ? 'Email Your Professor'
+                : 'Hide Email';
+        });
     }
 }
 
