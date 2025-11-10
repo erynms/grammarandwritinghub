@@ -35,14 +35,30 @@ document.addEventListener('DOMContentLoaded', async function() {
     setupEmailButtons();
 });
 
+// Filter topics by selected course
+function filterTopicsByCourse(allTopics, selectedCourse) {
+    return allTopics.filter(topic => {
+        // Show if no courses field (available to all)
+        if (!topic.courses || topic.courses.length === 0) return true;
+        // Show if current course is in the courses array
+        return topic.courses.includes(selectedCourse);
+    });
+}
+
 // Load topics from JSON file
 async function loadTopics() {
     try {
         const response = await fetch('data/topics.json');
-        topics = await response.json();
+        const allTopics = await response.json();
+
+        // Filter topics based on selected course
+        const userCourse = sessionStorage.getItem('userCourse');
+        topics = filterTopicsByCourse(allTopics, userCourse);
+
         window.topics = topics; // Make topics available globally for question analyzer
         displayTopics(topics);
-        console.log('Topics loaded:', topics.length);
+        console.log('All topics loaded:', allTopics.length);
+        console.log('Topics for', userCourse + ':', topics.length);
     } catch (error) {
         console.error('Error loading topics:', error);
         document.getElementById('topicsList').innerHTML =
@@ -376,6 +392,8 @@ function formatCategory(category) {
         'punctuation': 'Punctuation & Mechanics',
         'academic-writing': 'Academic Writing',
         'mla-style': 'MLA Style',
+        'apa-style': 'APA Style',
+        'literature': 'Literature',
         'common-errors': 'Common Errors'
     };
     return categoryNames[category] || category;

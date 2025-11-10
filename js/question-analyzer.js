@@ -375,7 +375,47 @@ const keywordMappings = {
     'you': ['second-person'],
     'second person': ['second-person'],
     'avoid you': ['second-person'],
-    'using you': ['second-person']
+    'using you': ['second-person'],
+
+    // APA Style (for ENC2210 - Technical Writing)
+    'apa': ['apa-in-text', 'apa-references', 'apa-formatting'],
+    'apa citation': ['apa-in-text', 'apa-references'],
+    'apa format': ['apa-formatting', 'apa-in-text'],
+    'apa style': ['apa-in-text', 'apa-references', 'apa-formatting'],
+    'apa in-text': ['apa-in-text'],
+    'apa in text': ['apa-in-text'],
+    'apa reference': ['apa-references'],
+    'apa references': ['apa-references'],
+    'references page': ['apa-references'],
+    'reference page': ['apa-references'],
+    'running head': ['apa-formatting'],
+    'title page': ['apa-formatting'],
+    'author year': ['apa-in-text'],
+    'et al': ['apa-in-text'],
+    'ampersand': ['apa-in-text'],
+    'hanging indent': ['apa-references'],
+
+    // Literature Topics (for ENC1102, LIT1000)
+    'author narrator': ['author-narrator-character'],
+    'narrator': ['author-narrator-character'],
+    'character': ['author-narrator-character'],
+    'author vs narrator': ['author-narrator-character'],
+    'narrator vs character': ['author-narrator-character'],
+    'who is speaking': ['author-narrator-character'],
+    'literary tense': ['literary-present-tense'],
+    'present tense': ['literary-present-tense'],
+    'tense literature': ['literary-present-tense'],
+    'writing about literature': ['literary-present-tense', 'literary-analysis-quotes', 'textual-analysis-thesis'],
+    'literary analysis': ['textual-analysis-thesis', 'literary-analysis-quotes'],
+    'analyzing literature': ['textual-analysis-thesis', 'literary-analysis-quotes'],
+    'quote integration': ['literary-analysis-quotes'],
+    'integrating quotes': ['literary-analysis-quotes'],
+    'quote sandwich': ['literary-analysis-quotes'],
+    'dropped quote': ['literary-analysis-quotes'],
+    'textual analysis': ['textual-analysis-thesis'],
+    'literary thesis': ['textual-analysis-thesis'],
+    'thesis about literature': ['textual-analysis-thesis'],
+    'thesis for literary analysis': ['textual-analysis-thesis']
 };
 
 // Analyze a user's question

@@ -1976,5 +1976,548 @@
         }
       ]
     }
+  },
+  {
+    "id": "apa-in-text",
+    "title": "APA In-Text Citations",
+    "category": "apa-style",
+    "description": "Citing sources within your text using APA format",
+    "keywords": ["apa", "citation", "in-text", "parenthetical", "cite", "sources"],
+    "courses": ["ENC2210"],
+    "content": "<p>In-text citations in APA format give credit to sources you use in your writing. They appear in parentheses within your text and correspond to entries on your References page.</p><p>Basic format: (Author's Last Name, Year)<br>Example: (Johnson, 2020)</p><p>Key rules:<br>- Include author's last name and publication year<br>- Use comma between name and year<br>- For direct quotes, add page number: (Johnson, 2020, p. 15)<br>- For multiple authors, use '&' not 'and'<br>- Place citation before period at end of sentence</p>",
+    "examples": [
+      {
+        "label": "Basic Citation",
+        "text": "Recent research shows climate patterns are changing (Johnson, 2020)."
+      },
+      {
+        "label": "Author Named in Sentence",
+        "text": "Johnson (2020) argues that climate patterns are changing."
+      },
+      {
+        "label": "Direct Quote",
+        "text": "According to Johnson (2020), \"climate patterns have shifted dramatically\" (p. 15)."
+      },
+      {
+        "label": "Two Authors",
+        "text": "The study found significant results (Smith & Jones, 2019)."
+      },
+      {
+        "label": "Three or More Authors",
+        "text": "Multiple factors contribute to this trend (Williams et al., 2021)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: APA In-Text Citations",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/in_text_citations_the_basics.html"
+      },
+      {
+        "title": "APA Style: In-Text Citations",
+        "url": "https://apastyle.apa.org/style-grammar-guidelines/citations"
+      },
+      {
+        "title": "UNC Writing Center: APA Citations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/apa-citations/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which in-text citation is formatted correctly in APA?",
+          "options": [
+            "(Smith 2020)",
+            "(Smith, 2020)",
+            "(Smith & 2020)",
+            "(Smith: 2020)"
+          ],
+          "answer": "(Smith, 2020)",
+          "explanation": "APA format uses author's last name, comma, and year in parentheses."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How do you cite a direct quote with a page number in APA?",
+          "options": [
+            "(Johnson, 2020, pg. 15)",
+            "(Johnson 2020: 15)",
+            "(Johnson, 2020, p. 15)",
+            "(Johnson [2020] p. 15)"
+          ],
+          "answer": "(Johnson, 2020, p. 15)",
+          "explanation": "For direct quotes, include author, year, and page number with 'p.' before the number."
+        },
+        {
+          "type": "true-false",
+          "question": "In APA, use 'and' between two authors in parenthetical citations.",
+          "answer": "False",
+          "explanation": "False. APA uses '&' (ampersand) between authors in parenthetical citations: (Smith & Jones, 2020)."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How do you cite a work with three or more authors in APA?",
+          "options": [
+            "List all authors every time",
+            "Use first author's name followed by 'et al.'",
+            "Use first two authors and 'et al.'",
+            "Use anonymous"
+          ],
+          "answer": "Use first author's name followed by 'et al.'",
+          "explanation": "For three or more authors, use the first author's name followed by 'et al.': (Williams et al., 2021)."
+        }
+      ]
+    }
+  },
+  {
+    "id": "apa-references",
+    "title": "APA References Page",
+    "category": "apa-style",
+    "description": "Creating a properly formatted References page in APA style",
+    "keywords": ["references", "bibliography", "apa", "citation", "reference page"],
+    "courses": ["ENC2210"],
+    "content": "<p>The References page lists all sources cited in your paper. It appears on a separate page at the end of your document.</p><p>Key formatting rules:<br>- Title: 'References' (centered, bold)<br>- Alphabetize entries by author's last name<br>- Use hanging indent (first line flush left, subsequent lines indented)<br>- Double-space everything<br>- Include: Author, A. A. (Year). Title of work. Publisher.</p>",
+    "examples": [
+      {
+        "label": "Book",
+        "text": "Smith, J. D. (2020). The art of technical writing. Oxford University Press."
+      },
+      {
+        "label": "Journal Article",
+        "text": "Brown, S. L., & Miller, T. K. (2019). Effective communication strategies. Journal of Technical Communication, 45(2), 112-125. https://doi.org/10.xxxx"
+      },
+      {
+        "label": "Website",
+        "text": "Jones, M. (2021, March 15). Digital literacy in education. Education Today. https://www.edtoday.com/digital-literacy"
+      },
+      {
+        "label": "Hanging Indent Visual",
+        "text": "First line starts here\n     Second line indented\n     Third line indented"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: APA References",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/reference_list_basic_rules.html"
+      },
+      {
+        "title": "APA Style: References",
+        "url": "https://apastyle.apa.org/style-grammar-guidelines/references"
+      },
+      {
+        "title": "UNC Writing Center: APA References",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/apa-citations/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What is the correct title for the reference page in APA format?",
+          "options": [
+            "Works Cited",
+            "Bibliography",
+            "References",
+            "Sources"
+          ],
+          "answer": "References",
+          "explanation": "APA format uses 'References' as the title, centered and bold."
+        },
+        {
+          "type": "true-false",
+          "question": "APA References entries should be in alphabetical order.",
+          "answer": "True",
+          "explanation": "True. Entries are alphabetized by the first author's last name."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What type of indentation is used for APA References entries?",
+          "options": [
+            "First line indent",
+            "Hanging indent",
+            "Block indent",
+            "No indent"
+          ],
+          "answer": "Hanging indent",
+          "explanation": "Use a hanging indent: first line flush left, subsequent lines indented 0.5 inches."
+        },
+        {
+          "type": "true-false",
+          "question": "In APA, the References page title should be bold.",
+          "answer": "True",
+          "explanation": "True. The word 'References' should be centered and bold at the top of the page."
+        }
+      ]
+    }
+  },
+  {
+    "id": "apa-formatting",
+    "title": "APA Document Formatting",
+    "category": "apa-style",
+    "description": "Formatting your technical writing paper in APA style",
+    "keywords": ["apa", "format", "formatting", "paper format", "document", "title page"],
+    "courses": ["ENC2210"],
+    "content": "<p>APA format provides specific guidelines for formatting academic and technical papers, including margins, fonts, headers, and title pages.</p><p>Key formatting requirements:<br>- 1-inch margins on all sides<br>- 12-point Times New Roman or similar font<br>- Double-space throughout entire paper<br>- Running head in header (page number on right)<br>- Title page with title, author, affiliation<br>- Separate Abstract page if required</p>",
+    "examples": [
+      {
+        "label": "Title Page Elements",
+        "text": "Title of Paper (bold, centered)\nYour Name\nYour School/Institution\nCourse Name\nInstructor Name\nDue Date"
+      },
+      {
+        "label": "Running Head",
+        "text": "Page number appears in top right corner of every page"
+      },
+      {
+        "label": "Section Headings",
+        "text": "Level 1: Centered, Bold, Title Case\nLevel 2: Left-aligned, Bold, Title Case\nLevel 3: Left-aligned, Bold Italic, Title Case"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: APA Format",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html"
+      },
+      {
+        "title": "APA Style: Paper Format",
+        "url": "https://apastyle.apa.org/style-grammar-guidelines/paper-format"
+      },
+      {
+        "title": "UNC Writing Center: APA Format",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/apa-format/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What font size should be used in APA format?",
+          "options": [
+            "10-point",
+            "11-point",
+            "12-point",
+            "14-point"
+          ],
+          "answer": "12-point",
+          "explanation": "APA requires 12-point font, typically Times New Roman or similar serif font."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What margin size is required in APA format?",
+          "options": [
+            "0.5 inches",
+            "1 inch",
+            "1.5 inches",
+            "2 inches"
+          ],
+          "answer": "1 inch",
+          "explanation": "APA format requires 1-inch margins on all sides of the page."
+        },
+        {
+          "type": "true-false",
+          "question": "APA papers should be double-spaced throughout.",
+          "answer": "True",
+          "explanation": "True. The entire paper, including title page, references, and all text, should be double-spaced."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Where does the page number appear in APA format?",
+          "options": [
+            "Bottom center",
+            "Bottom right",
+            "Top left",
+            "Top right"
+          ],
+          "answer": "Top right",
+          "explanation": "Page numbers appear in the top right corner of the header on every page."
+        }
+      ]
+    }
+  },
+  {
+    "id": "author-narrator-character",
+    "title": "Author, Narrator, and Character",
+    "category": "literature",
+    "description": "Understanding the distinctions between author, narrator, and character",
+    "keywords": ["author", "narrator", "character", "point of view", "speaker", "persona"],
+    "courses": ["ENC1102", "LIT1000"],
+    "content": "<p>In literary analysis, it's crucial to distinguish between the author (the person who wrote the work), the narrator (the voice telling the story), and the characters (the people in the story).</p><p><strong>Author</strong>: The real person who created the work<br><strong>Narrator</strong>: The voice or persona telling the story (may be a character or outside observer)<br><strong>Character</strong>: A person, animal, or entity within the story</p><p>Important: Never assume the narrator represents the author's personal views. The narrator is a literary creation, separate from the author.</p>",
+    "examples": [
+      {
+        "label": "Incorrect",
+        "text": "In 'The Cask of Amontillado,' Edgar Allan Poe seeks revenge on Fortunato."
+      },
+      {
+        "label": "Correct",
+        "text": "In 'The Cask of Amontillado,' the narrator Montresor seeks revenge on Fortunato."
+      },
+      {
+        "label": "Incorrect",
+        "text": "In 'The Yellow Wallpaper,' Charlotte Perkins Gilman is trapped in a room."
+      },
+      {
+        "label": "Correct",
+        "text": "In 'The Yellow Wallpaper,' the narrator (an unnamed woman) is trapped in a room by her husband John."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Literary Terms",
+        "url": "https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/literary_terms.html"
+      },
+      {
+        "title": "UNC Writing Center: Literature",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/literature/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "true-false",
+          "question": "The narrator and the author are always the same person.",
+          "answer": "False",
+          "explanation": "False. The narrator is a literary device created by the author, but they are distinct. The narrator is the voice telling the story, not necessarily the author's voice."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "In analyzing 'The Tell-Tale Heart,' who is experiencing guilt?",
+          "options": [
+            "Edgar Allan Poe",
+            "The author",
+            "The narrator",
+            "The reader"
+          ],
+          "answer": "The narrator",
+          "explanation": "The narrator (the unnamed person telling the story) experiences guilt, not Poe the author."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence correctly distinguishes author from narrator?",
+          "sentences": [
+            "In the poem, Robert Frost stops by woods on a snowy evening.",
+            "In the poem, Emily Dickinson hears a fly buzz when she died.",
+            "In the poem, the speaker stops by woods on a snowy evening.",
+            "In the story, Hemingway sits at a café in Paris."
+          ],
+          "correctIndex": 2,
+          "explanation": "Correct! 'The speaker' (or 'the narrator') is the voice in the poem, distinct from Robert Frost the author."
+        }
+      ]
+    }
+  },
+  {
+    "id": "literary-present-tense",
+    "title": "Literary Present Tense",
+    "category": "literature",
+    "description": "Using present tense when writing about literature and art",
+    "keywords": ["present tense", "literary present", "literature", "tense", "writing about literature"],
+    "courses": ["ENC1102", "LIT1000"],
+    "content": "<p>When writing about literature, art, or film, use present tense to discuss events, themes, and elements within the work. This convention treats the work as existing in an eternal 'now.'</p><p>Even if the story was written long ago or uses past tense narration, discuss it in present tense. The characters' actions, the author's techniques, and the work's themes all exist perpetually in the present when we read or view them.</p>",
+    "examples": [
+      {
+        "label": "Incorrect (Past Tense)",
+        "text": "In 'Romeo and Juliet,' the two lovers died at the end."
+      },
+      {
+        "label": "Correct (Present Tense)",
+        "text": "In 'Romeo and Juliet,' the two lovers die at the end."
+      },
+      {
+        "label": "Incorrect",
+        "text": "Hamlet struggled with the decision to avenge his father."
+      },
+      {
+        "label": "Correct",
+        "text": "Hamlet struggles with the decision to avenge his father."
+      },
+      {
+        "label": "Correct (Author's techniques)",
+        "text": "Shakespeare uses dramatic irony to heighten tension in Act III."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Writing About Literature",
+        "url": "https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/writing_about_fiction/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Literature",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/literature/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence correctly uses literary present tense?",
+          "options": [
+            "In the novel, Atticus defended Tom Robinson.",
+            "In the novel, Atticus defends Tom Robinson.",
+            "In the novel, Atticus will defend Tom Robinson.",
+            "In the novel, Atticus had defended Tom Robinson."
+          ],
+          "answer": "In the novel, Atticus defends Tom Robinson.",
+          "explanation": "Use present tense when discussing events in literature: 'defends' not 'defended.'"
+        },
+        {
+          "type": "true-false",
+          "question": "You should use past tense when writing about a novel written in the 19th century.",
+          "answer": "False",
+          "explanation": "False. Always use present tense when discussing literature, regardless of when it was written."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses correct literary present tense?",
+          "sentences": [
+            "The narrator described the house as gloomy and dark.",
+            "The narrator describes the house as gloomy and dark.",
+            "The narrator will describe the house as gloomy and dark.",
+            "The narrator had described the house as gloomy and dark."
+          ],
+          "correctIndex": 1,
+          "explanation": "'The narrator describes' is correct—use present tense for actions in literature."
+        }
+      ]
+    }
+  },
+  {
+    "id": "literary-analysis-quotes",
+    "title": "Using Quotes in Literary Analysis",
+    "category": "literature",
+    "description": "Effectively integrating quotations from literature into your analysis",
+    "keywords": ["quotes", "quotation", "textual evidence", "literary analysis", "integrating quotes"],
+    "courses": ["ENC1102", "LIT1000"],
+    "content": "<p>In literary analysis, quotes from the text serve as evidence for your arguments. Integrate them smoothly into your writing, analyze them, and always explain their significance.</p><p>Key principles:<br>- Introduce quotes with signal phrases<br>- Keep quotes relatively brief<br>- Follow quotes with analysis—never leave them standing alone<br>- Use quotes to support your point, not make it for you<br>- Cite page numbers or line numbers</p>",
+    "examples": [
+      {
+        "label": "Quote Sandwich (Good)",
+        "text": "The narrator's isolation is evident in her description of the wallpaper. She states, \"The color is repellant, almost revolting; a smouldering unclean yellow\" (Gilman 3). This visceral language reveals her deteriorating mental state, as she projects her feelings onto her surroundings."
+      },
+      {
+        "label": "Dropped Quote (Bad)",
+        "text": "The narrator is isolated. \"The color is repellant, almost revolting; a smouldering unclean yellow.\" She is going crazy."
+      },
+      {
+        "label": "Good Integration",
+        "text": "Fitzgerald describes Gatsby's smile as one that \"understood you just as far as you wanted to be understood\" (48), suggesting his ability to manipulate others' perceptions."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Quoting, Paraphrasing, and Summarizing",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Quotations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/quotations/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "true-false",
+          "question": "You should always explain the significance of a quote after including it.",
+          "answer": "True",
+          "explanation": "True. Never leave a quote standing alone—always analyze it and explain how it supports your argument."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What is a 'dropped quote'?",
+          "options": [
+            "A quote that's too long",
+            "A quote with no introduction or analysis",
+            "A quote from a minor character",
+            "A quote that's irrelevant"
+          ],
+          "answer": "A quote with no introduction or analysis",
+          "explanation": "A dropped quote appears without introduction or follow-up analysis, making it seem disconnected from your argument."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which demonstrates good quote integration?",
+          "sentences": [
+            "\"It was the best of times, it was the worst of times.\" This shows contrast.",
+            "Dickens uses parallelism. \"It was the best of times, it was the worst of times.\"",
+            "Dickens opens with a paradox, stating \"it was the best of times, it was the worst of times\" (1), establishing the novel's theme of duality.",
+            "\"It was the best of times, it was the worst of times.\" Dickens wrote this."
+          ],
+          "correctIndex": 2,
+          "explanation": "This introduces the quote, integrates it smoothly, cites it, and explains its significance."
+        }
+      ]
+    }
+  },
+  {
+    "id": "textual-analysis-thesis",
+    "title": "Thesis Statements for Literary Analysis",
+    "category": "literature",
+    "description": "Writing effective thesis statements for literature essays",
+    "keywords": ["thesis", "literary analysis", "argument", "interpretation", "literature thesis"],
+    "courses": ["ENC1102", "LIT1000"],
+    "content": "<p>A literary analysis thesis makes an arguable claim about how a text creates meaning through literary elements like character, symbolism, theme, structure, or language.</p><p>A strong literary thesis:<br>- Makes a specific, arguable interpretation<br>- Identifies the literary work and author<br>- Focuses on HOW the text achieves its effects<br>- Goes beyond plot summary<br>- Can be supported with textual evidence</p>",
+    "examples": [
+      {
+        "label": "Weak (Plot Summary)",
+        "text": "In 'The Great Gatsby,' Gatsby loves Daisy and dies at the end."
+      },
+      {
+        "label": "Strong (Analysis)",
+        "text": "Through Gatsby's elaborate parties and symbolic green light, Fitzgerald critiques the hollowness of the American Dream in 1920s society."
+      },
+      {
+        "label": "Weak (Too Obvious)",
+        "text": "Shakespeare's 'Hamlet' is about revenge."
+      },
+      {
+        "label": "Strong (Arguable)",
+        "text": "In 'Hamlet,' Shakespeare uses the play-within-a-play to explore how performance and deception blur the boundaries between reality and illusion."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Writing About Literature",
+        "url": "https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Literature Thesis",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/literature/"
+      },
+      {
+        "title": "Harvard Writing Center: Thesis",
+        "url": "https://writingcenter.fas.harvard.edu/pages/developing-thesis"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "identify-error",
+          "question": "Which is a strong literary analysis thesis?",
+          "sentences": [
+            "In 'The Yellow Wallpaper,' the narrator goes crazy.",
+            "Charlotte Perkins Gilman wrote 'The Yellow Wallpaper' in 1892.",
+            "'The Yellow Wallpaper' is a great short story that everyone should read.",
+            "Through the symbol of the wallpaper, Gilman exposes how 19th-century medical practices oppressed women's autonomy and mental health."
+          ],
+          "correctIndex": 3,
+          "explanation": "This thesis makes an arguable claim about HOW Gilman uses a literary element (symbolism) to convey meaning."
+        },
+        {
+          "type": "true-false",
+          "question": "A good literary thesis should focus on plot summary.",
+          "answer": "False",
+          "explanation": "False. Literary thesis statements analyze HOW the text creates meaning, not just WHAT happens in the plot."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What makes a literary thesis arguable?",
+          "options": [
+            "It summarizes the plot",
+            "It states your opinion",
+            "It makes an interpretation that requires textual evidence to support",
+            "It mentions the title and author"
+          ],
+          "answer": "It makes an interpretation that requires textual evidence to support",
+          "explanation": "An arguable thesis presents an interpretation that isn't obvious and must be proven with evidence from the text."
+        }
+      ]
+    }
   }
 ]
