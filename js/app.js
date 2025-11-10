@@ -92,6 +92,14 @@ function showView(viewId) {
         view.classList.remove('active');
     });
     document.getElementById(viewId).classList.add('active');
+
+    // Hide nav for topic detail and quiz views
+    const nav = document.querySelector('.main-nav');
+    if (viewId === 'topicDetailView' || viewId === 'quizView') {
+        nav.classList.add('hidden');
+    } else {
+        nav.classList.remove('hidden');
+    }
 }
 
 // Set up topic browsing features

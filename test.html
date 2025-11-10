@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Testing Quiz Functionality</h1>
+    <div id="test-output"></div>
+
+    <script type="module">
+        // Test loading topics
+        fetch('data/topics.json')
+            .then(response => response.json())
+            .then(topics => {
+                console.log('Topics loaded:', topics.length);
+                const output = document.getElementById('test-output');
+
+                // Check first topic's quiz
+                const firstTopic = topics[0];
+                console.log('First topic:', firstTopic.title);
+                console.log('Has quiz?', !!firstTopic.quiz);
+                console.log('Quiz questions:', firstTopic.quiz?.questions?.length);
+
+                output.innerHTML = `
+                    <p>✓ Topics loaded: ${topics.length}</p>
+                    <p>✓ First topic: ${firstTopic.title}</p>
+                    <p>✓ Has quiz: ${!!firstTopic.quiz}</p>
+                    <p>✓ Quiz questions: ${firstTopic.quiz?.questions?.length || 0}</p>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('test-output').innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            });
+    </script>
+</body>
+</html>

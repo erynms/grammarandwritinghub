@@ -158,6 +158,10 @@ header h1 {
     border-bottom: 2px solid #e0e0e0;
 }
 
+.main-nav.hidden {
+    display: none;
+}
+
 .nav-btn {
     padding: 12px 24px;
     background: none;
@@ -551,6 +555,46 @@ header h1 {
     font-weight: bold;
     color: #2c5aa0;
     margin: 20px 0;
+}
+
+/* Matching Questions */
+.matching-instructions {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.matching-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.matching-row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.matching-term {
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f4f8;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.matching-select {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.matching-select:focus {
+    outline: none;
+    border-color: #2c5aa0;
 }
 
 /* Footer */
