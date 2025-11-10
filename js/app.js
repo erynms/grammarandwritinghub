@@ -193,21 +193,67 @@ function displayQuestionResponse(analysis) {
 
     let html = '<div class="response-content">';
 
-    // Main answer
+    // Main answer with content from most relevant topic
     if (analysis.topics.length > 0) {
-        html += '<h3>Here\'s what I found:</h3>';
-        html += `<p>${analysis.mainResponse}</p>`;
+        const topTopic = analysis.topics[0];
 
-        // Related topics
-        html += '<h4>Related Topics:</h4>';
-        html += '<div class="resource-links">';
-        analysis.topics.forEach(topic => {
-            html += `<a href="#" class="resource-link topic-link" data-topic-id="${topic.id}">${topic.title}</a>`;
-        });
-        html += '</div>';
+        html += '<h3>Answer:</h3>';
+        html += `<h4 style="color: #2c5aa0; margin-bottom: 10px;">${topTopic.title}</h4>`;
+
+        // Show the topic's content (description or first part of content)
+        if (topTopic.content) {
+            // Extract plain text from HTML content for a brief answer
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = topTopic.content;
+            const contentText = tempDiv.textContent || tempDiv.innerText;
+            // Show first paragraph or up to 300 characters
+            const briefAnswer = contentText.length > 300
+                ? contentText.substring(0, 300) + '...'
+                : contentText;
+            html += `<p>${briefAnswer}</p>`;
+        } else if (topTopic.description) {
+            html += `<p>${topTopic.description}</p>`;
+        }
+
+        // Link to full topic
+        html += `<p><a href="#" class="topic-link" data-topic-id="${topTopic.id}" style="font-weight: 600; color: #2c5aa0;">View full explanation and practice with quiz →</a></p>`;
+
+        // Show related topics if there are more (limit to top 5 total)
+        if (analysis.topics.length > 1) {
+            const relatedTopics = analysis.topics.slice(1, 5); // Show up to 4 more
+            html += '<h4 style="margin-top: 25px;">Related Topics You Might Also Find Helpful:</h4>';
+            html += '<div class="topic-cards-inline">';
+            relatedTopics.forEach(topic => {
+                html += `
+                    <div class="topic-card-inline">
+                        <a href="#" class="topic-link" data-topic-id="${topic.id}">
+                            <strong>${topic.title}</strong><br>
+                            <span style="font-size: 0.9em; color: #666;">${topic.description}</span>
+                        </a>
+                    </div>
+                `;
+            });
+            html += '</div>';
+
+            if (analysis.topics.length > 5) {
+                html += `<p style="margin-top: 10px; color: #666;"><em>Plus ${analysis.topics.length - 5} more related topics...</em></p>`;
+            }
+        }
+
+        // External resources for the main topic
+        if (topTopic.resources && topTopic.resources.length > 0) {
+            html += '<h4 style="margin-top: 25px;">Learn More:</h4>';
+            html += '<div class="resource-links">';
+            topTopic.resources.forEach(resource => {
+                html += `<a href="${resource.url}" target="_blank" class="resource-link">${resource.title}</a>`;
+            });
+            html += '</div>';
+        }
+
     } else {
         html += '<h3>Help Finding Resources</h3>';
         html += '<p>I didn\'t find a specific match for your question, but you can browse our topic index or try rephrasing your question with different keywords.</p>';
+        html += '<p>Try searching for terms like: "comma," "thesis," "citation," "fragment," "run-on," or browse topics above.</p>';
     }
 
     // Grammar notes if any errors detected
@@ -228,16 +274,6 @@ function displayQuestionResponse(analysis) {
             });
         });
         html += '</div>';
-        html += '</div>';
-    }
-
-    // External resources for the main topic
-    if (analysis.externalResources && analysis.externalResources.length > 0) {
-        html += '<h4>Additional Resources:</h4>';
-        html += '<div class="resource-links">';
-        analysis.externalResources.forEach(resource => {
-            html += `<a href="${resource.url}" target="_blank" class="resource-link">${resource.title}</a>`;
-        });
         html += '</div>';
     }
 
