@@ -669,6 +669,40 @@ header h1 {
     text-decoration: underline;
 }
 
+/* Library Guides Section */
+.library-guides-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.library-guides-link {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.library-guides-link:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.library-logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.library-guides-text {
+    margin-top: 15px;
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.5;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Footer */
 footer {
     text-align: center;
