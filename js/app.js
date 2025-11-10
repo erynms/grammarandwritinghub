@@ -40,7 +40,9 @@ async function loadTopics() {
     try {
         const response = await fetch('data/topics.json');
         topics = await response.json();
+        window.topics = topics; // Make topics available globally for question analyzer
         displayTopics(topics);
+        console.log('Topics loaded:', topics.length);
     } catch (error) {
         console.error('Error loading topics:', error);
         document.getElementById('topicsList').innerHTML =

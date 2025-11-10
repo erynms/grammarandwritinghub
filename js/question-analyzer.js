@@ -380,6 +380,9 @@ const keywordMappings = {
 
 // Analyze a user's question
 async function analyzeQuestion(questionText) {
+    console.log('Analyzing question:', questionText);
+    console.log('Topics available:', window.topics ? window.topics.length : 'none');
+
     const analysis = {
         keywords: [],
         topics: [],
@@ -391,6 +394,7 @@ async function analyzeQuestion(questionText) {
     // Normalize and tokenize the question
     const normalizedText = questionText.toLowerCase();
     const questionWords = normalizedText.split(/\s+/).filter(w => w.length > 0);
+    console.log('Question words:', questionWords);
 
     // Find matching topics based on keywords (with fuzzy matching)
     const foundTopicIds = new Set();
@@ -526,6 +530,12 @@ async function analyzeQuestion(questionText) {
             }
         }
     }
+
+    console.log('Analysis complete:', {
+        keywords: analysis.keywords.length,
+        topics: analysis.topics.length,
+        topicIds: Array.from(foundTopicIds)
+    });
 
     return analysis;
 }
