@@ -1753,6 +1753,103 @@
     }
   },
   {
+    "id": "dropped-quotes",
+    "title": "Dropped Quotes",
+    "category": "common-errors",
+    "description": "Understanding and avoiding dropped quotes\u2014quotations that appear without introduction or analysis",
+    "keywords": [
+      "dropped quote",
+      "dropped quotes",
+      "floating quote",
+      "orphan quote",
+      "quote without introduction",
+      "quote without analysis",
+      "integrating quotes",
+      "signal phrase"
+    ],
+    "content": "<p>A <strong>dropped quote</strong> (also called a floating quote or orphan quote) is a quotation that appears in your writing without proper introduction or connection to your own ideas. Dropped quotes disrupt the flow of your writing and leave readers confused about the source, context, and significance of the quotation.</p>\n\n<h4>What Makes a Quote \"Dropped\"?</h4>\n<p>A quote is considered dropped when it:</p>\n<ul>\n<li>Appears without a signal phrase or introduction</li>\n<li>Lacks connection to your own sentence structure</li>\n<li>Stands alone without analysis or explanation</li>\n<li>Seems to come out of nowhere</li>\n</ul>\n\n<h4>Why Dropped Quotes Are Problematic</h4>\n<p>Dropped quotes create several problems:</p>\n<ul>\n<li><strong>Confusion:</strong> Readers don't know who said it or why it's there</li>\n<li><strong>Poor flow:</strong> The writing feels choppy and disconnected</li>\n<li><strong>Missed opportunity:</strong> You fail to demonstrate your understanding and analysis</li>\n<li><strong>Weak argument:</strong> The quote's relevance to your point remains unclear</li>\n</ul>\n\n<h4>How to Fix Dropped Quotes</h4>\n<p><strong>1. Add a signal phrase:</strong> Introduce the quote with the author's name and a verb (argues, notes, explains, etc.)</p>\n<p><strong>2. Integrate grammatically:</strong> Make the quote part of your own sentence structure</p>\n<p><strong>3. Provide context:</strong> Explain who the author is or what situation the quote addresses</p>\n<p><strong>4. Follow up with analysis:</strong> Explain what the quote means and why it matters to your argument</p>\n\n<h4>The Quote Sandwich Fix</h4>\n<p>Use the quote sandwich method:</p>\n<ul>\n<li><strong>Introduction:</strong> Signal phrase and context</li>\n<li><strong>Quote:</strong> The quoted material</li>\n<li><strong>Analysis:</strong> Your explanation of its significance</li>\n</ul>",
+    "examples": [
+      {
+        "label": "Dropped Quote (INCORRECT)",
+        "text": "Social media has changed how we communicate. \"Users spend an average of 2.5 hours daily on social platforms\" (Johnson 67). This affects productivity."
+      },
+      {
+        "label": "Fixed with Signal Phrase",
+        "text": "Social media has changed how we communicate. According to Johnson's research, \"users spend an average of 2.5 hours daily on social platforms\" (67). This substantial time investment affects productivity, as nearly one-third of the workday may be diverted to social media interactions."
+      },
+      {
+        "label": "Dropped Quote (INCORRECT)",
+        "text": "Climate change is accelerating. \"Global temperatures have risen 1.2\u00b0C since pre-industrial times.\" Scientists are concerned."
+      },
+      {
+        "label": "Fixed with Integration and Analysis",
+        "text": "Climate change is accelerating at an alarming rate. The latest IPCC report confirms that \"global temperatures have risen 1.2\u00b0C since pre-industrial times\" (45). This increase, while seemingly small, represents a dramatic shift that scientists warn could trigger irreversible environmental consequences."
+      },
+      {
+        "label": "Dropped Quote (INCORRECT)",
+        "text": "\"To be or not to be, that is the question.\" This is from Hamlet."
+      },
+      {
+        "label": "Fixed with Context and Analysis",
+        "text": "Shakespeare's Hamlet captures existential doubt in his famous soliloquy: \"To be or not to be, that is the question\" (3.1.56). This line represents the play's central theme of action versus inaction, as Hamlet contemplates whether enduring life's suffering or ending it requires greater courage."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Quotations",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Quotations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/quotations/"
+      },
+      {
+        "title": "Guide to Grammar: Integrating Quotes",
+        "url": "https://www.grammarbook.com/punctuation/quotes.asp"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "true-false",
+          "question": "A dropped quote is a quotation that appears without introduction or analysis.",
+          "answer": "True",
+          "explanation": "True. A dropped quote lacks proper introduction (signal phrase) and/or follow-up analysis, making it feel disconnected from your writing."
+        },
+        {
+          "type": "identify-error",
+          "question": "What's wrong with this passage? 'Exercise is important for health. \"Adults should exercise 150 minutes per week\" (CDC 12). Many people don't exercise enough.'",
+          "answer": "This is a dropped quote\u2014it lacks a signal phrase and meaningful analysis.",
+          "explanation": "The quote appears without introduction (no signal phrase) and with only minimal follow-up. It should be introduced with a phrase like 'According to the CDC' and followed by analysis of what this recommendation means."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is the BEST way to fix a dropped quote?",
+          "options": [
+            "Remove the quote entirely",
+            "Add a signal phrase before it and analysis after it",
+            "Make the quote longer",
+            "Put the quote in a separate paragraph"
+          ],
+          "answer": "Add a signal phrase before it and analysis after it",
+          "explanation": "The quote sandwich method\u2014introducing with a signal phrase and following up with analysis\u2014creates proper integration and shows your understanding of the source."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which of these is a dropped quote?",
+          "options": [
+            "According to Smith, 'education is changing' (45). This shift requires new teaching methods.",
+            "'Education is changing.' This affects students.",
+            "Smith argues that 'education is changing' (45), which suggests institutions must adapt.",
+            "As Smith notes, 'education is changing' (45)."
+          ],
+          "answer": "'Education is changing.' This affects students.",
+          "explanation": "This quote lacks a signal phrase (no attribution to a source) and has only weak follow-up. The other options all include proper attribution and better integration."
+        }
+      ]
+    }
+  },
+  {
     "id": "formal-tone",
     "title": "Formal Academic Tone",
     "category": "academic-writing",
@@ -1903,6 +2000,98 @@
           ],
           "correctIndex": 1,
           "explanation": "'Running' functions as a noun (the subject) in this sentence."
+        }
+      ]
+    }
+  },
+  {
+    "id": "integrating-quotations",
+    "title": "Integrating Quotations",
+    "category": "academic-writing",
+    "description": "How to smoothly incorporate quotes into your writing with signal phrases and analysis",
+    "keywords": [
+      "quotations",
+      "quotes",
+      "integrating quotes",
+      "signal phrases",
+      "quote sandwich",
+      "introducing quotes",
+      "quote integration",
+      "analyzing quotes",
+      "quote flow",
+      "lead-in",
+      "quote analysis"
+    ],
+    "content": "<p>Effective quotation integration is essential in academic writing. Quotes should flow naturally within your own prose, not stand alone or interrupt the reader. The <strong>quote sandwich method</strong> is a reliable approach: introduce the quote, present it, and then explain its significance.</p>\n\n<h4>The Quote Sandwich Method</h4>\n<p><strong>Top Bun (Introduction):</strong> Use a signal phrase to introduce the quote and provide context. Signal phrases identify the source and can indicate the author's stance (argues, claims, suggests, notes, etc.).</p>\n\n<p><strong>Filling (The Quote):</strong> Present the quoted material, ensuring it's grammatically integrated into your sentence.</p>\n\n<p><strong>Bottom Bun (Analysis):</strong> Explain what the quote means, why it's significant, or how it supports your argument. Never leave a quote standing alone without your commentary.</p>\n\n<h4>Signal Phrases</h4>\n<p>Signal phrases introduce quotes and identify sources. They can be positioned before, in the middle of, or after a quote. Examples:</p>\n<ul>\n<li>According to Smith, \"...\" (23).</li>\n<li>As Johnson argues, \"...\" (45).</li>\n<li>\"...,\" explains Davis (67).</li>\n<li>\"...,\" writes Chen, \"...\" (89).</li>\n</ul>\n\n<p><strong>Verb choice matters:</strong> argues, suggests, claims, notes, observes, contends, maintains, asserts, demonstrates, illustrates, emphasizes</p>\n\n<h4>Grammatical Integration</h4>\n<p>Quotes must fit grammatically into your sentences. You may need to:</p>\n<ul>\n<li>Use brackets [ ] to add or change words for clarity or grammar</li>\n<li>Use ellipses (...) to omit unnecessary words</li>\n<li>Adjust punctuation to make the quote flow smoothly</li>\n</ul>\n\n<h4>Following Up with Analysis</h4>\n<p>After presenting a quote, always explain its relevance. Ask yourself: What does this quote prove? How does it support my argument? Why is this significant? Your analysis shows critical thinking and helps readers understand why the quote matters.</p>",
+    "examples": [
+      {
+        "label": "Complete Quote Sandwich",
+        "text": "Climate scientists have repeatedly warned about rising global temperatures. According to Johnson, \"the past decade has seen unprecedented warming patterns that exceed all previous models\" (45). This data underscores the urgency of immediate action, as our previous predictions have proven too conservative."
+      },
+      {
+        "label": "Signal Phrase in Middle",
+        "text": "\"The education system,\" argues Martinez, \"must adapt to technological changes or risk becoming irrelevant\" (78). Martinez's warning challenges institutions to embrace innovation rather than resist it."
+      },
+      {
+        "label": "Using Brackets for Clarity",
+        "text": "Thompson notes that \"[the students] demonstrated remarkable resilience during the transition\" (112). This observation suggests that young people may adapt more easily to change than previously thought."
+      },
+      {
+        "label": "Dropped Quote (INCORRECT)",
+        "text": "Many students struggle with time management. \"College students sleep an average of 6.5 hours per night\" (Davis 34). This is a problem for academic performance."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Quoting, Paraphrasing, and Summarizing",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Quotations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/quotations/"
+      },
+      {
+        "title": "Harvard Writing Center: Integrating Quotations",
+        "url": "https://writingcenter.fas.harvard.edu/pages/how-do-i-integrate-quotations"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What is the 'quote sandwich' method?",
+          "options": [
+            "Using three quotes in a row",
+            "Introducing a quote, presenting it, and analyzing it",
+            "Placing quotes between two paragraphs",
+            "Only using short quotes"
+          ],
+          "answer": "Introducing a quote, presenting it, and analyzing it",
+          "explanation": "The quote sandwich method means you introduce the quote with context (top bun), present the quote (filling), and then analyze or explain its significance (bottom bun)."
+        },
+        {
+          "type": "true-false",
+          "question": "It's acceptable to present a quote without any follow-up analysis or explanation.",
+          "answer": "False",
+          "explanation": "False. Quotes should never stand alone. You must always explain what the quote means, why it's significant, or how it supports your argument."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which signal phrase verb suggests the strongest stance?",
+          "options": [
+            "notes",
+            "mentions",
+            "argues",
+            "states"
+          ],
+          "answer": "argues",
+          "explanation": "'Argues' indicates the author is making a strong claim or taking a position, while 'notes,' 'mentions,' and 'states' are more neutral."
+        },
+        {
+          "type": "identify-error",
+          "question": "Identify the problem: 'Technology is changing education. \"Online learning has increased by 300% in five years\" (Smith 45). Many schools are adapting.'",
+          "answer": "The quote is dropped\u2014it lacks a signal phrase introduction and follow-up analysis.",
+          "explanation": "This is a dropped quote. It needs a signal phrase (e.g., 'According to Smith...') and analysis explaining what this statistic means or why it matters."
         }
       ]
     }
