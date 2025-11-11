@@ -1240,7 +1240,7 @@
   {
     "id": "dangling-modifiers",
     "title": "Dangling Modifiers",
-    "category": "sentence-basics",
+    "category": "common-errors",
     "description": "Avoiding and fixing dangling modifiers",
     "keywords": ["dangling modifier", "modifier", "misplaced modifier"],
     "content": "<p>A dangling modifier is a descriptive phrase that doesn't clearly connect to what it's supposed to describe. This happens when the word being modified is missing or too far from the modifier.</p><p>To fix: Make sure the word being described appears right after the modifier, or restructure the sentence to make the connection clear.</p>",
@@ -2516,6 +2516,434 @@
           ],
           "answer": "It makes an interpretation that requires textual evidence to support",
           "explanation": "An arguable thesis presents an interpretation that isn't obvious and must be proven with evidence from the text."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mla-signal-phrases",
+    "title": "MLA Signal Phrases",
+    "category": "academic-writing",
+    "description": "Using signal phrases to introduce sources in MLA style",
+    "keywords": ["signal phrase", "attribution", "introduce quotes", "according to", "source integration"],
+    "content": "<p>Signal phrases introduce quotations, paraphrases, and summaries in your writing. They tell readers who said or wrote something and provide context for the source material. In MLA style, signal phrases typically include the author's name and a verb.</p><p>Common signal verbs: argues, asserts, claims, comments, contends, declares, explains, illustrates, notes, observes, points out, reports, states, suggests, writes.</p><p>Signal phrases help integrate sources smoothly into your writing and give proper credit to authors.</p>",
+    "examples": [
+      {
+        "label": "Basic Signal Phrase",
+        "text": "According to Smith, \"climate change requires immediate action\" (45)."
+      },
+      {
+        "label": "Signal Phrase with Verb",
+        "text": "Johnson argues that \"education reform must prioritize equity\" (112)."
+      },
+      {
+        "label": "Mid-Sentence Signal",
+        "text": "\"The data shows,\" Martinez explains, \"a clear correlation between the variables\" (78)."
+      },
+      {
+        "label": "Multiple Authors",
+        "text": "As Brown and Lee observe, \"collaboration enhances learning outcomes\" (234)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: MLA In-Text Citations",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_in_text_citations_the_basics.html"
+      },
+      {
+        "title": "UNC Writing Center: Quotations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/quotations/"
+      },
+      {
+        "title": "MLA Style Center: Signal Phrases",
+        "url": "https://style.mla.org/citing-sources/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which signal phrase is most appropriate for MLA style?",
+          "options": [
+            "The book says that \"reading improves vocabulary.\"",
+            "Smith (2020) states that \"reading improves vocabulary.\"",
+            "Smith argues that \"reading improves vocabulary\" (45).",
+            "According to the author, \"reading improves vocabulary.\""
+          ],
+          "answer": "Smith argues that \"reading improves vocabulary\" (45).",
+          "explanation": "MLA style uses the author's last name in the signal phrase and the page number in parentheses after the quote."
+        },
+        {
+          "type": "true-false",
+          "question": "You should use the same signal verb (like 'says') repeatedly throughout your paper.",
+          "answer": "False",
+          "explanation": "False. Varying your signal verbs makes your writing more engaging and can convey different relationships to the source material."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Where should the page number appear in MLA format?",
+          "options": [
+            "In the signal phrase",
+            "After the period at the end of the sentence",
+            "In parentheses before the period",
+            "At the beginning of the sentence"
+          ],
+          "answer": "In parentheses before the period",
+          "explanation": "In MLA style, the page number appears in parentheses after the quote but before the final punctuation."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence correctly uses a signal phrase?",
+          "sentences": [
+            "\"Education is important\" said the teacher.",
+            "Johnson writes, \"Education is important\" (12).",
+            "The article says \"Education is important\" on page 12.",
+            "\"Education is important.\" (Johnson 12)"
+          ],
+          "correctIndex": 1,
+          "explanation": "This correctly uses a signal phrase with the author's name, proper punctuation, and MLA citation format."
+        }
+      ]
+    }
+  },
+  {
+    "id": "wordiness-clarity",
+    "title": "Wordiness and Clarity",
+    "category": "academic-writing",
+    "description": "Eliminating unnecessary words and writing with clarity",
+    "keywords": ["clarity", "wordiness", "concise writing", "redundancy", "precise language"],
+    "content": "<p>Clear, concise writing communicates ideas efficiently without sacrificing meaning. Wordiness occurs when writers use more words than necessary, which can obscure meaning and frustrate readers. Academic writing values precision and clarity.</p><p>Common causes of wordiness: redundant phrases ('past history,' 'future plans'), weak verb constructions ('make a decision' instead of 'decide'), excessive prepositional phrases, and unnecessary qualifiers ('very,' 'really').</p><p>To improve clarity: Choose strong, specific verbs; eliminate redundancy; avoid empty phrases; get to the point quickly.</p>",
+    "examples": [
+      {
+        "label": "Wordy",
+        "text": "In my personal opinion, I believe that the use of cell phones while driving is a dangerous activity that should be avoided at all times."
+      },
+      {
+        "label": "Clear and Concise",
+        "text": "Using cell phones while driving is dangerous and should be avoided."
+      },
+      {
+        "label": "Wordy",
+        "text": "The reason why the experiment failed is due to the fact that the temperature was not maintained at the proper level."
+      },
+      {
+        "label": "Clear and Concise",
+        "text": "The experiment failed because the temperature was not properly maintained."
+      },
+      {
+        "label": "Redundant",
+        "text": "She repeated the same experiment again."
+      },
+      {
+        "label": "Concise",
+        "text": "She repeated the experiment."
+      }
+    ],
+    "resources": [
+      {
+        "title": "UNC Writing Center: Conciseness",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/conciseness-handout/"
+      },
+      {
+        "title": "Purdue OWL: Conciseness",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/index.html"
+      },
+      {
+        "title": "Guide to Grammar: Wordiness",
+        "url": "https://guidetogrammar.org/grammar/composition/wordiness.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which sentence is most concise?",
+          "options": [
+            "Due to the fact that it was raining, we decided to cancel the picnic.",
+            "Because of the rain, we cancelled the picnic.",
+            "The picnic was cancelled by us because it was raining.",
+            "It was raining, so the decision was made to cancel the picnic."
+          ],
+          "answer": "Because of the rain, we cancelled the picnic.",
+          "explanation": "This version eliminates wordy phrases like 'due to the fact that' and uses active voice."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which phrase is redundant?",
+          "sentences": [
+            "The final outcome",
+            "The quick decision",
+            "The important meeting",
+            "The clear explanation"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Final outcome' is redundant because 'outcome' already implies finality."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which revision removes unnecessary words?",
+          "options": [
+            "In the event that you are late, please call.",
+            "If you are going to be late, please call.",
+            "If you're late, call.",
+            "Should you be late, a call would be appreciated."
+          ],
+          "answer": "If you're late, call.",
+          "explanation": "This version is the most concise while maintaining the complete meaning."
+        },
+        {
+          "type": "true-false",
+          "question": "Writing concisely means making every sentence as short as possible.",
+          "answer": "False",
+          "explanation": "False. Concise writing means eliminating unnecessary words while preserving meaning and clarity, not just making sentences shorter."
+        }
+      ]
+    }
+  },
+  {
+    "id": "annotated-works-cited",
+    "title": "Annotated Works Cited",
+    "category": "mla-style",
+    "description": "Creating an annotated bibliography in MLA format",
+    "keywords": ["annotated bibliography", "annotation", "works cited", "summary", "evaluation"],
+    "content": "<p>An annotated bibliography (or annotated Works Cited page) includes the citation for each source followed by a brief annotation—a paragraph that summarizes, evaluates, and/or reflects on the source. Annotations help you think critically about your sources and explain their relevance to your research.</p><p>A typical annotation includes: (1) a summary of the source's main argument or content, (2) an evaluation of the source's credibility and usefulness, and (3) a reflection on how the source fits into your research.</p><p>Annotations are usually 150-200 words and appear immediately after each citation entry.</p>",
+    "examples": [
+      {
+        "label": "Full Annotated Entry",
+        "text": "Smith, John. Climate Change and Society. Oxford UP, 2020.\n\n     This book examines the social and economic impacts of climate change on communities worldwide. Smith argues that addressing climate change requires not only scientific solutions but also social policy reforms. The book is well-researched, drawing on data from multiple countries and disciplines. As a professor of environmental sociology, Smith brings credibility to his analysis. This source is useful for my research on community responses to climate change because it provides a framework for understanding how social structures affect environmental outcomes. The chapter on urban adaptation strategies will be particularly relevant to my argument."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Annotated Bibliographies",
+        "url": "https://owl.purdue.edu/owl/general_writing/common_writing_assignments/annotated_bibliographies/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Annotated Bibliographies",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/annotated-bibliographies/"
+      },
+      {
+        "title": "MLA Style Center: Annotated Bibliographies",
+        "url": "https://style.mla.org/citing-a-book-mla/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "true-false",
+          "question": "An annotation should only summarize the source's content.",
+          "answer": "False",
+          "explanation": "False. A good annotation summarizes, evaluates, and reflects on the source's relevance to your research."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What should appear first in an annotated bibliography entry?",
+          "options": [
+            "The annotation paragraph",
+            "The author's name only",
+            "The full MLA citation",
+            "A brief summary"
+          ],
+          "answer": "The full MLA citation",
+          "explanation": "The complete MLA citation comes first, followed by the annotation paragraph."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What is the typical length of an annotation?",
+          "options": [
+            "One sentence",
+            "50-75 words",
+            "150-200 words",
+            "500 words"
+          ],
+          "answer": "150-200 words",
+          "explanation": "Most annotations are about 150-200 words—long enough to summarize, evaluate, and reflect meaningfully."
+        },
+        {
+          "type": "true-false",
+          "question": "Annotations should be written in the same tone as the source you're annotating.",
+          "answer": "False",
+          "explanation": "False. Annotations should be written in your own voice, summarizing and evaluating the source objectively."
+        }
+      ]
+    }
+  },
+  {
+    "id": "who-whom",
+    "title": "Who vs. Whom",
+    "category": "common-errors",
+    "description": "Understanding when to use 'who' and 'whom'",
+    "keywords": ["who", "whom", "pronoun case", "subject", "object"],
+    "content": "<p>The difference between 'who' and 'whom' is based on grammatical function. Use 'who' when it's the subject of a verb (the one doing the action). Use 'whom' when it's the object of a verb or preposition (the one receiving the action).</p><p>A simple trick: If you can replace it with 'he' or 'she,' use 'who.' If you can replace it with 'him' or 'her,' use 'whom.'</p><p>Note: In informal speech and writing, 'who' is increasingly used in all positions, but formal academic writing still observes the who/whom distinction.</p>",
+    "examples": [
+      {
+        "label": "Subject (Who)",
+        "text": "Who ate the last cookie? (He ate it.)"
+      },
+      {
+        "label": "Object (Whom)",
+        "text": "To whom did you give the book? (You gave it to him.)"
+      },
+      {
+        "label": "Subject (Who)",
+        "text": "The student who studied hard passed the exam."
+      },
+      {
+        "label": "Object (Whom)",
+        "text": "The professor whom I respect most is retiring."
+      },
+      {
+        "label": "After Preposition (Whom)",
+        "text": "With whom are you going to the concert? (You're going with her.)"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Who vs. Whom",
+        "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/who_versus_whom.html"
+      },
+      {
+        "title": "Grammar Bytes: Who/Whom",
+        "url": "https://www.chompchomp.com/terms/relativepronoun.htm"
+      },
+      {
+        "title": "Guide to Grammar: Who/Whom",
+        "url": "https://guidetogrammar.org/grammar/pronouns1.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which is correct?",
+          "options": [
+            "Who did you call?",
+            "Whom did you call?",
+            "Both are acceptable",
+            "Neither is correct"
+          ],
+          "answer": "Whom did you call?",
+          "explanation": "In formal writing, 'whom' is correct because it's the object of the verb 'call' (You called him/her)."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Complete: The woman ___ lives next door is a doctor.",
+          "options": [
+            "who",
+            "whom",
+            "whose",
+            "which"
+          ],
+          "answer": "who",
+          "explanation": "'Who' is correct because it's the subject of 'lives' (She lives next door)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses 'whom' correctly?",
+          "sentences": [
+            "Whom is coming to dinner?",
+            "The person whom called is waiting.",
+            "She is someone whom I admire greatly.",
+            "Whom wants to volunteer?"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Whom' is correct here because it's the object of the verb 'admire' (I admire her)."
+        },
+        {
+          "type": "true-false",
+          "question": "After a preposition (to, for, with), you should use 'whom.'",
+          "answer": "True",
+          "explanation": "True. Pronouns that follow prepositions are objects, so 'whom' is correct: 'To whom did you speak?'"
+        }
+      ]
+    }
+  },
+  {
+    "id": "that-who-which",
+    "title": "That, Who, Which (Relative Pronouns)",
+    "category": "common-errors",
+    "description": "Choosing the correct relative pronoun",
+    "keywords": ["that", "who", "which", "relative pronoun", "restrictive clause", "nonrestrictive clause"],
+    "content": "<p>Relative pronouns connect clauses to nouns. The choice depends on whether you're referring to people or things, and whether the clause is essential (restrictive) or extra information (nonrestrictive).</p><p><strong>Who:</strong> Use for people in both restrictive and nonrestrictive clauses.</p><p><strong>That:</strong> Use for things in restrictive clauses (essential information, no commas). Can also be used for people in restrictive clauses, though 'who' is preferred.</p><p><strong>Which:</strong> Use for things in nonrestrictive clauses (extra information, use commas). In American English, 'which' typically requires commas.</p>",
+    "examples": [
+      {
+        "label": "People (Who)",
+        "text": "The student who studies hard will succeed."
+      },
+      {
+        "label": "Things - Essential (That)",
+        "text": "The book that I borrowed is due tomorrow."
+      },
+      {
+        "label": "Things - Extra Info (Which)",
+        "text": "The book, which I borrowed from the library, is excellent."
+      },
+      {
+        "label": "People - Extra Info (Who)",
+        "text": "My sister, who lives in Boston, is visiting next week."
+      },
+      {
+        "label": "Restrictive vs. Nonrestrictive",
+        "text": "Dogs that bark loudly annoy neighbors. (only the loud ones)\nDogs, which are loyal animals, make great pets. (all dogs)"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Relative Pronouns",
+        "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/relative_pronouns.html"
+      },
+      {
+        "title": "UNC Writing Center: Commas with Clauses",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/commas/"
+      },
+      {
+        "title": "Grammar Bytes: Relative Pronouns",
+        "url": "https://www.chompchomp.com/terms/relativepronoun.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which relative pronoun should you use for people?",
+          "options": [
+            "That only",
+            "Which only",
+            "Who or that",
+            "Which or that"
+          ],
+          "answer": "Who or that",
+          "explanation": "Both 'who' and 'that' can be used for people, though 'who' is generally preferred in formal writing."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Complete: The car ___ I bought is very reliable.",
+          "options": [
+            "who",
+            "that",
+            "which",
+            "whom"
+          ],
+          "answer": "that",
+          "explanation": "'That' is correct for a restrictive clause about a thing (no commas needed for essential information)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence correctly uses 'which'?",
+          "sentences": [
+            "The house which I want to buy is expensive.",
+            "People which live here are friendly.",
+            "The library, which opens at 9 AM, has many books.",
+            "The car which is red belongs to me."
+          ],
+          "correctIndex": 2,
+          "explanation": "This correctly uses 'which' with commas for nonrestrictive (extra) information about a thing."
+        },
+        {
+          "type": "true-false",
+          "question": "'Which' clauses should be set off with commas in American English.",
+          "answer": "True",
+          "explanation": "True. In American English, 'which' is typically used for nonrestrictive clauses that require commas."
         }
       ]
     }

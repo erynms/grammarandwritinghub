@@ -415,7 +415,52 @@ const keywordMappings = {
     'textual analysis': ['textual-analysis-thesis'],
     'literary thesis': ['textual-analysis-thesis'],
     'thesis about literature': ['textual-analysis-thesis'],
-    'thesis for literary analysis': ['textual-analysis-thesis']
+    'thesis for literary analysis': ['textual-analysis-thesis'],
+
+    // Signal Phrases
+    'signal phrase': ['mla-signal-phrases'],
+    'signal phrases': ['mla-signal-phrases'],
+    'introduce quote': ['mla-signal-phrases'],
+    'introducing quotes': ['mla-signal-phrases'],
+    'according to': ['mla-signal-phrases'],
+    'attribution': ['mla-signal-phrases'],
+    'source integration': ['mla-signal-phrases'],
+    'signal verb': ['mla-signal-phrases'],
+    'argues that': ['mla-signal-phrases'],
+    'states that': ['mla-signal-phrases'],
+
+    // Wordiness and Clarity
+    'clarity': ['wordiness-clarity', 'wordiness'],
+    'clear writing': ['wordiness-clarity'],
+    'redundancy': ['wordiness-clarity'],
+    'redundant': ['wordiness-clarity'],
+    'precise language': ['wordiness-clarity'],
+    'concise': ['wordiness-clarity', 'wordiness'],
+    'eliminate words': ['wordiness-clarity'],
+
+    // Annotated Bibliography
+    'annotated bibliography': ['annotated-works-cited'],
+    'annotated works cited': ['annotated-works-cited'],
+    'annotation': ['annotated-works-cited'],
+    'annotate': ['annotated-works-cited'],
+    'evaluate source': ['annotated-works-cited'],
+    'source summary': ['annotated-works-cited'],
+
+    // Who vs Whom
+    'who whom': ['who-whom'],
+    'who vs whom': ['who-whom'],
+    'whom': ['who-whom'],
+    'pronoun case': ['who-whom'],
+
+    // That/Who/Which
+    'that who which': ['that-who-which'],
+    'relative pronoun': ['that-who-which'],
+    'restrictive clause': ['that-who-which'],
+    'nonrestrictive clause': ['that-who-which'],
+    'which vs that': ['that-who-which'],
+    'that vs which': ['that-who-which'],
+    'essential clause': ['that-who-which'],
+    'comma which': ['that-who-which']
 };
 
 // Analyze a user's question
