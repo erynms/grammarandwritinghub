@@ -82,7 +82,7 @@
   {
     "id": "adjectives",
     "title": "Adjectives",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding adjectives: words that describe nouns",
     "keywords": [
       "adjective",
@@ -175,7 +175,7 @@
   {
     "id": "adverbs",
     "title": "Adverbs",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding adverbs: words that modify verbs, adjectives, and other adverbs",
     "keywords": [
       "adverb",
@@ -1309,7 +1309,7 @@
   {
     "id": "conjunctions",
     "title": "Conjunctions",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding conjunctions: words that connect",
     "keywords": [
       "conjunction",
@@ -1537,7 +1537,7 @@
   {
     "id": "interjections",
     "title": "Interjections",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding interjections: words that express emotion",
     "keywords": [
       "interjection",
@@ -2079,7 +2079,7 @@
   {
     "id": "nouns",
     "title": "Nouns",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding nouns: person, place, thing, or idea",
     "keywords": [
       "noun",
@@ -2298,7 +2298,7 @@
   {
     "id": "parts-of-speech",
     "title": "Parts of Speech",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding the eight parts of speech in English",
     "keywords": [
       "parts of speech",
@@ -2515,7 +2515,7 @@
   {
     "id": "prepositions-part-of-speech",
     "title": "Prepositions",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding prepositions: words that show relationships",
     "keywords": [
       "preposition",
@@ -2679,7 +2679,7 @@
   {
     "id": "pronouns-parts-of-speech",
     "title": "Pronouns",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding pronouns and pronoun case",
     "keywords": [
       "pronoun",
@@ -3752,7 +3752,7 @@
   {
     "id": "verbs",
     "title": "Verbs",
-    "category": "sentence-basics",
+    "category": "parts-of-speech",
     "description": "Understanding verbs: action, state of being, tense, and types",
     "keywords": [
       "verb",

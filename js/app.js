@@ -389,6 +389,7 @@ function setupTopicDetail() {
 function formatCategory(category) {
     const categoryNames = {
         'sentence-basics': 'Sentence Basics',
+        'parts-of-speech': 'Parts of Speech',
         'punctuation': 'Punctuation & Mechanics',
         'academic-writing': 'Academic Writing',
         'mla-style': 'MLA Style',
