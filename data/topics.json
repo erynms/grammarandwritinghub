@@ -56,7 +56,7 @@
             "The results were analyzed by the team."
           ],
           "correctIndex": 2,
-          "explanation": "'Maria threw the ball' is active voice—the subject (Maria) performs the action (threw)."
+          "explanation": "'Maria threw the ball' is active voice\u2014the subject (Maria) performs the action (threw)."
         },
         {
           "type": "multiple-choice",
@@ -239,7 +239,7 @@
             "better"
           ],
           "answer": "best",
-          "explanation": "'Good' has an irregular superlative: good → better → best."
+          "explanation": "'Good' has an irregular superlative: good \u2192 better \u2192 best."
         },
         {
           "type": "identify-error",
@@ -471,7 +471,7 @@
       },
       {
         "label": "Common Mistake",
-        "text": "Incorrect: The rain will effect the game. → Correct: The rain will affect the game."
+        "text": "Incorrect: The rain will effect the game. \u2192 Correct: The rain will affect the game."
       },
       {
         "label": "Note",
@@ -551,7 +551,7 @@
       "summary",
       "evaluation"
     ],
-    "content": "<p>An annotated bibliography (or annotated Works Cited page) includes the citation for each source followed by a brief annotation—a paragraph that summarizes, evaluates, and/or reflects on the source. Annotations help you think critically about your sources and explain their relevance to your research.</p><p>A typical annotation includes: (1) a summary of the source's main argument or content, (2) an evaluation of the source's credibility and usefulness, and (3) a reflection on how the source fits into your research.</p><p>Annotations are usually 150-200 words and appear immediately after each citation entry.</p>",
+    "content": "<p>An annotated bibliography (or annotated Works Cited page) includes the citation for each source followed by a brief annotation\u2014a paragraph that summarizes, evaluates, and/or reflects on the source. Annotations help you think critically about your sources and explain their relevance to your research.</p><p>A typical annotation includes: (1) a summary of the source's main argument or content, (2) an evaluation of the source's credibility and usefulness, and (3) a reflection on how the source fits into your research.</p><p>Annotations are usually 150-200 words and appear immediately after each citation entry.</p>",
     "examples": [
       {
         "label": "Full Annotated Entry",
@@ -602,7 +602,7 @@
             "500 words"
           ],
           "answer": "150-200 words",
-          "explanation": "Most annotations are about 150-200 words—long enough to summarize, evaluate, and reflect meaningfully."
+          "explanation": "Most annotations are about 150-200 words\u2014long enough to summarize, evaluate, and reflect meaningfully."
         },
         {
           "type": "true-false",
@@ -611,7 +611,15 @@
           "explanation": "False. Annotations should be written in your own voice, summarizing and evaluating the source objectively."
         }
       ]
-    }
+    },
+    "courses": [
+      "ENC1101",
+      "ENC1102",
+      "LIT1000",
+      "ENCV0025",
+      "ENCV0027",
+      "REAV0017"
+    ]
   },
   {
     "id": "apa-formatting",
@@ -1145,7 +1153,7 @@
             "In the poem, Robert Frost stops by woods on a snowy evening.",
             "In the poem, Emily Dickinson hears a fly buzz when she died.",
             "In the poem, the speaker stops by woods on a snowy evening.",
-            "In the story, Hemingway sits at a café in Paris."
+            "In the story, Hemingway sits at a caf\u00e9 in Paris."
           ],
           "correctIndex": 2,
           "explanation": "Correct! 'The speaker' (or 'the narrator') is the voice in the poem, distinct from Robert Frost the author."
@@ -1478,7 +1486,7 @@
             "The dog barked loudly."
           ],
           "correctIndex": 1,
-          "explanation": "'She likes coffee, he prefers tea' joins two independent clauses with only a comma—that's a comma splice."
+          "explanation": "'She likes coffee, he prefers tea' joins two independent clauses with only a comma\u2014that's a comma splice."
         },
         {
           "type": "multiple-choice",
@@ -1727,7 +1735,7 @@
             "Before leaving, we locked the door."
           ],
           "correctIndex": 1,
-          "explanation": "'Running late' modifies 'the bus,' but buses don't run late—people do. It should be: 'Because I was running late, the bus had already left.'"
+          "explanation": "'Running late' modifies 'the bus,' but buses don't run late\u2014people do. It should be: 'Because I was running late, the bus had already left.'"
         },
         {
           "type": "multiple-choice",
@@ -1755,7 +1763,7 @@
       "academic voice",
       "style"
     ],
-    "content": "<p>Academic writing typically uses a formal tone that's clear, objective, and professional. This doesn't mean being stuffy or using complicated words—it means being precise and respectful of your subject and audience.</p><p>Key elements: avoid contractions, minimize first/second person (I/you) in most academic writing, use precise vocabulary, avoid slang and colloquialisms, maintain objectivity.</p>",
+    "content": "<p>Academic writing typically uses a formal tone that's clear, objective, and professional. This doesn't mean being stuffy or using complicated words\u2014it means being precise and respectful of your subject and audience.</p><p>Key elements: avoid contractions, minimize first/second person (I/you) in most academic writing, use precise vocabulary, avoid slang and colloquialisms, maintain objectivity.</p>",
     "examples": [
       {
         "label": "Too Informal",
@@ -2165,7 +2173,7 @@
             "The narrator had described the house as gloomy and dark."
           ],
           "correctIndex": 1,
-          "explanation": "'The narrator describes' is correct—use present tense for actions in literature."
+          "explanation": "'The narrator describes' is correct\u2014use present tense for actions in literature."
         }
       ]
     }
@@ -2261,7 +2269,15 @@
           "explanation": "For two authors, use 'and' between the names: (Smith and Jones 45)."
         }
       ]
-    }
+    },
+    "courses": [
+      "ENC1101",
+      "ENC1102",
+      "LIT1000",
+      "ENCV0025",
+      "ENCV0027",
+      "REAV0017"
+    ]
   },
   {
     "id": "mla-signal-phrases",
@@ -2439,7 +2455,15 @@
           "explanation": "False. Like the rest of your MLA paper, the Works Cited page should be double-spaced."
         }
       ]
-    }
+    },
+    "courses": [
+      "ENC1101",
+      "ENC1102",
+      "LIT1000",
+      "ENCV0025",
+      "ENCV0027",
+      "REAV0017"
+    ]
   },
   {
     "id": "noun-phrases",
@@ -2516,7 +2540,7 @@
             "bicycle"
           ],
           "answer": "bicycle",
-          "explanation": "'Bicycle' is the head noun—the main noun being modified by the other words."
+          "explanation": "'Bicycle' is the head noun\u2014the main noun being modified by the other words."
         },
         {
           "type": "identify-error",
@@ -2594,7 +2618,7 @@
             "teacher"
           ],
           "answer": "Chicago",
-          "explanation": "'Chicago' is a proper noun—a specific place name that must be capitalized."
+          "explanation": "'Chicago' is a proper noun\u2014a specific place name that must be capitalized."
         },
         {
           "type": "multiple-choice",
@@ -2606,7 +2630,7 @@
             "Plural"
           ],
           "answer": "Abstract",
-          "explanation": "'Freedom' is an abstract noun—an idea or concept you cannot perceive with your senses."
+          "explanation": "'Freedom' is an abstract noun\u2014an idea or concept you cannot perceive with your senses."
         },
         {
           "type": "identify-error",
@@ -2618,7 +2642,7 @@
             "ideas"
           ],
           "correctIndex": 1,
-          "explanation": "'Children' is irregular (child → children), while the others follow regular plural patterns."
+          "explanation": "'Children' is irregular (child \u2192 children), while the others follow regular plural patterns."
         },
         {
           "type": "true-false",
@@ -2730,7 +2754,7 @@
       "support",
       "evidence"
     ],
-    "content": "<p>A well-developed paragraph has a clear main idea (topic sentence), supporting evidence, analysis, and unity. Each sentence should relate to the paragraph's main point.</p><p>Think of paragraph structure as: Point (topic sentence) → Evidence (support your point) → Explanation (show how evidence supports your point) → Link (connect to thesis or transition to next idea).</p>",
+    "content": "<p>A well-developed paragraph has a clear main idea (topic sentence), supporting evidence, analysis, and unity. Each sentence should relate to the paragraph's main point.</p><p>Think of paragraph structure as: Point (topic sentence) \u2192 Evidence (support your point) \u2192 Explanation (show how evidence supports your point) \u2192 Link (connect to thesis or transition to next idea).</p>",
     "examples": [
       {
         "label": "Underdeveloped",
@@ -2763,13 +2787,13 @@
             "The conclusion of the essay"
           ],
           "answer": "Analysis explaining how the evidence supports your point",
-          "explanation": "After presenting evidence, you need to explain its significance and show how it supports your point—don't assume readers will make the connection themselves."
+          "explanation": "After presenting evidence, you need to explain its significance and show how it supports your point\u2014don't assume readers will make the connection themselves."
         },
         {
           "type": "true-false",
           "question": "A paragraph can discuss multiple unrelated ideas.",
           "answer": "False",
-          "explanation": "False. Paragraphs should have unity—all sentences should relate to the main idea stated in the topic sentence."
+          "explanation": "False. Paragraphs should have unity\u2014all sentences should relate to the main idea stated in the topic sentence."
         }
       ]
     }
@@ -2855,7 +2879,7 @@
       "ing verb",
       "ed verb"
     ],
-    "content": "<p>A participle is a verb form that functions as an adjective. A participle phrase includes the participle plus any modifiers or objects.</p><p><strong>Types of Participles:</strong></p><ul><li><strong>Present Participle:</strong> Ends in -ing<br>Example: The <strong>running</strong> water is cold. / <strong>Running quickly</strong>, she caught the bus.</li><li><strong>Past Participle:</strong> Usually ends in -ed, -en, -d, -t, -n<br>Example: The <strong>broken</strong> window needs repair. / <strong>Exhausted from work</strong>, he fell asleep.</li></ul><p><strong>Placement:</strong></p><ul><li>Before the noun: The crying baby needs attention.</li><li>After the noun: The baby, crying loudly, needs attention.</li><li>At beginning of sentence: Crying loudly, the baby needs attention.</li></ul><p><strong>Note:</strong> Watch for dangling participles—make sure it's clear what noun the participle modifies!</p>",
+    "content": "<p>A participle is a verb form that functions as an adjective. A participle phrase includes the participle plus any modifiers or objects.</p><p><strong>Types of Participles:</strong></p><ul><li><strong>Present Participle:</strong> Ends in -ing<br>Example: The <strong>running</strong> water is cold. / <strong>Running quickly</strong>, she caught the bus.</li><li><strong>Past Participle:</strong> Usually ends in -ed, -en, -d, -t, -n<br>Example: The <strong>broken</strong> window needs repair. / <strong>Exhausted from work</strong>, he fell asleep.</li></ul><p><strong>Placement:</strong></p><ul><li>Before the noun: The crying baby needs attention.</li><li>After the noun: The baby, crying loudly, needs attention.</li><li>At beginning of sentence: Crying loudly, the baby needs attention.</li></ul><p><strong>Note:</strong> Watch for dangling participles\u2014make sure it's clear what noun the participle modifies!</p>",
     "examples": [
       {
         "label": "Present Participle",
@@ -2958,7 +2982,7 @@
       },
       {
         "label": "Better as Active",
-        "text": "The report was written by me. → I wrote the report."
+        "text": "The report was written by me. \u2192 I wrote the report."
       }
     ],
     "resources": [
@@ -2983,7 +3007,7 @@
             "We submitted our work on time."
           ],
           "correctIndex": 2,
-          "explanation": "'The papers were graded overnight' is passive—the subject (papers) receives the action."
+          "explanation": "'The papers were graded overnight' is passive\u2014the subject (papers) receives the action."
         },
         {
           "type": "multiple-choice",
@@ -3079,7 +3103,7 @@
       "from",
       "to"
     ],
-    "content": "<p>Prepositions show relationships between words in a sentence—typically relationships of place, time, or direction. A preposition is always followed by a noun or pronoun (the object of the preposition), forming a prepositional phrase.</p><p><strong>Common Prepositions:</strong></p><ul><li><strong>Place:</strong> in, on, at, under, over, between, among, behind, beside</li><li><strong>Time:</strong> at, on, in, during, before, after, since, until</li><li><strong>Direction:</strong> to, toward, from, into, onto, through</li><li><strong>Other:</strong> with, without, about, for, of, by</li></ul><p>For more detailed study of how prepositional phrases function in sentences, see our <strong>Prepositional Phrases</strong> topic.</p>",
+    "content": "<p>Prepositions show relationships between words in a sentence\u2014typically relationships of place, time, or direction. A preposition is always followed by a noun or pronoun (the object of the preposition), forming a prepositional phrase.</p><p><strong>Common Prepositions:</strong></p><ul><li><strong>Place:</strong> in, on, at, under, over, between, among, behind, beside</li><li><strong>Time:</strong> at, on, in, during, before, after, since, until</li><li><strong>Direction:</strong> to, toward, from, into, onto, through</li><li><strong>Other:</strong> with, without, about, for, of, by</li></ul><p>For more detailed study of how prepositional phrases function in sentences, see our <strong>Prepositional Phrases</strong> topic.</p>",
     "examples": [
       {
         "label": "Place",
@@ -3552,7 +3576,7 @@
       "incomplete sentence",
       "sentence structure"
     ],
-    "content": "<p>A sentence fragment is an incomplete sentence that's missing a subject, a verb, or doesn't express a complete thought. While fragments are common in casual conversation, academic writing requires complete sentences.</p><p>Every complete sentence needs three things: a subject (who or what), a verb (action or state of being), and a complete thought that can stand alone.</p><p>Remember: In academic contexts, we use complete sentences to ensure clarity and precision. This doesn't mean other ways of communicating are incorrect—just that formal writing has specific conventions.</p>",
+    "content": "<p>A sentence fragment is an incomplete sentence that's missing a subject, a verb, or doesn't express a complete thought. While fragments are common in casual conversation, academic writing requires complete sentences.</p><p>Every complete sentence needs three things: a subject (who or what), a verb (action or state of being), and a complete thought that can stand alone.</p><p>Remember: In academic contexts, we use complete sentences to ensure clarity and precision. This doesn't mean other ways of communicating are incorrect\u2014just that formal writing has specific conventions.</p>",
     "examples": [
       {
         "label": "Fragment",
@@ -3729,7 +3753,7 @@
             "The professor teaches three classes."
           ],
           "correctIndex": 3,
-          "explanation": "'The professor teaches' is correct—singular subject with singular verb. The others have agreement errors."
+          "explanation": "'The professor teaches' is correct\u2014singular subject with singular verb. The others have agreement errors."
         }
       ]
     }
@@ -3940,7 +3964,7 @@
       "main argument",
       "claim"
     ],
-    "content": "<p>A thesis statement is the central claim or main point of your essay. It tells readers what you will argue and usually appears at the end of your introduction.</p><p>A strong thesis is specific, arguable, and focused. It's not just a fact or observation—it's a claim that you'll support with evidence. Think of it as a promise to your reader about what your essay will demonstrate.</p>",
+    "content": "<p>A thesis statement is the central claim or main point of your essay. It tells readers what you will argue and usually appears at the end of your introduction.</p><p>A strong thesis is specific, arguable, and focused. It's not just a fact or observation\u2014it's a claim that you'll support with evidence. Think of it as a promise to your reader about what your essay will demonstrate.</p>",
     "examples": [
       {
         "label": "Weak (Too Broad)",
@@ -3991,7 +4015,7 @@
           "type": "true-false",
           "question": "A thesis statement should always be a fact that everyone agrees with.",
           "answer": "False",
-          "explanation": "False. A thesis should be arguable—something you need to prove with evidence, not a simple fact."
+          "explanation": "False. A thesis should be arguable\u2014something you need to prove with evidence, not a simple fact."
         },
         {
           "type": "multiple-choice",
@@ -4239,7 +4263,7 @@
       "ENC1102",
       "LIT1000"
     ],
-    "content": "<p>In literary analysis, quotes from the text serve as evidence for your arguments. Integrate them smoothly into your writing, analyze them, and always explain their significance.</p><p>Key principles:<br>- Introduce quotes with signal phrases<br>- Keep quotes relatively brief<br>- Follow quotes with analysis—never leave them standing alone<br>- Use quotes to support your point, not make it for you<br>- Cite page numbers or line numbers</p>",
+    "content": "<p>In literary analysis, quotes from the text serve as evidence for your arguments. Integrate them smoothly into your writing, analyze them, and always explain their significance.</p><p>Key principles:<br>- Introduce quotes with signal phrases<br>- Keep quotes relatively brief<br>- Follow quotes with analysis\u2014never leave them standing alone<br>- Use quotes to support your point, not make it for you<br>- Cite page numbers or line numbers</p>",
     "examples": [
       {
         "label": "Quote Sandwich (Good)",
@@ -4270,7 +4294,7 @@
           "type": "true-false",
           "question": "You should always explain the significance of a quote after including it.",
           "answer": "True",
-          "explanation": "True. Never leave a quote standing alone—always analyze it and explain how it supports your argument."
+          "explanation": "True. Never leave a quote standing alone\u2014always analyze it and explain how it supports your argument."
         },
         {
           "type": "multiple-choice",
@@ -4325,7 +4349,7 @@
       },
       {
         "label": "Intransitive (no object)",
-        "text": "The baby cried. (Cried what? Nothing—intransitive.)"
+        "text": "The baby cried. (Cried what? Nothing\u2014intransitive.)"
       },
       {
         "label": "Tense Change",
@@ -4374,7 +4398,7 @@
             "Future perfect"
           ],
           "answer": "Future perfect",
-          "explanation": "'Will have finished' is future perfect—an action that will be completed before a future time."
+          "explanation": "'Will have finished' is future perfect\u2014an action that will be completed before a future time."
         },
         {
           "type": "identify-error",
