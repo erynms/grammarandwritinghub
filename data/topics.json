@@ -2173,6 +2173,96 @@
     }
   },
   {
+    "id": "parts-of-speech",
+    "title": "Overview of Parts of Speech",
+    "category": "parts-of-speech",
+    "description": "Understanding the eight parts of speech in English",
+    "keywords": [
+      "parts of speech",
+      "grammar basics",
+      "word types",
+      "noun",
+      "verb",
+      "adjective",
+      "adverb",
+      "pronoun",
+      "preposition",
+      "conjunction",
+      "interjection"
+    ],
+    "content": "<p>The eight parts of speech are the building blocks of English sentences. Each word in a sentence functions as one of these parts, and understanding them helps you construct clear, grammatically correct sentences.</p><p><strong>The Eight Parts of Speech:</strong></p><ul><li><strong>Nouns:</strong> Person, place, thing, or idea (cat, Boston, happiness)</li><li><strong>Pronouns:</strong> Replace nouns (he, she, it, they)</li><li><strong>Verbs:</strong> Show action or state of being (run, is, think)</li><li><strong>Adjectives:</strong> Describe nouns (blue, tall, amazing)</li><li><strong>Adverbs:</strong> Describe verbs, adjectives, or other adverbs (quickly, very, well)</li><li><strong>Prepositions:</strong> Show relationships between words (in, on, at, by)</li><li><strong>Conjunctions:</strong> Connect words or groups of words (and, but, because)</li><li><strong>Interjections:</strong> Express emotion (wow, ouch, hey)</li></ul><p>Each part of speech has its own detailed topic for deeper study.</p>",
+    "examples": [
+      {
+        "label": "Sentence with All Parts",
+        "text": "Wow! The quick brown fox (nouns/adjectives) jumps (verb) quickly (adverb) over the lazy dog, and (conjunction) it (pronoun) lands in (preposition) the garden."
+      },
+      {
+        "label": "Identifying Parts",
+        "text": "She (pronoun) ran (verb) to (preposition) the (article) store (noun) quickly (adverb)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Parts of Speech",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Parts of Speech",
+        "url": "https://guidetogrammar.org/grammar/parts.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Grammar Rock",
+        "url": "https://www.youtube.com/playlist?list=PL1946989A1AB71B0A"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What part of speech is the word 'quickly' in this sentence: 'She ran quickly.'",
+          "options": [
+            "Adjective",
+            "Adverb",
+            "Verb",
+            "Noun"
+          ],
+          "answer": "Adverb",
+          "explanation": "'Quickly' describes how she ran (modifies the verb), making it an adverb."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What part of speech connects words or groups of words?",
+          "options": [
+            "Preposition",
+            "Conjunction",
+            "Interjection",
+            "Pronoun"
+          ],
+          "answer": "Conjunction",
+          "explanation": "Conjunctions connect words, phrases, or clauses (and, but, or, because)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which word is a pronoun?",
+          "sentences": [
+            "quickly",
+            "they",
+            "beautiful",
+            "jump"
+          ],
+          "correctIndex": 1,
+          "explanation": "'They' is a pronoun that replaces a noun."
+        },
+        {
+          "type": "true-false",
+          "question": "A word can only be one part of speech.",
+          "answer": "False",
+          "explanation": "False. Many words can function as different parts of speech depending on context (e.g., 'run' can be a noun or a verb)."
+        }
+      ]
+    }
+  },
+  {
     "id": "paragraph-development",
     "title": "Paragraph Development",
     "category": "academic-writing",
@@ -2291,96 +2381,6 @@
           ],
           "correctIndex": 1,
           "explanation": "All three items are adjectives (kind, helpful, patient), maintaining parallel structure."
-        }
-      ]
-    }
-  },
-  {
-    "id": "parts-of-speech",
-    "title": "Parts of Speech",
-    "category": "parts-of-speech",
-    "description": "Understanding the eight parts of speech in English",
-    "keywords": [
-      "parts of speech",
-      "grammar basics",
-      "word types",
-      "noun",
-      "verb",
-      "adjective",
-      "adverb",
-      "pronoun",
-      "preposition",
-      "conjunction",
-      "interjection"
-    ],
-    "content": "<p>The eight parts of speech are the building blocks of English sentences. Each word in a sentence functions as one of these parts, and understanding them helps you construct clear, grammatically correct sentences.</p><p><strong>The Eight Parts of Speech:</strong></p><ul><li><strong>Nouns:</strong> Person, place, thing, or idea (cat, Boston, happiness)</li><li><strong>Pronouns:</strong> Replace nouns (he, she, it, they)</li><li><strong>Verbs:</strong> Show action or state of being (run, is, think)</li><li><strong>Adjectives:</strong> Describe nouns (blue, tall, amazing)</li><li><strong>Adverbs:</strong> Describe verbs, adjectives, or other adverbs (quickly, very, well)</li><li><strong>Prepositions:</strong> Show relationships between words (in, on, at, by)</li><li><strong>Conjunctions:</strong> Connect words or groups of words (and, but, because)</li><li><strong>Interjections:</strong> Express emotion (wow, ouch, hey)</li></ul><p>Each part of speech has its own detailed topic for deeper study.</p>",
-    "examples": [
-      {
-        "label": "Sentence with All Parts",
-        "text": "Wow! The quick brown fox (nouns/adjectives) jumps (verb) quickly (adverb) over the lazy dog, and (conjunction) it (pronoun) lands in (preposition) the garden."
-      },
-      {
-        "label": "Identifying Parts",
-        "text": "She (pronoun) ran (verb) to (preposition) the (article) store (noun) quickly (adverb)."
-      }
-    ],
-    "resources": [
-      {
-        "title": "Purdue OWL: Parts of Speech",
-        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
-      },
-      {
-        "title": "Guide to Grammar: Parts of Speech",
-        "url": "https://guidetogrammar.org/grammar/parts.htm"
-      },
-      {
-        "title": "Schoolhouse Rock: Grammar Rock",
-        "url": "https://www.youtube.com/playlist?list=PL1946989A1AB71B0A"
-      }
-    ],
-    "quiz": {
-      "questions": [
-        {
-          "type": "multiple-choice",
-          "question": "What part of speech is the word 'quickly' in this sentence: 'She ran quickly.'",
-          "options": [
-            "Adjective",
-            "Adverb",
-            "Verb",
-            "Noun"
-          ],
-          "answer": "Adverb",
-          "explanation": "'Quickly' describes how she ran (modifies the verb), making it an adverb."
-        },
-        {
-          "type": "multiple-choice",
-          "question": "What part of speech connects words or groups of words?",
-          "options": [
-            "Preposition",
-            "Conjunction",
-            "Interjection",
-            "Pronoun"
-          ],
-          "answer": "Conjunction",
-          "explanation": "Conjunctions connect words, phrases, or clauses (and, but, or, because)."
-        },
-        {
-          "type": "identify-error",
-          "question": "Which word is a pronoun?",
-          "sentences": [
-            "quickly",
-            "they",
-            "beautiful",
-            "jump"
-          ],
-          "correctIndex": 1,
-          "explanation": "'They' is a pronoun that replaces a noun."
-        },
-        {
-          "type": "true-false",
-          "question": "A word can only be one part of speech.",
-          "answer": "False",
-          "explanation": "False. Many words can function as different parts of speech depending on context (e.g., 'run' can be a noun or a verb)."
         }
       ]
     }
