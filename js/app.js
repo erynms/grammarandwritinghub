@@ -56,6 +56,10 @@ async function loadTopics() {
         topics = filterTopicsByCourse(allTopics, userCourse);
 
         window.topics = topics; // Make topics available globally for question analyzer
+
+        // Update which category buttons are visible based on available topics
+        updateCategoryButtonVisibility(topics);
+
         displayTopics(topics);
         console.log('All topics loaded:', allTopics.length);
         console.log('Topics for', userCourse + ':', topics.length);
@@ -64,6 +68,30 @@ async function loadTopics() {
         document.getElementById('topicsList').innerHTML =
             '<p>Error loading topics. Please refresh the page.</p>';
     }
+}
+
+// Update visibility of category filter buttons based on available topics
+function updateCategoryButtonVisibility(filteredTopics) {
+    // Get unique categories from filtered topics
+    const availableCategories = new Set(filteredTopics.map(topic => topic.category));
+
+    // Loop through all filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        const category = btn.dataset.category;
+
+        // Always show "All Topics" button
+        if (category === 'all') {
+            btn.style.display = 'inline-block';
+            return;
+        }
+
+        // Show button only if there are topics in that category
+        if (availableCategories.has(category)) {
+            btn.style.display = 'inline-block';
+        } else {
+            btn.style.display = 'none';
+        }
+    });
 }
 
 // Display topics in grid
