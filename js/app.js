@@ -390,6 +390,7 @@ function formatCategory(category) {
     const categoryNames = {
         'sentence-basics': 'Sentence Basics',
         'parts-of-speech': 'Parts of Speech',
+        'phrases-clauses': 'Phrases & Clauses',
         'punctuation': 'Punctuation & Mechanics',
         'academic-writing': 'Academic Writing',
         'mla-style': 'MLA Style',

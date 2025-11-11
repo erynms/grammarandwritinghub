@@ -543,7 +543,50 @@ const keywordMappings = {
     'interjections': ['interjections'],
     'exclamation': ['interjections'],
     'wow ouch hey': ['interjections'],
-    'emotion words': ['interjections']
+    'emotion words': ['interjections'],
+
+    // Phrases and Clauses
+    'phrase': ['noun-phrases', 'adjective-phrases', 'adverb-phrases'],
+    'phrases': ['noun-phrases', 'adjective-phrases', 'adverb-phrases'],
+
+    // Noun Phrases
+    'noun phrase': ['noun-phrases'],
+    'noun phrases': ['noun-phrases'],
+    'noun group': ['noun-phrases'],
+    'head noun': ['noun-phrases'],
+
+    // Adjective Phrases
+    'adjective phrase': ['adjective-phrases'],
+    'adjective phrases': ['adjective-phrases'],
+    'descriptive phrase': ['adjective-phrases'],
+    'modifying phrase': ['adjective-phrases'],
+
+    // Adverb Phrases
+    'adverb phrase': ['adverb-phrases'],
+    'adverb phrases': ['adverb-phrases'],
+    'adverbial phrase': ['adverb-phrases'],
+
+    // Appositive Phrases
+    'appositive': ['appositive-phrases'],
+    'appositives': ['appositive-phrases'],
+    'appositive phrase': ['appositive-phrases'],
+    'rename noun': ['appositive-phrases'],
+    'comma appositive': ['appositive-phrases'],
+
+    // Gerund Phrases
+    'gerund': ['gerund-phrases'],
+    'gerunds': ['gerund-phrases'],
+    'gerund phrase': ['gerund-phrases'],
+    'ing verb': ['gerund-phrases', 'participle-phrases'],
+    'verbal noun': ['gerund-phrases'],
+
+    // Participle Phrases
+    'participle': ['participle-phrases'],
+    'participles': ['participle-phrases'],
+    'participle phrase': ['participle-phrases'],
+    'present participle': ['participle-phrases'],
+    'past participle': ['participle-phrases'],
+    'ed verb': ['participle-phrases']
 };
 
 // Analyze a user's question

@@ -80,6 +80,96 @@
     }
   },
   {
+    "id": "adjective-phrases",
+    "title": "Adjective Phrases",
+    "category": "phrases-clauses",
+    "description": "Understanding adjective phrases and how they modify nouns",
+    "keywords": [
+      "adjective phrase",
+      "modifying phrase",
+      "descriptive phrase"
+    ],
+    "content": "<p>An adjective phrase is a group of words that describes a noun or pronoun. It functions like an adjective in a sentence.</p><p><strong>Types of Adjective Phrases:</strong></p><ul><li><strong>Prepositional Phrases:</strong> The book on the table is mine. ('on the table' describes which book)</li><li><strong>Participial Phrases:</strong> The man wearing a hat is my uncle. ('wearing a hat' describes the man)</li><li><strong>Infinitive Phrases:</strong> She is the first to arrive. ('to arrive' describes 'first')</li></ul><p>Adjective phrases usually come immediately after the noun they modify, though they can sometimes come before.</p>",
+    "examples": [
+      {
+        "label": "Prepositional",
+        "text": "The house across the street is for sale."
+      },
+      {
+        "label": "Participial",
+        "text": "The students sitting in the front row are very attentive."
+      },
+      {
+        "label": "With Intensifier",
+        "text": "She is extremely proud of her accomplishment."
+      },
+      {
+        "label": "After Linking Verb",
+        "text": "The movie was full of suspense."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Adjective Phrases",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Adjectives and Adjective Phrases",
+        "url": "https://guidetogrammar.org/grammar/adjectives.htm"
+      },
+      {
+        "title": "UNC Writing Center: Phrases",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/phrases-and-clauses/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Identify the adjective phrase: 'The woman in the red dress smiled.'",
+          "options": [
+            "The woman",
+            "in the red dress",
+            "red dress",
+            "smiled"
+          ],
+          "answer": "in the red dress",
+          "explanation": "'In the red dress' is an adjective phrase describing which woman."
+        },
+        {
+          "type": "true-false",
+          "question": "Adjective phrases always come before the noun they modify.",
+          "answer": "False",
+          "explanation": "False. Adjective phrases usually come after the noun they modify."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What does the phrase modify in 'The assignment due tomorrow is difficult'?",
+          "options": [
+            "tomorrow",
+            "assignment",
+            "is",
+            "difficult"
+          ],
+          "answer": "assignment",
+          "explanation": "'Due tomorrow' is an adjective phrase modifying the noun 'assignment.'"
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence contains an adjective phrase?",
+          "sentences": [
+            "She ran quickly.",
+            "He is tall.",
+            "The book on the shelf is mine.",
+            "They laughed."
+          ],
+          "correctIndex": 2,
+          "explanation": "'On the shelf' is an adjective phrase describing which book."
+        }
+      ]
+    }
+  },
+  {
     "id": "adjectives",
     "title": "Adjectives",
     "category": "parts-of-speech",
@@ -168,6 +258,97 @@
           "question": "Adjectives can only come before nouns.",
           "answer": "False",
           "explanation": "False. Adjectives can also come after linking verbs (The sky is blue)."
+        }
+      ]
+    }
+  },
+  {
+    "id": "adverb-phrases",
+    "title": "Adverb Phrases",
+    "category": "phrases-clauses",
+    "description": "Understanding adverb phrases and how they modify verbs, adjectives, and adverbs",
+    "keywords": [
+      "adverb phrase",
+      "adverbial phrase",
+      "modify verb",
+      "how when where"
+    ],
+    "content": "<p>An adverb phrase is a group of words that functions as an adverb, modifying a verb, adjective, or another adverb. Adverb phrases tell how, when, where, why, or to what extent.</p><p><strong>Types of Adverb Phrases:</strong></p><ul><li><strong>Prepositional Phrases:</strong> She arrived at noon. (when?)</li><li><strong>Infinitive Phrases:</strong> He studies to improve his grades. (why?)</li><li><strong>Multiple Words:</strong> Very carefully (modifies verb)</li></ul><p><strong>What They Modify:</strong></p><ul><li><strong>Verbs:</strong> They walked in the park.</li><li><strong>Adjectives:</strong> The soup is too hot to eat.</li><li><strong>Adverbs:</strong> She works extremely efficiently.</li></ul>",
+    "examples": [
+      {
+        "label": "How",
+        "text": "She spoke with great enthusiasm."
+      },
+      {
+        "label": "When",
+        "text": "We'll meet in the morning."
+      },
+      {
+        "label": "Where",
+        "text": "They went to the store."
+      },
+      {
+        "label": "Why",
+        "text": "He exercises to stay healthy."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Adverb Phrases",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Adverbs",
+        "url": "https://guidetogrammar.org/grammar/adverbs.htm"
+      },
+      {
+        "title": "UNC Writing Center: Phrases",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/phrases-and-clauses/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Identify the adverb phrase: 'She danced with incredible grace.'",
+          "options": [
+            "She danced",
+            "danced with",
+            "with incredible grace",
+            "incredible grace"
+          ],
+          "answer": "with incredible grace",
+          "explanation": "'With incredible grace' is an adverb phrase telling how she danced."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What question does the phrase answer in 'They arrived after midnight'?",
+          "options": [
+            "How?",
+            "When?",
+            "Where?",
+            "Why?"
+          ],
+          "answer": "When?",
+          "explanation": "'After midnight' tells when they arrived."
+        },
+        {
+          "type": "true-false",
+          "question": "Adverb phrases can only modify verbs.",
+          "answer": "False",
+          "explanation": "False. Adverb phrases can modify verbs, adjectives, or other adverbs."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which contains an adverb phrase?",
+          "sentences": [
+            "The book is red.",
+            "She is very tall.",
+            "He runs in the park.",
+            "They are students."
+          ],
+          "correctIndex": 2,
+          "explanation": "'In the park' is an adverb phrase telling where he runs."
         }
       ]
     }
@@ -795,6 +976,98 @@
           ],
           "correctIndex": 1,
           "explanation": "'The dog's bowl' shows that the bowl belongs to the dog (singular possessive)."
+        }
+      ]
+    }
+  },
+  {
+    "id": "appositive-phrases",
+    "title": "Appositive Phrases",
+    "category": "phrases-clauses",
+    "description": "Understanding appositives: phrases that rename or explain nouns",
+    "keywords": [
+      "appositive",
+      "appositive phrase",
+      "rename noun",
+      "explain noun",
+      "comma appositive"
+    ],
+    "content": "<p>An appositive is a noun or noun phrase that renames or explains another noun right beside it. Appositives provide additional information about the noun.</p><p><strong>Types of Appositives:</strong></p><ul><li><strong>Essential (Restrictive):</strong> Necessary to identify the noun, no commas<br>Example: My brother <strong>John</strong> is a doctor. (if you have multiple brothers)</li><li><strong>Non-essential (Nonrestrictive):</strong> Adds extra information, use commas<br>Example: My brother, <strong>John</strong>, is a doctor. (if you have only one brother)</li></ul><p><strong>Punctuation Rules:</strong></p><ul><li>Use commas to set off non-essential appositives</li><li>Do not use commas with essential appositives</li><li>Non-essential appositives can be removed without changing the sentence's meaning</li></ul>",
+    "examples": [
+      {
+        "label": "Essential",
+        "text": "The poet Robert Frost wrote 'The Road Not Taken.'"
+      },
+      {
+        "label": "Non-essential",
+        "text": "Robert Frost, a famous poet, wrote 'The Road Not Taken.'"
+      },
+      {
+        "label": "Beginning of Sentence",
+        "text": "A renowned scientist, Marie Curie discovered radium."
+      },
+      {
+        "label": "End of Sentence",
+        "text": "I visited Boston, the capital of Massachusetts."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Appositives",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/commas/extended_rules_for_commas.html"
+      },
+      {
+        "title": "Guide to Grammar: Appositives",
+        "url": "https://guidetogrammar.org/grammar/phrases.htm"
+      },
+      {
+        "title": "UNC Writing Center: Commas",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/commas/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Identify the appositive: 'My friend Maria is visiting.'",
+          "options": [
+            "My friend",
+            "Maria",
+            "is visiting",
+            "friend Maria"
+          ],
+          "answer": "Maria",
+          "explanation": "'Maria' is the appositive that renames 'my friend.'"
+        },
+        {
+          "type": "true-false",
+          "question": "All appositives need commas.",
+          "answer": "False",
+          "explanation": "False. Essential appositives (needed to identify the noun) do not use commas."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is punctuated correctly?",
+          "options": [
+            "My sister Sarah is a teacher.",
+            "My sister, Sarah is a teacher.",
+            "My sister, Sarah, is a teacher.",
+            "My sister Sarah, is a teacher."
+          ],
+          "answer": "My sister, Sarah, is a teacher.",
+          "explanation": "If Sarah is non-essential information, use commas on both sides of the appositive."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses an appositive?",
+          "sentences": [
+            "She is very kind.",
+            "The dog barked loudly.",
+            "My car, a Honda, is reliable.",
+            "They walked home."
+          ],
+          "correctIndex": 2,
+          "explanation": "'A Honda' is an appositive that renames 'my car.'"
         }
       ]
     }
@@ -1535,6 +1808,98 @@
     }
   },
   {
+    "id": "gerund-phrases",
+    "title": "Gerund Phrases",
+    "category": "phrases-clauses",
+    "description": "Understanding gerunds: -ing verbs used as nouns",
+    "keywords": [
+      "gerund",
+      "gerund phrase",
+      "ing verb",
+      "verbal noun",
+      "noun function"
+    ],
+    "content": "<p>A gerund is a verb form ending in -ing that functions as a noun. A gerund phrase includes the gerund plus any modifiers or objects.</p><p><strong>Functions of Gerund Phrases:</strong></p><ul><li><strong>Subject:</strong> Swimming is good exercise.</li><li><strong>Direct Object:</strong> I enjoy reading books.</li><li><strong>Object of Preposition:</strong> She is good at solving problems.</li><li><strong>Subject Complement:</strong> My hobby is collecting stamps.</li></ul><p><strong>Gerund vs. Present Participle:</strong></p><ul><li><strong>Gerund:</strong> Acts as a noun (Running is fun.)</li><li><strong>Present Participle:</strong> Acts as adjective or part of verb (The running water.../ She is running.)</li></ul><p>To identify: If you can replace it with 'it' or 'something,' it's a gerund.</p>",
+    "examples": [
+      {
+        "label": "As Subject",
+        "text": "Reading books improves vocabulary."
+      },
+      {
+        "label": "As Object",
+        "text": "She loves playing piano."
+      },
+      {
+        "label": "After Preposition",
+        "text": "Thank you for helping me."
+      },
+      {
+        "label": "With Modifiers",
+        "text": "Walking slowly through the park relaxes me."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Gerunds",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/gerunds_participles_and_infinitives/gerunds.html"
+      },
+      {
+        "title": "Guide to Grammar: Gerunds",
+        "url": "https://guidetogrammar.org/grammar/verbals.htm"
+      },
+      {
+        "title": "UNC Writing Center: Gerunds and Infinitives",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/gerunds-and-infinitives/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Identify the gerund phrase: 'Studying hard helps students succeed.'",
+          "options": [
+            "Studying hard",
+            "hard helps",
+            "helps students",
+            "students succeed"
+          ],
+          "answer": "Studying hard",
+          "explanation": "'Studying hard' is a gerund phrase functioning as the subject."
+        },
+        {
+          "type": "true-false",
+          "question": "All words ending in -ing are gerunds.",
+          "answer": "False",
+          "explanation": "False. -ing words can be gerunds (nouns), present participles (adjectives), or part of progressive verbs."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What function does the gerund have in 'I enjoy swimming'?",
+          "options": [
+            "Subject",
+            "Direct object",
+            "Subject complement",
+            "Adjective"
+          ],
+          "answer": "Direct object",
+          "explanation": "'Swimming' is the direct object of the verb 'enjoy.'"
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence contains a gerund?",
+          "sentences": [
+            "The running water is cold.",
+            "Running is healthy.",
+            "She is running fast.",
+            "The runner finished."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Running' functions as a noun (the subject) in this sentence."
+        }
+      ]
+    }
+  },
+  {
     "id": "interjections",
     "title": "Interjections",
     "category": "parts-of-speech",
@@ -2077,6 +2442,98 @@
     }
   },
   {
+    "id": "noun-phrases",
+    "title": "Noun Phrases",
+    "category": "phrases-clauses",
+    "description": "Understanding noun phrases and how they function in sentences",
+    "keywords": [
+      "noun phrase",
+      "noun group",
+      "determiner",
+      "modifier",
+      "head noun"
+    ],
+    "content": "<p>A noun phrase is a group of words that functions as a noun in a sentence. It consists of a head noun and all its modifiers (words that describe or limit the noun).</p><p><strong>Components of a Noun Phrase:</strong></p><ul><li><strong>Determiner:</strong> the, a, an, this, that, my, your, some</li><li><strong>Adjectives:</strong> descriptive words</li><li><strong>Head Noun:</strong> the main noun</li><li><strong>Prepositional Phrases:</strong> phrases that modify the noun</li><li><strong>Relative Clauses:</strong> clauses that describe the noun</li></ul><p>Noun phrases can be subjects, objects, or complements in sentences.</p>",
+    "examples": [
+      {
+        "label": "Simple",
+        "text": "The cat (determiner + noun)"
+      },
+      {
+        "label": "With Adjective",
+        "text": "The fluffy white cat (determiner + adjectives + noun)"
+      },
+      {
+        "label": "With Prepositional Phrase",
+        "text": "The cat on the mat (determiner + noun + prepositional phrase)"
+      },
+      {
+        "label": "Complex",
+        "text": "The extremely intelligent student from Boston who loves mathematics"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Phrases",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/gerunds_participles_and_infinitives/index.html"
+      },
+      {
+        "title": "Guide to Grammar: Phrases",
+        "url": "https://guidetogrammar.org/grammar/phrases.htm"
+      },
+      {
+        "title": "UNC Writing Center: Phrases and Clauses",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/relative-clauses/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Identify the noun phrase: 'The tall building collapsed.'",
+          "options": [
+            "The tall",
+            "tall building",
+            "The tall building",
+            "building collapsed"
+          ],
+          "answer": "The tall building",
+          "explanation": "'The tall building' is the complete noun phrase (determiner + adjective + noun)."
+        },
+        {
+          "type": "true-false",
+          "question": "A noun phrase must have more than one word.",
+          "answer": "False",
+          "explanation": "False. A single noun like 'Dogs' can be a noun phrase by itself."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What is the head noun in 'my favorite red bicycle'?",
+          "options": [
+            "my",
+            "favorite",
+            "red",
+            "bicycle"
+          ],
+          "answer": "bicycle",
+          "explanation": "'Bicycle' is the head noun—the main noun being modified by the other words."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which is NOT part of the noun phrase in 'The student studies hard'?",
+          "sentences": [
+            "The",
+            "student",
+            "studies",
+            "hard"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Studies' is the verb, not part of the noun phrase 'The student.'"
+        }
+      ]
+    }
+  },
+  {
     "id": "nouns",
     "title": "Nouns",
     "category": "parts-of-speech",
@@ -2381,6 +2838,99 @@
           ],
           "correctIndex": 1,
           "explanation": "All three items are adjectives (kind, helpful, patient), maintaining parallel structure."
+        }
+      ]
+    }
+  },
+  {
+    "id": "participle-phrases",
+    "title": "Participle Phrases",
+    "category": "phrases-clauses",
+    "description": "Understanding participles: verb forms used as adjectives",
+    "keywords": [
+      "participle",
+      "participle phrase",
+      "present participle",
+      "past participle",
+      "ing verb",
+      "ed verb"
+    ],
+    "content": "<p>A participle is a verb form that functions as an adjective. A participle phrase includes the participle plus any modifiers or objects.</p><p><strong>Types of Participles:</strong></p><ul><li><strong>Present Participle:</strong> Ends in -ing<br>Example: The <strong>running</strong> water is cold. / <strong>Running quickly</strong>, she caught the bus.</li><li><strong>Past Participle:</strong> Usually ends in -ed, -en, -d, -t, -n<br>Example: The <strong>broken</strong> window needs repair. / <strong>Exhausted from work</strong>, he fell asleep.</li></ul><p><strong>Placement:</strong></p><ul><li>Before the noun: The crying baby needs attention.</li><li>After the noun: The baby, crying loudly, needs attention.</li><li>At beginning of sentence: Crying loudly, the baby needs attention.</li></ul><p><strong>Note:</strong> Watch for dangling participles—make sure it's clear what noun the participle modifies!</p>",
+    "examples": [
+      {
+        "label": "Present Participle",
+        "text": "The barking dog woke me up."
+      },
+      {
+        "label": "Past Participle",
+        "text": "The painted fence looks beautiful."
+      },
+      {
+        "label": "Phrase at Beginning",
+        "text": "Smiling brightly, she accepted the award."
+      },
+      {
+        "label": "Phrase After Noun",
+        "text": "The student, confused by the instructions, asked for help."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Participles",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/gerunds_participles_and_infinitives/participles.html"
+      },
+      {
+        "title": "Guide to Grammar: Participles",
+        "url": "https://guidetogrammar.org/grammar/verbals.htm"
+      },
+      {
+        "title": "UNC Writing Center: Participles",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/participles/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Identify the participle phrase: 'The book written by Hemingway is famous.'",
+          "options": [
+            "The book",
+            "written by Hemingway",
+            "by Hemingway",
+            "is famous"
+          ],
+          "answer": "written by Hemingway",
+          "explanation": "'Written by Hemingway' is a past participle phrase modifying 'book.'"
+        },
+        {
+          "type": "true-false",
+          "question": "Participles function as adjectives in sentences.",
+          "answer": "True",
+          "explanation": "True. Participles are verb forms that act as adjectives to modify nouns."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What does 'running' modify in 'The running water'?",
+          "options": [
+            "Nothing",
+            "water",
+            "The",
+            "running"
+          ],
+          "answer": "water",
+          "explanation": "'Running' is a present participle modifying the noun 'water.'"
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence has a past participle?",
+          "sentences": [
+            "The breaking news is important.",
+            "She is writing.",
+            "The written report is complete.",
+            "Writing quickly, he finished."
+          ],
+          "correctIndex": 2,
+          "explanation": "'Written' is a past participle modifying 'report.'"
         }
       ]
     }
