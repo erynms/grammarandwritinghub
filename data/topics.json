@@ -80,6 +80,194 @@
     }
   },
   {
+    "id": "adjectives",
+    "title": "Adjectives",
+    "category": "sentence-basics",
+    "description": "Understanding adjectives: words that describe nouns",
+    "keywords": [
+      "adjective",
+      "descriptive",
+      "modify noun",
+      "comparative",
+      "superlative",
+      "article"
+    ],
+    "content": "<p>Adjectives describe or modify nouns and pronouns. They answer questions like: Which one? What kind? How many?</p><p><strong>Types of Adjectives:</strong></p><ul><li><strong>Descriptive:</strong> Describe qualities (blue, tall, happy, ancient)</li><li><strong>Quantitative:</strong> Tell how many or how much (three, many, some)</li><li><strong>Demonstrative:</strong> Point out specific things (this, that, these, those)</li><li><strong>Articles:</strong> A, an, the</li></ul><p><strong>Degrees of Comparison:</strong></p><ul><li><strong>Positive:</strong> Base form (tall, beautiful)</li><li><strong>Comparative:</strong> Compares two (taller, more beautiful)</li><li><strong>Superlative:</strong> Compares three or more (tallest, most beautiful)</li></ul><p>Adjectives usually come before the noun they modify, but can come after linking verbs.</p>",
+    "examples": [
+      {
+        "label": "Before Noun",
+        "text": "The red car drove quickly."
+      },
+      {
+        "label": "After Linking Verb",
+        "text": "The car is red."
+      },
+      {
+        "label": "Comparative",
+        "text": "She is taller than her brother."
+      },
+      {
+        "label": "Superlative",
+        "text": "He is the tallest player on the team."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Adjectives",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Adjectives",
+        "url": "https://guidetogrammar.org/grammar/adjectives.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Unpack Your Adjectives",
+        "url": "https://www.youtube.com/watch?v=NkuuZEey_bs"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which word is an adjective?",
+          "options": [
+            "quickly",
+            "beautiful",
+            "run",
+            "slowly"
+          ],
+          "answer": "beautiful",
+          "explanation": "'Beautiful' describes a noun, making it an adjective. The others are adverbs or verbs."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What is the superlative form of 'good'?",
+          "options": [
+            "gooder",
+            "more good",
+            "best",
+            "better"
+          ],
+          "answer": "best",
+          "explanation": "'Good' has an irregular superlative: good → better → best."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses an adjective correctly?",
+          "sentences": [
+            "She runs quick.",
+            "The cake tastes sweetly.",
+            "He is a careful driver.",
+            "They work hardly."
+          ],
+          "correctIndex": 2,
+          "explanation": "'Careful' is an adjective describing the noun 'driver.'"
+        },
+        {
+          "type": "true-false",
+          "question": "Adjectives can only come before nouns.",
+          "answer": "False",
+          "explanation": "False. Adjectives can also come after linking verbs (The sky is blue)."
+        }
+      ]
+    }
+  },
+  {
+    "id": "adverbs",
+    "title": "Adverbs",
+    "category": "sentence-basics",
+    "description": "Understanding adverbs: words that modify verbs, adjectives, and other adverbs",
+    "keywords": [
+      "adverb",
+      "modify verb",
+      "modify adjective",
+      "ly words",
+      "how",
+      "when",
+      "where",
+      "to what extent"
+    ],
+    "content": "<p>Adverbs modify verbs, adjectives, or other adverbs. They answer: How? When? Where? To what extent?</p><p><strong>What Adverbs Modify:</strong></p><ul><li><strong>Verbs:</strong> She ran quickly. (How did she run?)</li><li><strong>Adjectives:</strong> The very tall building (How tall?)</li><li><strong>Other Adverbs:</strong> He runs extremely fast. (How fast?)</li></ul><p><strong>Types of Adverbs:</strong></p><ul><li><strong>Manner (how):</strong> quickly, carefully, well</li><li><strong>Time (when):</strong> now, yesterday, soon, always</li><li><strong>Place (where):</strong> here, there, everywhere</li><li><strong>Degree (to what extent):</strong> very, too, quite, extremely</li><li><strong>Frequency (how often):</strong> always, never, often, seldom</li></ul><p>Many adverbs end in -ly, but not all (fast, well, very).</p>",
+    "examples": [
+      {
+        "label": "Modifying Verb",
+        "text": "She speaks softly."
+      },
+      {
+        "label": "Modifying Adjective",
+        "text": "The extremely cold weather surprised us."
+      },
+      {
+        "label": "Modifying Adverb",
+        "text": "He works very diligently."
+      },
+      {
+        "label": "Different Types",
+        "text": "She often (frequency) arrives early (time) and works efficiently (manner) there (place)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Adverbs",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Adverbs",
+        "url": "https://guidetogrammar.org/grammar/adverbs.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Lolly, Lolly, Lolly, Get Your Adverbs Here",
+        "url": "https://www.youtube.com/watch?v=dDwXHTcodNg"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which word is an adverb?",
+          "options": [
+            "happy",
+            "happiness",
+            "happily",
+            "unhappy"
+          ],
+          "answer": "happily",
+          "explanation": "'Happily' is an adverb (ends in -ly) that describes how an action is done."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What does the adverb modify in: 'The very tall tree'?",
+          "options": [
+            "Verb",
+            "Noun",
+            "Adjective",
+            "Pronoun"
+          ],
+          "answer": "Adjective",
+          "explanation": "'Very' modifies the adjective 'tall' (how tall?)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses an adverb correctly?",
+          "sentences": [
+            "She is a quick learner.",
+            "He answered quick.",
+            "They worked quickly.",
+            "The quick fox jumped."
+          ],
+          "correctIndex": 2,
+          "explanation": "'Quickly' is an adverb modifying the verb 'worked.'"
+        },
+        {
+          "type": "true-false",
+          "question": "All words ending in -ly are adverbs.",
+          "answer": "False",
+          "explanation": "False. Some adjectives end in -ly (friendly, lovely, lonely)."
+        }
+      ]
+    }
+  },
+  {
     "id": "affect-vs-effect",
     "title": "Affect vs. Effect",
     "category": "common-errors",
@@ -1119,6 +1307,103 @@
     }
   },
   {
+    "id": "conjunctions",
+    "title": "Conjunctions",
+    "category": "sentence-basics",
+    "description": "Understanding conjunctions: words that connect",
+    "keywords": [
+      "conjunction",
+      "coordinating conjunction",
+      "subordinating conjunction",
+      "correlative conjunction",
+      "FANBOYS",
+      "and",
+      "but",
+      "or",
+      "because",
+      "although"
+    ],
+    "content": "<p>Conjunctions connect words, phrases, or clauses. There are three types of conjunctions.</p><p><strong>1. Coordinating Conjunctions (FANBOYS):</strong></p><p>Connect equal grammatical elements (words, phrases, independent clauses).</p><ul><li>F - For</li><li>A - And</li><li>N - Nor</li><li>B - But</li><li>O - Or</li><li>Y - Yet</li><li>S - So</li></ul><p><strong>2. Subordinating Conjunctions:</strong></p><p>Connect a dependent clause to an independent clause: because, although, since, while, if, when, until, before, after, unless, whereas, as</p><p><strong>3. Correlative Conjunctions:</strong></p><p>Work in pairs to connect equal elements: either...or, neither...nor, both...and, not only...but also, whether...or</p>",
+    "examples": [
+      {
+        "label": "Coordinating",
+        "text": "I want pizza, but she wants tacos."
+      },
+      {
+        "label": "Subordinating",
+        "text": "We stayed inside because it was raining."
+      },
+      {
+        "label": "Correlative",
+        "text": "Either you go, or I will."
+      },
+      {
+        "label": "Correlative (both...and)",
+        "text": "She is both intelligent and kind."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Conjunctions",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Conjunctions",
+        "url": "https://guidetogrammar.org/grammar/conjunctions.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Conjunction Junction",
+        "url": "https://www.youtube.com/watch?v=ODGA7ssL-6g"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which is a coordinating conjunction?",
+          "options": [
+            "although",
+            "because",
+            "and",
+            "either"
+          ],
+          "answer": "and",
+          "explanation": "'And' is a coordinating conjunction (part of FANBOYS)."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which pair is correlative conjunctions?",
+          "options": [
+            "and, but",
+            "either, or",
+            "because, since",
+            "when, while"
+          ],
+          "answer": "either, or",
+          "explanation": "'Either...or' is a pair of correlative conjunctions."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which is a subordinating conjunction?",
+          "sentences": [
+            "and",
+            "or",
+            "because",
+            "nor"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Because' is a subordinating conjunction that creates a dependent clause."
+        },
+        {
+          "type": "true-false",
+          "question": "FANBOYS stands for the seven coordinating conjunctions.",
+          "answer": "True",
+          "explanation": "True. FANBOYS = For, And, Nor, But, Or, Yet, So."
+        }
+      ]
+    }
+  },
+  {
     "id": "dangling-modifiers",
     "title": "Dangling Modifiers",
     "category": "common-errors",
@@ -1245,6 +1530,101 @@
           "question": "Contractions (like can't, won't, it's) should generally be avoided in formal academic writing.",
           "answer": "True",
           "explanation": "True. While contractions are fine in informal writing, academic writing typically avoids them for a more formal tone."
+        }
+      ]
+    }
+  },
+  {
+    "id": "interjections",
+    "title": "Interjections",
+    "category": "sentence-basics",
+    "description": "Understanding interjections: words that express emotion",
+    "keywords": [
+      "interjection",
+      "exclamation",
+      "emotion",
+      "wow",
+      "ouch",
+      "hey",
+      "oh",
+      "alas"
+    ],
+    "content": "<p>Interjections are words or phrases that express sudden emotion or feeling. They stand alone and are not grammatically connected to the rest of the sentence.</p><p><strong>Common Interjections:</strong></p><ul><li><strong>Surprise:</strong> Wow! Oh! Gosh!</li><li><strong>Pain:</strong> Ouch! Ow!</li><li><strong>Greeting:</strong> Hey! Hi! Hello!</li><li><strong>Joy:</strong> Yay! Hooray! Woohoo!</li><li><strong>Disapproval:</strong> Ugh! Yuck!</li><li><strong>Hesitation:</strong> Um, uh, well</li><li><strong>Sadness:</strong> Alas! Oh no!</li></ul><p>Interjections are usually followed by an exclamation point for strong emotion, or a comma for mild emotion.</p><p><strong>Note:</strong> Interjections are uncommon in formal academic writing.</p>",
+    "examples": [
+      {
+        "label": "Strong Emotion",
+        "text": "Wow! That's amazing!"
+      },
+      {
+        "label": "Mild Emotion",
+        "text": "Well, I suppose we could try."
+      },
+      {
+        "label": "Standalone",
+        "text": "Ouch! That hurt."
+      },
+      {
+        "label": "Multiple",
+        "text": "Oh! Hey! I didn't see you there."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Interjections",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Interjections",
+        "url": "https://guidetogrammar.org/grammar/interjections.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Interjections!",
+        "url": "https://www.youtube.com/watch?v=YkAX7Vk3JEw"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which is an interjection?",
+          "options": [
+            "quickly",
+            "Wow",
+            "beautiful",
+            "because"
+          ],
+          "answer": "Wow",
+          "explanation": "'Wow' is an interjection expressing surprise or amazement."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How should a strong interjection be punctuated?",
+          "options": [
+            "Period",
+            "Comma",
+            "Exclamation point",
+            "Question mark"
+          ],
+          "answer": "Exclamation point",
+          "explanation": "Strong interjections are followed by an exclamation point."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which word is an interjection?",
+          "sentences": [
+            "She ran quickly.",
+            "Oh! I forgot my keys.",
+            "The book was interesting.",
+            "They will arrive soon."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Oh' is an interjection expressing sudden realization."
+        },
+        {
+          "type": "true-false",
+          "question": "Interjections are commonly used in formal academic writing.",
+          "answer": "False",
+          "explanation": "False. Interjections express emotion and are generally avoided in formal academic writing."
         }
       ]
     }
@@ -1697,6 +2077,102 @@
     }
   },
   {
+    "id": "nouns",
+    "title": "Nouns",
+    "category": "sentence-basics",
+    "description": "Understanding nouns: person, place, thing, or idea",
+    "keywords": [
+      "noun",
+      "proper noun",
+      "common noun",
+      "concrete noun",
+      "abstract noun",
+      "singular",
+      "plural",
+      "countable",
+      "uncountable"
+    ],
+    "content": "<p>A noun is a word that names a person, place, thing, or idea. Nouns are the subjects and objects of sentences.</p><p><strong>Types of Nouns:</strong></p><ul><li><strong>Proper Nouns:</strong> Specific names, always capitalized (Sarah, Boston, Harvard University)</li><li><strong>Common Nouns:</strong> General names, not capitalized (girl, city, university)</li><li><strong>Concrete Nouns:</strong> Things you can perceive with senses (table, music, flower)</li><li><strong>Abstract Nouns:</strong> Ideas or concepts (freedom, love, courage)</li><li><strong>Singular:</strong> One item (cat, book)</li><li><strong>Plural:</strong> More than one (cats, books, children)</li><li><strong>Countable:</strong> Can be counted (three apples, five books)</li><li><strong>Uncountable:</strong> Cannot be counted individually (water, rice, information)</li></ul>",
+    "examples": [
+      {
+        "label": "Proper vs. Common",
+        "text": "The student (common) went to Harvard University (proper)."
+      },
+      {
+        "label": "Concrete vs. Abstract",
+        "text": "Her courage (abstract) helped her climb the mountain (concrete)."
+      },
+      {
+        "label": "Singular vs. Plural",
+        "text": "One child plays; three children play. (irregular plural)"
+      },
+      {
+        "label": "Countable vs. Uncountable",
+        "text": "I need three books (countable) and some information (uncountable)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Nouns",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Nouns",
+        "url": "https://guidetogrammar.org/grammar/nouns.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: A Noun is a Person, Place or Thing",
+        "url": "https://www.youtube.com/watch?v=gJkfHJE-ykY"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which of these is a proper noun?",
+          "options": [
+            "mountain",
+            "Chicago",
+            "happiness",
+            "teacher"
+          ],
+          "answer": "Chicago",
+          "explanation": "'Chicago' is a proper noun—a specific place name that must be capitalized."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What type of noun is 'freedom'?",
+          "options": [
+            "Concrete",
+            "Abstract",
+            "Proper",
+            "Plural"
+          ],
+          "answer": "Abstract",
+          "explanation": "'Freedom' is an abstract noun—an idea or concept you cannot perceive with your senses."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which is an irregular plural?",
+          "sentences": [
+            "books",
+            "children",
+            "tables",
+            "ideas"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Children' is irregular (child → children), while the others follow regular plural patterns."
+        },
+        {
+          "type": "true-false",
+          "question": "All nouns can be counted individually.",
+          "answer": "False",
+          "explanation": "False. Uncountable nouns like 'water,' 'information,' and 'advice' cannot be counted individually."
+        }
+      ]
+    }
+  },
+  {
     "id": "paragraph-development",
     "title": "Paragraph Development",
     "category": "academic-writing",
@@ -1815,6 +2291,96 @@
           ],
           "correctIndex": 1,
           "explanation": "All three items are adjectives (kind, helpful, patient), maintaining parallel structure."
+        }
+      ]
+    }
+  },
+  {
+    "id": "parts-of-speech",
+    "title": "Parts of Speech",
+    "category": "sentence-basics",
+    "description": "Understanding the eight parts of speech in English",
+    "keywords": [
+      "parts of speech",
+      "grammar basics",
+      "word types",
+      "noun",
+      "verb",
+      "adjective",
+      "adverb",
+      "pronoun",
+      "preposition",
+      "conjunction",
+      "interjection"
+    ],
+    "content": "<p>The eight parts of speech are the building blocks of English sentences. Each word in a sentence functions as one of these parts, and understanding them helps you construct clear, grammatically correct sentences.</p><p><strong>The Eight Parts of Speech:</strong></p><ul><li><strong>Nouns:</strong> Person, place, thing, or idea (cat, Boston, happiness)</li><li><strong>Pronouns:</strong> Replace nouns (he, she, it, they)</li><li><strong>Verbs:</strong> Show action or state of being (run, is, think)</li><li><strong>Adjectives:</strong> Describe nouns (blue, tall, amazing)</li><li><strong>Adverbs:</strong> Describe verbs, adjectives, or other adverbs (quickly, very, well)</li><li><strong>Prepositions:</strong> Show relationships between words (in, on, at, by)</li><li><strong>Conjunctions:</strong> Connect words or groups of words (and, but, because)</li><li><strong>Interjections:</strong> Express emotion (wow, ouch, hey)</li></ul><p>Each part of speech has its own detailed topic for deeper study.</p>",
+    "examples": [
+      {
+        "label": "Sentence with All Parts",
+        "text": "Wow! The quick brown fox (nouns/adjectives) jumps (verb) quickly (adverb) over the lazy dog, and (conjunction) it (pronoun) lands in (preposition) the garden."
+      },
+      {
+        "label": "Identifying Parts",
+        "text": "She (pronoun) ran (verb) to (preposition) the (article) store (noun) quickly (adverb)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Parts of Speech",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/parts_of_speech_overview.html"
+      },
+      {
+        "title": "Guide to Grammar: Parts of Speech",
+        "url": "https://guidetogrammar.org/grammar/parts.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Grammar Rock",
+        "url": "https://www.youtube.com/playlist?list=PL1946989A1AB71B0A"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "What part of speech is the word 'quickly' in this sentence: 'She ran quickly.'",
+          "options": [
+            "Adjective",
+            "Adverb",
+            "Verb",
+            "Noun"
+          ],
+          "answer": "Adverb",
+          "explanation": "'Quickly' describes how she ran (modifies the verb), making it an adverb."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What part of speech connects words or groups of words?",
+          "options": [
+            "Preposition",
+            "Conjunction",
+            "Interjection",
+            "Pronoun"
+          ],
+          "answer": "Conjunction",
+          "explanation": "Conjunctions connect words, phrases, or clauses (and, but, or, because)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which word is a pronoun?",
+          "sentences": [
+            "quickly",
+            "they",
+            "beautiful",
+            "jump"
+          ],
+          "correctIndex": 1,
+          "explanation": "'They' is a pronoun that replaces a noun."
+        },
+        {
+          "type": "true-false",
+          "question": "A word can only be one part of speech.",
+          "answer": "False",
+          "explanation": "False. Many words can function as different parts of speech depending on context (e.g., 'run' can be a noun or a verb)."
         }
       ]
     }
@@ -1947,6 +2513,103 @@
     }
   },
   {
+    "id": "prepositions-part-of-speech",
+    "title": "Prepositions",
+    "category": "sentence-basics",
+    "description": "Understanding prepositions: words that show relationships",
+    "keywords": [
+      "preposition",
+      "relationship",
+      "position",
+      "in",
+      "on",
+      "at",
+      "by",
+      "with",
+      "from",
+      "to"
+    ],
+    "content": "<p>Prepositions show relationships between words in a sentence—typically relationships of place, time, or direction. A preposition is always followed by a noun or pronoun (the object of the preposition), forming a prepositional phrase.</p><p><strong>Common Prepositions:</strong></p><ul><li><strong>Place:</strong> in, on, at, under, over, between, among, behind, beside</li><li><strong>Time:</strong> at, on, in, during, before, after, since, until</li><li><strong>Direction:</strong> to, toward, from, into, onto, through</li><li><strong>Other:</strong> with, without, about, for, of, by</li></ul><p>For more detailed study of how prepositional phrases function in sentences, see our <strong>Prepositional Phrases</strong> topic.</p>",
+    "examples": [
+      {
+        "label": "Place",
+        "text": "The book is on the table."
+      },
+      {
+        "label": "Time",
+        "text": "We'll meet at noon."
+      },
+      {
+        "label": "Direction",
+        "text": "She walked toward the library."
+      },
+      {
+        "label": "Multiple Prepositions",
+        "text": "In the morning, I walked to school with my friend."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Prepositions",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/prepositions.html"
+      },
+      {
+        "title": "Guide to Grammar: Prepositions",
+        "url": "https://guidetogrammar.org/grammar/prepositions.htm"
+      },
+      {
+        "title": "Professor Shorthill: Prepositional Phrases",
+        "url": "#prepositional-phrases"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which word is a preposition?",
+          "options": [
+            "quickly",
+            "under",
+            "happy",
+            "run"
+          ],
+          "answer": "under",
+          "explanation": "'Under' is a preposition showing position or location."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Identify the prepositional phrase: 'The cat sat on the mat.'",
+          "options": [
+            "The cat",
+            "sat on",
+            "on the mat",
+            "the mat"
+          ],
+          "answer": "on the mat",
+          "explanation": "'On the mat' is the prepositional phrase (preposition + object)."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence contains a preposition?",
+          "sentences": [
+            "She runs fast.",
+            "They are happy.",
+            "He went to school.",
+            "We study hard."
+          ],
+          "correctIndex": 2,
+          "explanation": "'To' is a preposition in 'to school.'"
+        },
+        {
+          "type": "true-false",
+          "question": "A preposition must always be followed by a noun or pronoun.",
+          "answer": "True",
+          "explanation": "True. Prepositions need an object (noun/pronoun) to form a prepositional phrase."
+        }
+      ]
+    }
+  },
+  {
     "id": "pronoun-agreement",
     "title": "Pronoun Agreement",
     "category": "sentence-basics",
@@ -2009,6 +2672,102 @@
           "question": "The pronoun 'they' can only be used for plural antecedents.",
           "answer": "False",
           "explanation": "False. Singular 'they' is increasingly accepted in both informal and formal writing as a gender-neutral pronoun."
+        }
+      ]
+    }
+  },
+  {
+    "id": "pronouns-parts-of-speech",
+    "title": "Pronouns",
+    "category": "sentence-basics",
+    "description": "Understanding pronouns and pronoun case",
+    "keywords": [
+      "pronoun",
+      "subjective case",
+      "objective case",
+      "possessive",
+      "personal pronoun",
+      "I",
+      "me",
+      "he",
+      "him"
+    ],
+    "content": "<p>Pronouns replace nouns to avoid repetition. The form of a pronoun changes based on its function in the sentence.</p><p><strong>Pronoun Case:</strong></p><ul><li><strong>Subjective Case (subject of verb):</strong> I, you, he, she, it, we, they, who</li><li><strong>Objective Case (object of verb/preposition):</strong> me, you, him, her, it, us, them, whom</li><li><strong>Possessive Case (shows ownership):</strong> my, your, his, her, its, our, their, whose</li></ul><p><strong>Types of Pronouns:</strong></p><ul><li><strong>Personal:</strong> I, you, he, she, it, we, they</li><li><strong>Possessive:</strong> mine, yours, his, hers, ours, theirs</li><li><strong>Demonstrative:</strong> this, that, these, those</li><li><strong>Relative:</strong> who, whom, which, that</li><li><strong>Reflexive:</strong> myself, yourself, himself, herself, itself, ourselves, themselves</li></ul>",
+    "examples": [
+      {
+        "label": "Subjective Case",
+        "text": "She and I went to the store. (subjects)"
+      },
+      {
+        "label": "Objective Case",
+        "text": "The teacher called him and me. (objects of verb)"
+      },
+      {
+        "label": "After Preposition",
+        "text": "Between you and me, this is difficult. (objects of preposition)"
+      },
+      {
+        "label": "Common Error",
+        "text": "WRONG: Me and him went. CORRECT: He and I went."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Pronouns",
+        "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/index.html"
+      },
+      {
+        "title": "UNC Writing Center: Pronouns",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/pronouns/"
+      },
+      {
+        "title": "Guide to Grammar: Pronouns",
+        "url": "https://guidetogrammar.org/grammar/pronouns1.htm"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which is correct?",
+          "options": [
+            "Her and I went shopping.",
+            "She and I went shopping.",
+            "Me and her went shopping.",
+            "Her and me went shopping."
+          ],
+          "answer": "She and I went shopping.",
+          "explanation": "Use subjective case (she, I) when the pronoun is the subject of the verb."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is correct: 'Between you and ___'?",
+          "options": [
+            "I",
+            "me",
+            "myself",
+            "we"
+          ],
+          "answer": "me",
+          "explanation": "After a preposition (between), use objective case: 'Between you and me.'"
+        },
+        {
+          "type": "identify-error",
+          "question": "Which sentence uses pronouns correctly?",
+          "sentences": [
+            "Me and John went to the park.",
+            "The gift is for he and I.",
+            "She gave it to him and me.",
+            "Them are my friends."
+          ],
+          "correctIndex": 2,
+          "explanation": "'Him and me' are both objective case, correct as objects of the preposition 'to.'"
+        },
+        {
+          "type": "true-false",
+          "question": "You should always use 'I' instead of 'me.'",
+          "answer": "False",
+          "explanation": "False. Use 'I' for subjects and 'me' for objects. Both are correct in different contexts."
         }
       ]
     }
@@ -2986,6 +3745,104 @@
           ],
           "correctIndex": 2,
           "explanation": "This introduces the quote, integrates it smoothly, cites it, and explains its significance."
+        }
+      ]
+    }
+  },
+  {
+    "id": "verbs",
+    "title": "Verbs",
+    "category": "sentence-basics",
+    "description": "Understanding verbs: action, state of being, tense, and types",
+    "keywords": [
+      "verb",
+      "action verb",
+      "linking verb",
+      "helping verb",
+      "transitive",
+      "intransitive",
+      "tense",
+      "conjugation",
+      "past tense",
+      "present tense",
+      "future tense"
+    ],
+    "content": "<p>Verbs express action or state of being. Every complete sentence needs a verb.</p><p><strong>Types of Verbs:</strong></p><ul><li><strong>Action Verbs:</strong> Show physical or mental action (run, think, write)</li><li><strong>Linking Verbs:</strong> Connect subject to description (is, am, are, was, were, become, seem)</li><li><strong>Helping Verbs:</strong> Assist main verb (will, can, should, have, has, had)</li><li><strong>Transitive Verbs:</strong> Take a direct object (She kicked the ball.)</li><li><strong>Intransitive Verbs:</strong> No direct object (He sleeps.)</li></ul><p><strong>Verb Tense:</strong></p><ul><li><strong>Present:</strong> I walk, she walks</li><li><strong>Past:</strong> I walked, she walked</li><li><strong>Future:</strong> I will walk, she will walk</li><li><strong>Present Perfect:</strong> I have walked</li><li><strong>Past Perfect:</strong> I had walked</li><li><strong>Future Perfect:</strong> I will have walked</li></ul><p><strong>Conjugation</strong> is changing the verb form to match the subject and tense.</p>",
+    "examples": [
+      {
+        "label": "Transitive (needs object)",
+        "text": "She threw the ball. (What did she throw? The ball.)"
+      },
+      {
+        "label": "Intransitive (no object)",
+        "text": "The baby cried. (Cried what? Nothing—intransitive.)"
+      },
+      {
+        "label": "Tense Change",
+        "text": "I walk (present), I walked (past), I will walk (future)"
+      },
+      {
+        "label": "Conjugation",
+        "text": "I am, you are, he/she/it is, we are, they are"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Verbs",
+        "url": "https://owl.purdue.edu/owl/general_writing/mechanics/gerunds_participles_and_infinitives/verb_forms.html"
+      },
+      {
+        "title": "Guide to Grammar: Verbs",
+        "url": "https://guidetogrammar.org/grammar/verbs.htm"
+      },
+      {
+        "title": "Schoolhouse Rock: Verb - That's What's Happening",
+        "url": "https://www.youtube.com/watch?v=gWmRrF0sB4s"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which verb is transitive?",
+          "options": [
+            "She laughed.",
+            "He slept well.",
+            "They ate pizza.",
+            "The sun shines."
+          ],
+          "answer": "They ate pizza.",
+          "explanation": "'Ate' is transitive because it takes a direct object (pizza). The others are intransitive."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What tense is 'will have finished'?",
+          "options": [
+            "Present",
+            "Past",
+            "Future",
+            "Future perfect"
+          ],
+          "answer": "Future perfect",
+          "explanation": "'Will have finished' is future perfect—an action that will be completed before a future time."
+        },
+        {
+          "type": "identify-error",
+          "question": "Which is a linking verb?",
+          "sentences": [
+            "run",
+            "seems",
+            "think",
+            "write"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Seems' is a linking verb that connects the subject to a description."
+        },
+        {
+          "type": "true-false",
+          "question": "All verbs take a direct object.",
+          "answer": "False",
+          "explanation": "False. Only transitive verbs take direct objects. Intransitive verbs do not."
         }
       ]
     }

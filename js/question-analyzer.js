@@ -460,7 +460,90 @@ const keywordMappings = {
     'which vs that': ['that-who-which'],
     'that vs which': ['that-who-which'],
     'essential clause': ['that-who-which'],
-    'comma which': ['that-who-which']
+    'comma which': ['that-who-which'],
+
+    // Parts of Speech (Overview)
+    'parts of speech': ['parts-of-speech'],
+    'part of speech': ['parts-of-speech'],
+    'grammar basics': ['parts-of-speech'],
+    'word types': ['parts-of-speech'],
+    'eight parts': ['parts-of-speech'],
+
+    // Nouns
+    'noun': ['nouns'],
+    'nouns': ['nouns'],
+    'proper noun': ['nouns'],
+    'common noun': ['nouns'],
+    'concrete noun': ['nouns'],
+    'abstract noun': ['nouns'],
+    'singular plural': ['nouns'],
+    'countable uncountable': ['nouns'],
+    'person place thing': ['nouns'],
+
+    // Pronouns (Parts of Speech)
+    'subjective case': ['pronouns-parts-of-speech'],
+    'objective case': ['pronouns-parts-of-speech'],
+    'pronoun types': ['pronouns-parts-of-speech'],
+    'personal pronoun': ['pronouns-parts-of-speech'],
+    'I vs me': ['pronouns-parts-of-speech'],
+    'he vs him': ['pronouns-parts-of-speech'],
+    'reflexive pronoun': ['pronouns-parts-of-speech'],
+
+    // Verbs
+    'verb': ['verbs'],
+    'verbs': ['verbs'],
+    'action verb': ['verbs'],
+    'linking verb': ['verbs'],
+    'helping verb': ['verbs'],
+    'transitive verb': ['verbs'],
+    'intransitive verb': ['verbs'],
+    'verb tense': ['verbs'],
+    'conjugation': ['verbs'],
+    'conjugate': ['verbs'],
+    'past tense': ['verbs'],
+    'present tense': ['verbs'],
+    'future tense': ['verbs'],
+    'perfect tense': ['verbs'],
+
+    // Adjectives
+    'adjective': ['adjectives'],
+    'adjectives': ['adjectives'],
+    'descriptive word': ['adjectives'],
+    'modify noun': ['adjectives'],
+    'comparative adjective': ['adjectives'],
+    'superlative adjective': ['adjectives'],
+    'describe noun': ['adjectives'],
+
+    // Adverbs
+    'adverb': ['adverbs'],
+    'adverbs': ['adverbs'],
+    'ly words': ['adverbs'],
+    'modify verb': ['adverbs'],
+    'modify adjective': ['adverbs'],
+    'how when where': ['adverbs'],
+
+    // Prepositions (Part of Speech)
+    'preposition list': ['prepositions-part-of-speech'],
+    'prepositional': ['prepositions-part-of-speech', 'prepositional-phrases'],
+    'in on at': ['prepositions-part-of-speech'],
+    'position words': ['prepositions-part-of-speech'],
+
+    // Conjunctions
+    'conjunction': ['conjunctions'],
+    'conjunctions': ['conjunctions'],
+    'FANBOYS': ['conjunctions'],
+    'coordinating conjunction': ['conjunctions'],
+    'subordinating conjunction': ['conjunctions'],
+    'correlative conjunction': ['conjunctions'],
+    'and but or': ['conjunctions'],
+    'connecting words': ['conjunctions', 'transitions'],
+
+    // Interjections
+    'interjection': ['interjections'],
+    'interjections': ['interjections'],
+    'exclamation': ['interjections'],
+    'wow ouch hey': ['interjections'],
+    'emotion words': ['interjections']
 };
 
 // Analyze a user's question
