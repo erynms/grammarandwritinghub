@@ -1,6 +1,6 @@
 # Images Directory
 
-This folder contains images used throughout the Grammar Lessons website.
+This folder contains images used throughout Professor Shorthill's Grammar and Academic Writing Skills Hub.
 
 ## Required Images
 

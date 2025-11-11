@@ -1,4 +1,4 @@
-# Instructor Guide - Grammar Lessons Website
+# Instructor Guide - Professor Shorthill's Grammar and Academic Writing Skills Hub
 
 ## Table of Contents
 

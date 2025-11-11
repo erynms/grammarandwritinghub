@@ -4,9 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**grammarlessons** - An interactive grammar instruction website for college writing students.
+**Professor Shorthill's Grammar and Academic Writing Skills Hub** - An interactive grammar instruction website for college writing students.
 
-This is a client-side web application built with vanilla HTML, CSS, and JavaScript. It provides grammar lessons, interactive quizzes, and a question-answering system for students in composition courses (ENC1101, ENC1102, etc.).
+This is a client-side web application built with vanilla HTML, CSS, and JavaScript. It provides grammar and academic writing instruction, interactive quizzes, and a question-answering system for students in composition courses (ENC1101, ENC1102, etc.).
 
 ### Key Features
 - 22 grammar topics covering sentence basics, punctuation, and academic writing
