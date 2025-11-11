@@ -830,7 +830,13 @@
           "explanation": "'Finished' already means complete, so 'completely finished' is redundant."
         }
       ]
-    }
+    },
+    "courses": [
+      "LIT1000",
+      "ENCV0025",
+      "ENCV0027",
+      "REAV0017"
+    ]
   },
   {
     "id": "capitalization",
@@ -3178,6 +3184,11 @@
           "explanation": "False. Concise writing means eliminating unnecessary words while preserving meaning and clarity, not just making sentences shorter."
         }
       ]
-    }
+    },
+    "courses": [
+      "ENC1101",
+      "ENC1102",
+      "ENC2210"
+    ]
   }
 ]
