@@ -236,6 +236,31 @@ const keywordMappings = {
     'ownership': ['apostrophes'],
     'contraction': ['apostrophes', 'its-vs-its'],
 
+    // Ellipses
+    'ellipsis': ['ellipses'],
+    'ellipses': ['ellipses'],
+    'three dots': ['ellipses'],
+    'dot dot dot': ['ellipses'],
+    '...': ['ellipses'],
+    'omission': ['ellipses'],
+    'omitting words': ['ellipses'],
+    'leaving out words': ['ellipses'],
+    'quotation omission': ['ellipses'],
+
+    // Dashes and Hyphens
+    'dash': ['dashes-hyphens'],
+    'dashes': ['dashes-hyphens'],
+    'hyphen': ['dashes-hyphens'],
+    'hyphens': ['dashes-hyphens'],
+    'em dash': ['dashes-hyphens'],
+    'en dash': ['dashes-hyphens'],
+    'mdash': ['dashes-hyphens'],
+    'compound word': ['dashes-hyphens'],
+    'compound modifier': ['dashes-hyphens'],
+    'hyphenate': ['dashes-hyphens'],
+    'hyphenated': ['dashes-hyphens'],
+    'when to hyphenate': ['dashes-hyphens'],
+
     // Citations
     'citation': ['mla-in-text', 'mla-works-cited'],
     'cite': ['mla-in-text', 'mla-works-cited'],

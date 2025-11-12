@@ -1753,6 +1753,104 @@
     }
   },
   {
+    "id": "dashes-hyphens",
+    "title": "Dashes and Hyphens",
+    "category": "punctuation",
+    "description": "Understanding the difference between hyphens, en dashes, and em dashes\u2014and when to use each",
+    "keywords": [
+      "dash",
+      "dashes",
+      "hyphen",
+      "hyphens",
+      "em dash",
+      "en dash",
+      "mdash",
+      "compound word",
+      "compound modifier",
+      "hyphenated word",
+      "\u2014",
+      "\u2013",
+      "-"
+    ],
+    "content": "<p>Hyphens and dashes are three different punctuation marks that serve distinct purposes. Many writers confuse them, but understanding their differences will improve your writing clarity and professionalism.</p>\n\n<h4>Hyphen (-)</h4>\n<p>The <strong>hyphen</strong> is the shortest mark. It <strong>joins words together</strong>.</p>\n\n<p><strong>Uses:</strong></p>\n<ul>\n<li><strong>Compound modifiers before nouns:</strong> well-known author, up-to-date information, ten-year-old child</li>\n<li><strong>Compound numbers:</strong> twenty-one, ninety-nine</li>\n<li><strong>Prefixes with proper nouns:</strong> pre-Columbian, mid-Atlantic, anti-American</li>\n<li><strong>Prefixes creating doubled letters:</strong> anti-inflammatory (optional but clearer)</li>\n<li><strong>Fractions:</strong> two-thirds, one-half</li>\n</ul>\n\n<p><strong>Key Rule for Compound Modifiers:</strong> Hyphenate when the compound comes <em>before</em> the noun. Don't hyphenate when it comes <em>after</em>.</p>\n<ul>\n<li><strong>Correct:</strong> \"a well-written essay\" (before noun)</li>\n<li><strong>Correct:</strong> \"The essay is well written\" (after noun\u2014no hyphen)</li>\n</ul>\n\n<h4>En Dash (\u2013)</h4>\n<p>The <strong>en dash</strong> is slightly longer than a hyphen (about the width of the letter \"n\"). It shows <strong>ranges or connections</strong>.</p>\n\n<p><strong>Uses:</strong></p>\n<ul>\n<li><strong>Ranges of numbers:</strong> pages 10\u201325, years 1990\u20132000, scores 3\u20132</li>\n<li><strong>Ranges of times:</strong> Monday\u2013Friday, 9:00 a.m.\u20135:00 p.m.</li>\n<li><strong>Connections:</strong> New York\u2013London flight, liberal\u2013conservative debate</li>\n</ul>\n\n<p><strong>How to type:</strong> On Windows: Alt+0150. On Mac: Option+hyphen.</p>\n\n<h4>Em Dash (\u2014)</h4>\n<p>The <strong>em dash</strong> is the longest dash (about the width of the letter \"m\"). It creates <strong>emphasis, shows interruptions, or sets off information</strong>.</p>\n\n<p><strong>Uses:</strong></p>\n<ul>\n<li><strong>Emphasis or added information:</strong> The results\u2014all 200 of them\u2014were analyzed carefully.</li>\n<li><strong>Interruptions in dialogue:</strong> \"I think we should\u2014\" \"No, that won't work.\"</li>\n<li><strong>Replacing commas/parentheses for stronger break:</strong> Three cities\u2014Boston, Portland, and Seattle\u2014reported snow.</li>\n<li><strong>Before a summary or explanation:</strong> He needed one thing\u2014time.</li>\n</ul>\n\n<p><strong>Spacing:</strong> MLA and APA style: no spaces around em dashes. Some journalism styles use spaces.</p>\n\n<p><strong>How to type:</strong> On Windows: Alt+0151. On Mac: Option+Shift+hyphen. Or type two hyphens (--) and Word often converts them automatically.</p>\n\n<h4>Quick Reference</h4>\n<ul>\n<li><strong>Hyphen (-):</strong> Joins words (compound-modifier)</li>\n<li><strong>En dash (\u2013):</strong> Shows ranges (2020\u20132025)</li>\n<li><strong>Em dash (\u2014):</strong> Creates emphasis or interruption\u2014like this</li>\n</ul>",
+    "examples": [
+      {
+        "label": "Hyphen: Compound Modifier Before Noun",
+        "text": "\u2713 She is a well-known scientist.\n\u2713 This is an up-to-date report.\n\n\u2717 She is a well known scientist. (missing hyphen)"
+      },
+      {
+        "label": "Hyphen: Compound Modifier After Noun (No Hyphen)",
+        "text": "\u2713 The scientist is well known.\n\u2713 The report is up to date.\n\n[No hyphens needed when the compound comes after the noun]"
+      },
+      {
+        "label": "En Dash: Ranges",
+        "text": "\u2713 Read pages 45\u201367.\n\u2713 The years 1990\u20132000 saw rapid growth.\n\u2713 Office hours: Monday\u2013Friday, 9:00 a.m.\u20135:00 p.m."
+      },
+      {
+        "label": "Em Dash: Emphasis and Interruptions",
+        "text": "\u2713 My brother\u2014the one who lives in Boston\u2014is visiting.\n\u2713 The solution was simple\u2014work harder.\n\u2713 \"I was thinking we could\u2014\" \"That's a terrible idea.\""
+      },
+      {
+        "label": "All Three Together",
+        "text": "The twenty-first-century debate (hyphen) over the 2020\u20132025 timeline (en dash) revealed one thing\u2014nobody could agree (em dash)."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Hyphens",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/hyphen.html"
+      },
+      {
+        "title": "Purdue OWL: Dashes",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/dashes.html"
+      },
+      {
+        "title": "Guide to Grammar: Hyphens and Dashes",
+        "url": "https://www.grammarbook.com/punctuation/hyphens.asp"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Which is correct?",
+          "options": [
+            "She is a well known author.",
+            "She is a well-known author.",
+            "She is a well\u2014known author.",
+            "She is a well\u2013known author."
+          ],
+          "answer": "She is a well-known author.",
+          "explanation": "Use a hyphen (-) to join compound modifiers that appear before a noun. 'Well-known' modifies 'author.'"
+        },
+        {
+          "type": "true-false",
+          "question": "You should hyphenate compound modifiers even when they come after the noun they modify.",
+          "answer": "False",
+          "explanation": "False. Hyphenate compound modifiers before nouns ('well-known author'), but not after ('the author is well known')."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which punctuation mark shows ranges, like years or pages?",
+          "options": [
+            "Hyphen (-)",
+            "En dash (\u2013)",
+            "Em dash (\u2014)",
+            "Any of these"
+          ],
+          "answer": "En dash (\u2013)",
+          "explanation": "The en dash (\u2013) is used for ranges: 'pages 10\u201320,' 'years 1990\u20132000.'"
+        },
+        {
+          "type": "identify-error",
+          "question": "What's wrong with this sentence? 'Three students-Maria, Juan, and Lee-won awards.'",
+          "answer": "Should use em dashes (\u2014), not hyphens (-), to set off the list of names.",
+          "explanation": "Em dashes (\u2014) set off interrupting information or add emphasis. The sentence should read: 'Three students\u2014Maria, Juan, and Lee\u2014won awards.'"
+        }
+      ]
+    }
+  },
+  {
     "id": "dropped-quotes",
     "title": "Dropped Quotes",
     "category": "common-errors",
@@ -1845,6 +1943,101 @@
           ],
           "answer": "'Education is changing.' This affects students.",
           "explanation": "This quote lacks a signal phrase (no attribution to a source) and has only weak follow-up. The other options all include proper attribution and better integration."
+        }
+      ]
+    }
+  },
+  {
+    "id": "ellipses",
+    "title": "Ellipses",
+    "category": "punctuation",
+    "description": "Using ellipses (...) to show omissions in quotations and pauses in writing",
+    "keywords": [
+      "ellipsis",
+      "ellipses",
+      "three dots",
+      "dot dot dot",
+      "...",
+      "omission",
+      "quotation omission",
+      "leaving out words",
+      "trailing off",
+      "pause"
+    ],
+    "content": "<p>An <strong>ellipsis</strong> (plural: ellipses) consists of three spaced dots ( . . . ) or three consecutive dots (...). Ellipses serve two main purposes: showing that words have been omitted from a quotation, and indicating a pause or trailing off in creative writing.</p>\n\n<h4>Using Ellipses in Quotations</h4>\n<p>In academic writing, ellipses show that you've removed words from the middle of a quotation. This allows you to quote only the most relevant parts of a source.</p>\n\n<p><strong>Rules for ellipses in quotations:</strong></p>\n<ul>\n<li><strong>Three dots for omissions:</strong> Use ... when omitting words from the middle of a quoted sentence</li>\n<li><strong>No ellipsis at the beginning:</strong> Don't use ellipses before the first word of a quote\u2014just start with the quoted text</li>\n<li><strong>Four dots at sentence end:</strong> If you omit words at the end of a sentence and continue with another sentence, use four dots (period + ellipsis)</li>\n<li><strong>Spacing:</strong> MLA style uses three spaced dots ( . . . ), while many other styles use three consecutive dots (...)</li>\n<li><strong>Brackets for clarity:</strong> Use brackets around ellipses [. . .] if the source already contains ellipses</li>\n</ul>\n\n<h4>What to Omit</h4>\n<p>You can omit words that aren't essential to your argument, but <strong>never change the meaning</strong> of the original quote. The remaining text must still be grammatically correct and accurately represent the author's intent.</p>\n\n<h4>Ellipses in Creative Writing</h4>\n<p>Outside of quotations, ellipses can indicate:</p>\n<ul>\n<li>A pause or hesitation in speech</li>\n<li>A trailing off of thought</li>\n<li>Suspense or an unfinished sentence</li>\n</ul>\n<p><em>Use sparingly in formal academic writing.</em></p>\n\n<h4>Common Mistakes</h4>\n<ul>\n<li><strong>Using at the beginning:</strong> \"...'the experiment failed' (Smith 45)\" is incorrect. Just start: \"'The experiment failed' (Smith 45)\"</li>\n<li><strong>Changing meaning:</strong> Don't omit words that alter the author's message</li>\n<li><strong>Overusing:</strong> Only omit unnecessary words; include full quotes when possible</li>\n<li><strong>Forgetting grammar:</strong> The remaining quote must still be a complete, grammatical sentence or phrase</li>\n</ul>",
+    "examples": [
+      {
+        "label": "Original Quote",
+        "text": "Original: \"The study, which involved 200 participants over three years, found that exercise significantly improves mental health.\"\n\nWith Ellipsis: According to Johnson, \"The study ... found that exercise significantly improves mental health\" (45)."
+      },
+      {
+        "label": "Omitting the End of a Sentence",
+        "text": "Original: \"Climate change poses serious threats to coastal communities, agricultural systems, and global food security.\"\n\nWith Ellipsis: Smith warns that \"climate change poses serious threats to coastal communities ...\" (89)."
+      },
+      {
+        "label": "Four Dots (Period + Ellipsis)",
+        "text": "Original: \"The results were unexpected. Nevertheless, they align with previous studies.\"\n\nWith Ellipsis: \"The results were unexpected. ... They align with previous studies\" (Chen 34)."
+      },
+      {
+        "label": "No Ellipsis at Beginning (CORRECT)",
+        "text": "\"Exercise significantly improves mental health\" (Johnson 45).\n\n[No ellipsis needed at the start, even though words were omitted from the beginning of the original sentence.]"
+      },
+      {
+        "label": "Creative Writing Use",
+        "text": "\"I thought I saw something in the shadows... but it was probably nothing.\"\n\n[Shows pause and uncertainty in narrative]"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Ellipses",
+        "url": "https://owl.purdue.edu/owl/general_writing/punctuation/index.html"
+      },
+      {
+        "title": "MLA Style Center: Using Ellipses",
+        "url": "https://style.mla.org/ellipsis/"
+      },
+      {
+        "title": "UNC Writing Center: Quotations",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/quotations/"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "true-false",
+          "question": "You should use an ellipsis at the beginning of a quote to show that you omitted the start of the sentence.",
+          "answer": "False",
+          "explanation": "False. Never use an ellipsis at the beginning of a quote. Simply start with the quoted words\u2014readers understand that the quote may not begin at the start of the original sentence."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How many dots make up an ellipsis?",
+          "options": [
+            "Two dots",
+            "Three dots",
+            "Four dots",
+            "As many as you want"
+          ],
+          "answer": "Three dots",
+          "explanation": "An ellipsis consists of three dots. (You may occasionally see four dots when a period precedes the ellipsis at the end of a sentence.)"
+        },
+        {
+          "type": "identify-error",
+          "question": "What's wrong with this quotation? '...\"The economy is recovering\" (Davis 23).'",
+          "answer": "The ellipsis at the beginning is incorrect\u2014ellipses should not appear before the first word of a quote.",
+          "explanation": "Never use an ellipsis at the beginning of a quotation. Just start with the quoted text."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "When using ellipses in a quotation, you must ensure that:",
+          "options": [
+            "The quote is exactly three words long",
+            "The meaning of the original quote is not changed",
+            "You omit at least half the original text",
+            "The ellipsis appears at both the beginning and end"
+          ],
+          "answer": "The meaning of the original quote is not changed",
+          "explanation": "The most important rule: never omit words in a way that changes or misrepresents the author's original meaning."
         }
       ]
     }
