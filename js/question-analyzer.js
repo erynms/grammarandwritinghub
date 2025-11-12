@@ -476,6 +476,22 @@ const keywordMappings = {
     'argues that': ['integrating-quotations', 'mla-signal-phrases'],
     'states that': ['integrating-quotations', 'mla-signal-phrases'],
 
+    // Paraphrasing
+    'paraphrase': ['paraphrasing'],
+    'paraphrasing': ['paraphrasing'],
+    'paraphrase vs quote': ['paraphrasing'],
+    'when to paraphrase': ['paraphrasing'],
+    'when to quote': ['paraphrasing'],
+    'how to paraphrase': ['paraphrasing'],
+    'restate': ['paraphrasing'],
+    'restating': ['paraphrasing'],
+    'put in own words': ['paraphrasing'],
+    'own words': ['paraphrasing'],
+    'patchwriting': ['paraphrasing'],
+    'rewording': ['paraphrasing'],
+    'rephrase': ['paraphrasing'],
+    'rephrasing': ['paraphrasing'],
+
     // Wordiness and Clarity
     'clarity': ['wordiness-clarity', 'wordiness'],
     'clear writing': ['wordiness-clarity'],

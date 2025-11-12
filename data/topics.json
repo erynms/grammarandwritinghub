@@ -3249,6 +3249,107 @@
     }
   },
   {
+    "id": "paraphrasing",
+    "title": "Paraphrasing",
+    "category": "academic-writing",
+    "description": "How to paraphrase sources effectively and decide when to paraphrase versus when to quote",
+    "keywords": [
+      "paraphrase",
+      "paraphrasing",
+      "restate",
+      "restating",
+      "put in own words",
+      "summarize",
+      "paraphrase vs quote",
+      "when to paraphrase",
+      "when to quote",
+      "patchwriting",
+      "source integration",
+      "rewording"
+    ],
+    "content": "<p><strong>Paraphrasing</strong> means restating someone else's ideas in your own words while maintaining the original meaning. Unlike quoting, which uses the exact words from a source, paraphrasing demonstrates your understanding and allows you to integrate sources more smoothly into your writing.</p>\n\n<h4>Why Paraphrase?</h4>\n<ul>\n<li><strong>Shows comprehension:</strong> Paraphrasing proves you understand the source material</li>\n<li><strong>Maintains your voice:</strong> Your writing style remains consistent throughout your essay</li>\n<li><strong>Improves flow:</strong> Paraphrases integrate more smoothly than many quotations</li>\n<li><strong>Simplifies complex language:</strong> You can make difficult concepts clearer for readers</li>\n</ul>\n\n<h4>How to Paraphrase Effectively</h4>\n<ol>\n<li><strong>Read and understand:</strong> Fully comprehend the original passage before attempting to paraphrase</li>\n<li><strong>Put it away:</strong> Close the source and write the idea from memory in your own words</li>\n<li><strong>Change structure and vocabulary:</strong> Use different sentence structures and synonyms (not just a few word swaps)</li>\n<li><strong>Check accuracy:</strong> Compare your paraphrase to the original to ensure you've kept the meaning</li>\n<li><strong>Cite your source:</strong> Always include a citation\u2014paraphrases require citations just like quotes do</li>\n</ol>\n\n<h4>Paraphrase vs. Quote: When to Use Each</h4>\n\n<p><strong>Use a PARAPHRASE when:</strong></p>\n<ul>\n<li>The idea matters more than the exact wording</li>\n<li>The original uses technical jargon or complex language you can simplify</li>\n<li>You want to emphasize certain points while condensing others</li>\n<li>You've already used several quotes and need variety</li>\n<li>The passage is long but you only need the main idea</li>\n</ul>\n\n<p><strong>Use a QUOTE when:</strong></p>\n<ul>\n<li>The author's exact words are particularly powerful, memorable, or eloquent</li>\n<li>The author is a major authority and their exact words carry weight</li>\n<li>The original wording is so precise that paraphrasing would lose meaning</li>\n<li>You're analyzing the author's language, style, or word choice</li>\n<li>You're defining a term or concept the author coined</li>\n<li>The passage is from a literary work you're analyzing</li>\n</ul>\n\n<h4>Common Paraphrasing Mistakes</h4>\n\n<p><strong>Patchwriting:</strong> Copying the original sentence structure and just replacing a few words with synonyms. This is too close to the original and may be considered plagiarism.</p>\n\n<p><strong>Incorrect Example (Patchwriting):</strong><br>\nOriginal: \"Climate change poses serious threats to coastal ecosystems.\"<br>\nPatchwriting: \"Climate change presents serious dangers to coastal ecosystems.\"<br>\n[Only changed \"poses\" to \"presents\" and \"threats\" to \"dangers\"\u2014structure is identical]</p>\n\n<p><strong>Correct Paraphrase:</strong><br>\n\"Coastal ecosystems face significant risks from changing climate patterns\" (Smith 45).</p>\n\n<p><strong>Other mistakes to avoid:</strong></p>\n<ul>\n<li><strong>Changing the meaning:</strong> Your paraphrase must preserve the author's original intent</li>\n<li><strong>Forgetting to cite:</strong> Paraphrases need citations just like direct quotes</li>\n<li><strong>Paraphrasing too much:</strong> Sometimes the original wording is best\u2014don't force a paraphrase</li>\n</ul>\n\n<h4>The Citation Rule</h4>\n<p><strong>Always cite paraphrases.</strong> Even though you're using your own words, you're using someone else's ideas, which requires attribution.</p>",
+    "examples": [
+      {
+        "label": "Original Passage",
+        "text": "Original: \"Social media has fundamentally altered the way young people communicate, shifting emphasis from face-to-face interaction to digital exchanges that prioritize brevity and immediacy\" (Johnson 67)."
+      },
+      {
+        "label": "Effective Paraphrase",
+        "text": "According to Johnson, today's youth have changed their communication patterns, favoring quick digital messages over in-person conversations (67).\n\n[Changes structure, uses different vocabulary, maintains meaning, includes citation]"
+      },
+      {
+        "label": "Poor Paraphrase (Patchwriting)",
+        "text": "Social media has fundamentally changed how young people communicate, moving focus from face-to-face interaction to digital exchanges that emphasize brevity and immediacy (Johnson 67).\n\n[Too close to original\u2014only a few word swaps, same structure]"
+      },
+      {
+        "label": "When to Quote Instead",
+        "text": "Original: \"We stand at a crossroads: embrace change or face extinction.\"\n\nThis powerful, memorable phrasing should be quoted, not paraphrased. The author's exact words create impact that paraphrasing would diminish."
+      },
+      {
+        "label": "Paraphrase + Partial Quote (Hybrid Approach)",
+        "text": "Original: \"The study's findings were unprecedented in their scope and challenged every assumption we had made about cellular behavior.\"\n\nParaphrase with partial quote: The research produced \"unprecedented\" results that contradicted previous assumptions about how cells function (Chen 23).\n\n[Keeps the powerful word \"unprecedented\" while paraphrasing the rest]"
+      },
+      {
+        "label": "Decision Example: Complex to Simple",
+        "text": "Original: \"The etiology of the pathological condition remains nebulous, with multiple etiological factors potentially contributing to the manifestation.\"\n\nBetter as paraphrase: The causes of this disease are unclear, with several factors possibly playing a role (Martinez 45).\n\n[Simplifies technical language for general audience]"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Paraphrasing",
+        "url": "https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/paraphrasing.html"
+      },
+      {
+        "title": "UNC Writing Center: Quotations vs. Paraphrasing",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/quotations/"
+      },
+      {
+        "title": "Harvard Writing Center: Avoiding Plagiarism",
+        "url": "https://writingcenter.fas.harvard.edu/pages/avoiding-plagiarism"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "true-false",
+          "question": "Paraphrases do not need citations because you're using your own words.",
+          "answer": "False",
+          "explanation": "False. Paraphrases always require citations. Even though you're using your own words, you're presenting someone else's ideas, which must be attributed to the source."
+        },
+        {
+          "type": "identify-error",
+          "question": "Original: 'Exercise improves mental health significantly.' Student paraphrase: 'Exercise enhances mental health significantly.' What's the problem?",
+          "answer": "This is patchwriting\u2014only one word changed while keeping the same structure. Need to restructure the sentence completely.",
+          "explanation": "This is patchwriting. Simply replacing 'improves' with 'enhances' while keeping everything else the same is too close to the original. A proper paraphrase might be: 'Physical activity provides substantial mental health benefits.'"
+        },
+        {
+          "type": "multiple-choice",
+          "question": "When should you use a direct quote instead of a paraphrase?",
+          "options": [
+            "Whenever the source is more than 10 words long",
+            "When the author's exact wording is powerful or you're analyzing their language",
+            "Only when writing about literature",
+            "Whenever you can't think of synonyms"
+          ],
+          "answer": "When the author's exact wording is powerful or you're analyzing their language",
+          "explanation": "Use direct quotes when the original wording is particularly powerful, eloquent, or precise, or when you're analyzing the author's specific language choices."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What is 'patchwriting'?",
+          "options": [
+            "Writing multiple drafts of a paraphrase",
+            "Combining quotes and paraphrases effectively",
+            "Copying sentence structure and replacing just a few words",
+            "Writing about a quilt"
+          ],
+          "answer": "Copying sentence structure and replacing just a few words",
+          "explanation": "Patchwriting means keeping the original sentence structure and just swapping in a few synonyms. This is too close to the original and may be considered plagiarism."
+        }
+      ]
+    }
+  },
+  {
     "id": "participle-phrases",
     "title": "Participle Phrases",
     "category": "phrases-clauses",
