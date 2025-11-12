@@ -191,9 +191,17 @@ const keywordMappings = {
     // Topic Sentences
     'topic sentence': ['topic-sentences'],
     'topic sentance': ['topic-sentences'],
+    'topic sentences': ['topic-sentences'],
     'opening sentence': ['topic-sentences'],
     'first sentence': ['topic-sentences'],
     'paragraph start': ['topic-sentences', 'paragraph-development'],
+    'paragraph topic': ['topic-sentences'],
+    'controlling idea': ['topic-sentences'],
+    'paragraph unity': ['topic-sentences'],
+    'paragraph focus': ['topic-sentences'],
+    'paragraph main idea': ['topic-sentences'],
+    'how to start paragraph': ['topic-sentences'],
+    'paragraph opening': ['topic-sentences'],
 
     // Commas
     'comma': ['commas', 'comma-splices'],

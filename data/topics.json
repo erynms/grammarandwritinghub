@@ -4368,6 +4368,104 @@
     }
   },
   {
+    "id": "topic-sentences",
+    "title": "Topic Sentences",
+    "category": "academic-writing",
+    "description": "Writing effective topic sentences that introduce and organize body paragraphs",
+    "keywords": [
+      "topic sentence",
+      "topic sentences",
+      "paragraph topic",
+      "main idea sentence",
+      "paragraph opening",
+      "paragraph organization",
+      "controlling idea",
+      "paragraph unity",
+      "body paragraph"
+    ],
+    "content": "<p>A <strong>topic sentence</strong> states the main idea of a paragraph. It tells readers what the paragraph will be about and helps organize your essay by showing how each paragraph supports your thesis. Topic sentences are essential for creating clear, focused, and well-organized academic writing.</p>\n\n<h4>Where Do Topic Sentences Go?</h4>\n<p>Topic sentences typically appear as the <strong>first sentence</strong> of a body paragraph. This placement immediately orients readers to the paragraph's focus. Occasionally, a topic sentence may appear as the second sentence, after a brief transition, but the first position is most common and effective.</p>\n\n<h4>What Makes a Strong Topic Sentence?</h4>\n<p>Effective topic sentences have three key qualities:</p>\n<ul>\n<li><strong>They state a clear main idea:</strong> Readers should immediately understand what the paragraph will discuss</li>\n<li><strong>They connect to the thesis:</strong> Each topic sentence should support or develop part of your thesis statement</li>\n<li><strong>They're specific but not too narrow:</strong> They should be broad enough to require a full paragraph of development, but focused enough to be manageable</li>\n</ul>\n\n<h4>Topic Sentences vs. Thesis Statements</h4>\n<p>While both are main idea statements, they serve different purposes:</p>\n<ul>\n<li><strong>Thesis statement:</strong> Presents the main argument for the entire essay (appears in introduction)</li>\n<li><strong>Topic sentence:</strong> Presents the main idea for one paragraph (appears in each body paragraph)</li>\n<li><strong>Relationship:</strong> Topic sentences work together to prove the thesis statement</li>\n</ul>\n\n<h4>Creating Paragraph Unity</h4>\n<p>A topic sentence creates <strong>unity</strong> by keeping the paragraph focused. Every sentence in the paragraph should relate back to the topic sentence. If a sentence doesn't support the topic sentence, it probably belongs in a different paragraph or should be cut.</p>\n\n<h4>Common Mistakes to Avoid</h4>\n<ul>\n<li><strong>Too vague:</strong> \"There are many reasons for this.\" (What reasons? For what?)</li>\n<li><strong>Too factual:</strong> \"William Shakespeare was born in 1564.\" (Just a fact, not an arguable point)</li>\n<li><strong>Too broad:</strong> \"Technology affects society.\" (Too general for one paragraph)</li>\n<li><strong>Announces instead of states:</strong> \"In this paragraph, I will discuss...\" (Avoid announcements)</li>\n</ul>\n\n<h4>Writing Strong Topic Sentences</h4>\n<p>To craft effective topic sentences:</p>\n<ol>\n<li>Look at your thesis statement</li>\n<li>Identify the main points that support your thesis</li>\n<li>Turn each main point into a clear, specific statement</li>\n<li>Ensure each topic sentence connects logically to your thesis</li>\n</ol>",
+    "examples": [
+      {
+        "label": "Strong Topic Sentence",
+        "text": "Thesis: Social media has fundamentally changed how young people communicate, create identity, and access information.\n\nTopic Sentence: Social media platforms have transformed communication by prioritizing brevity and visual content over extended conversation."
+      },
+      {
+        "label": "Weak Topic Sentence (Too Vague)",
+        "text": "Social media is interesting.\n\n[Problem: Too vague\u2014what about social media? Why does it matter?]"
+      },
+      {
+        "label": "Weak Topic Sentence (Just a Fact)",
+        "text": "Facebook was founded in 2004.\n\n[Problem: This is just a fact, not an arguable point that needs a paragraph of development.]"
+      },
+      {
+        "label": "Strong Topic Sentence with Thesis Connection",
+        "text": "Thesis: Online education offers flexibility, accessibility, and personalized learning that traditional classrooms cannot match.\n\nTopic Sentence: Unlike traditional classrooms with fixed schedules, online education allows students to learn at their own pace and on their own time."
+      },
+      {
+        "label": "Weak Topic Sentence (Announcement)",
+        "text": "In this paragraph, I will talk about the benefits of exercise.\n\n[Problem: Announces rather than states the idea. Better: 'Regular exercise improves both physical and mental health.']"
+      },
+      {
+        "label": "Strong Topic Sentence (Specific and Focused)",
+        "text": "The novel's recurring water imagery symbolizes the protagonist's emotional cleansing and rebirth."
+      }
+    ],
+    "resources": [
+      {
+        "title": "Purdue OWL: Topic Sentences",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/topic_sentences.html"
+      },
+      {
+        "title": "UNC Writing Center: Paragraphs and Topic Sentences",
+        "url": "https://writingcenter.unc.edu/tips-and-tools/paragraphs/"
+      },
+      {
+        "title": "Harvard Writing Center: Developing a Thesis",
+        "url": "https://writingcenter.fas.harvard.edu/pages/developing-thesis"
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "type": "multiple-choice",
+          "question": "Where does a topic sentence typically appear in a paragraph?",
+          "options": [
+            "At the end as a conclusion",
+            "In the middle after supporting details",
+            "As the first sentence",
+            "Topic sentences aren't necessary"
+          ],
+          "answer": "As the first sentence",
+          "explanation": "Topic sentences typically appear as the first sentence of a paragraph to immediately orient readers to the paragraph's main idea."
+        },
+        {
+          "type": "identify-error",
+          "question": "What's wrong with this topic sentence? 'In this paragraph, I will discuss the causes of climate change.'",
+          "answer": "It announces the topic rather than stating the main idea directly.",
+          "explanation": "Avoid announcements like 'I will discuss...' Instead, state the idea directly: 'Human activities, particularly fossil fuel consumption, are the primary causes of climate change.'"
+        },
+        {
+          "type": "true-false",
+          "question": "Every sentence in a paragraph should relate back to the topic sentence.",
+          "answer": "True",
+          "explanation": "True. Topic sentences create unity. Every sentence in the paragraph should support or develop the topic sentence's main idea."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is the strongest topic sentence?",
+          "options": [
+            "There are many benefits to reading.",
+            "Reading is good.",
+            "Books were invented hundreds of years ago.",
+            "Regular reading improves vocabulary, critical thinking, and empathy."
+          ],
+          "answer": "Regular reading improves vocabulary, critical thinking, and empathy.",
+          "explanation": "This topic sentence is specific, makes a clear claim, and previews the supporting points that will appear in the paragraph. The other options are too vague or factual."
+        }
+      ]
+    }
+  },
+  {
     "id": "transitions",
     "title": "Transitions",
     "category": "academic-writing",
