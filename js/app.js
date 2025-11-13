@@ -37,6 +37,11 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 // Filter topics by selected course
 function filterTopicsByCourse(allTopics, selectedCourse) {
+    // IB class gets all topics with no filtering
+    if (selectedCourse === 'IB-SUAREZ') {
+        return allTopics;
+    }
+
     return allTopics.filter(topic => {
         // Show if no courses field (available to all)
         if (!topic.courses || topic.courses.length === 0) return true;
