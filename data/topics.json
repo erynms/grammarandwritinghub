@@ -4603,68 +4603,6 @@
     "id": "topic-sentences",
     "title": "Topic Sentences",
     "category": "academic-writing",
-    "description": "Crafting effective topic sentences for paragraphs",
-    "keywords": [
-      "topic sentence",
-      "paragraph",
-      "main idea"
-    ],
-    "content": "<p>A topic sentence states the main idea of a paragraph. It usually appears at the beginning and tells readers what the paragraph will discuss.</p><p>Think of topic sentences as mini-thesis statements for each paragraph. They should connect back to your thesis while introducing the specific point this paragraph will make. Good topic sentences help readers follow your argument.</p>",
-    "examples": [
-      {
-        "label": "Weak",
-        "text": "There are many reasons for this."
-      },
-      {
-        "label": "Strong",
-        "text": "The economic impact of remote work has been particularly significant in urban housing markets."
-      },
-      {
-        "label": "Weak",
-        "text": "Another thing to consider is education."
-      },
-      {
-        "label": "Strong",
-        "text": "Educational inequality begins long before students enter college, with underfunded K-12 schools creating persistent achievement gaps."
-      }
-    ],
-    "resources": [
-      {
-        "title": "Purdue OWL: Paragraphs and Topic Sentences",
-        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/index.html"
-      },
-      {
-        "title": "UNC Writing Center: Paragraphs",
-        "url": "https://writingcenter.unc.edu/tips-and-tools/paragraphs/"
-      }
-    ],
-    "quiz": {
-      "questions": [
-        {
-          "type": "multiple-choice",
-          "question": "What is the main purpose of a topic sentence?",
-          "options": [
-            "To conclude the paragraph",
-            "To state the main idea of the paragraph",
-            "To provide evidence",
-            "To repeat the thesis"
-          ],
-          "answer": "To state the main idea of the paragraph",
-          "explanation": "A topic sentence introduces the main idea that the paragraph will develop and support."
-        },
-        {
-          "type": "true-false",
-          "question": "Every paragraph should have a topic sentence.",
-          "answer": "True",
-          "explanation": "True. Topic sentences help organize your writing and guide readers through your argument."
-        }
-      ]
-    }
-  },
-  {
-    "id": "topic-sentences",
-    "title": "Topic Sentences",
-    "category": "academic-writing",
     "description": "Writing effective topic sentences that introduce and organize body paragraphs",
     "keywords": [
       "topic sentence",
