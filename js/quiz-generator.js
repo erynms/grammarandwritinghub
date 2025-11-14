@@ -5,6 +5,7 @@ let currentQuiz = null;
 let currentQuestionIndex = 0;
 let score = 0;
 let answers = [];
+let isFirstAttempt = true; // Track if this is the first attempt at current question
 
 // Initialize quiz for a topic
 window.initializeQuiz = function(topic) {
@@ -38,6 +39,8 @@ window.initializeQuiz = function(topic) {
 // Display current question
 function displayQuestion() {
     console.log('displayQuestion called');
+    isFirstAttempt = true; // Reset first attempt flag for new question
+
     const quizContent = document.getElementById('quizContent');
     console.log('quizContent element:', quizContent);
 
@@ -274,20 +277,50 @@ function checkAnswer(question) {
         isCorrect = userAnswer.every(answer => answer.selectedDef === answer.correctDef);
     }
 
+    // Handle wrong answers differently based on question type
+    if (!isCorrect) {
+        // For multiple choice and identify-error: allow retry
+        if (question.type === 'multiple-choice' || question.type === 'identify-error') {
+            // Show feedback but allow retry
+            displayFeedback(question, isCorrect, false); // false = don't show correct answer yet
+            isFirstAttempt = false; // Mark that they've tried once
+
+            // Remove any previous incorrect highlighting
+            document.querySelectorAll('.answer-option').forEach(option => {
+                option.classList.remove('incorrect');
+            });
+
+            // Highlight the wrong answer briefly
+            document.querySelectorAll('.answer-option').forEach(option => {
+                const input = option.querySelector('input');
+                if (input && input.checked) {
+                    option.classList.add('incorrect');
+                }
+            });
+
+            return; // Don't proceed - let them try again
+        }
+
+        // For true-false and matching: show correct answer and proceed
+        displayFeedback(question, isCorrect, true); // true = show correct answer
+    } else {
+        // Correct answer
+        displayFeedback(question, isCorrect, true);
+
+        // Record answer and update score only on first correct attempt
+        if (isFirstAttempt) {
+            score++;
+        }
+    }
+
     // Record answer
     answers.push({
         question: question.question,
         userAnswer: userAnswer,
         correctAnswer: question.answer || question.correctIndex || question.pairs,
-        isCorrect: isCorrect
+        isCorrect: isCorrect,
+        firstAttempt: isFirstAttempt
     });
-
-    if (isCorrect) {
-        score++;
-    }
-
-    // Show feedback
-    displayFeedback(question, isCorrect);
 
     // Disable answer selection
     document.querySelectorAll('input, select').forEach(input => {
@@ -318,25 +351,37 @@ function checkAnswer(question) {
 }
 
 // Display feedback for answer
-function displayFeedback(question, isCorrect) {
+function displayFeedback(question, isCorrect, showCorrectAnswer = true) {
     const feedbackDiv = document.getElementById('questionFeedback');
 
     let html = `<div class="feedback ${isCorrect ? 'correct' : 'incorrect'}">`;
 
     if (isCorrect) {
         html += '<h4>✓ Correct!</h4>';
-        // Trigger confetti animation for correct answers
-        triggerConfetti();
+        // Trigger confetti animation only on first attempt
+        if (isFirstAttempt) {
+            triggerConfetti();
+        }
     } else {
         html += '<h4>✗ Not quite</h4>';
+
+        // For multiple choice/identify-error on first wrong attempt
+        if (!showCorrectAnswer) {
+            html += '<p>Try again! Review the explanation below.</p>';
+        }
     }
 
     if (question.explanation) {
         html += `<p>${question.explanation}</p>`;
     }
 
-    if (!isCorrect && question.correctAnswer) {
-        html += `<p><strong>The correct answer is:</strong> ${question.correctAnswer}</p>`;
+    // Show correct answer for true/false and matching, or for multiple choice after they move on
+    if (!isCorrect && showCorrectAnswer) {
+        if (question.answer) {
+            html += `<p><strong>The correct answer is:</strong> ${question.answer}</p>`;
+        } else if (question.correctAnswer) {
+            html += `<p><strong>The correct answer is:</strong> ${question.correctAnswer}</p>`;
+        }
     }
 
     html += '</div>';
