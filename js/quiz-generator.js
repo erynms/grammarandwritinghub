@@ -325,6 +325,8 @@ function displayFeedback(question, isCorrect) {
 
     if (isCorrect) {
         html += '<h4>✓ Correct!</h4>';
+        // Trigger confetti animation for correct answers
+        triggerConfetti();
     } else {
         html += '<h4>✗ Not quite</h4>';
     }
@@ -340,6 +342,67 @@ function displayFeedback(question, isCorrect) {
     html += '</div>';
 
     feedbackDiv.innerHTML = html;
+}
+
+// Confetti animation for correct answers
+function triggerConfetti() {
+    const colors = ['#2c5aa0', '#4CAF50', '#FFC107', '#FF5722', '#9C27B0', '#00BCD4'];
+    const confettiCount = 50; // Moderate amount for subtle effect
+    const confettiContainer = document.createElement('div');
+    confettiContainer.className = 'confetti-container';
+    confettiContainer.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9999; overflow: hidden;';
+    document.body.appendChild(confettiContainer);
+
+    // Create confetti pieces
+    for (let i = 0; i < confettiCount; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti-piece';
+
+        const color = colors[Math.floor(Math.random() * colors.length)];
+        const left = Math.random() * 100;
+        const animationDuration = 2 + Math.random() * 1; // 2-3 seconds
+        const delay = Math.random() * 0.5; // Stagger start times
+        const rotation = Math.random() * 360;
+        const size = 8 + Math.random() * 4; // 8-12px
+
+        confetti.style.cssText = `
+            position: absolute;
+            left: ${left}%;
+            top: -10px;
+            width: ${size}px;
+            height: ${size}px;
+            background-color: ${color};
+            opacity: 0.8;
+            transform: rotate(${rotation}deg);
+            animation: confetti-fall ${animationDuration}s linear ${delay}s forwards;
+        `;
+
+        confettiContainer.appendChild(confetti);
+    }
+
+    // Add animation keyframes if not already added
+    if (!document.getElementById('confetti-animation-style')) {
+        const style = document.createElement('style');
+        style.id = 'confetti-animation-style';
+        style.textContent = `
+            @keyframes confetti-fall {
+                0% {
+                    transform: translateY(0) rotate(0deg);
+                    opacity: 0.8;
+                }
+                100% {
+                    transform: translateY(100vh) rotate(720deg);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    // Remove confetti after animation completes
+    setTimeout(() => {
+        confettiContainer.remove();
+    }, 3500); // Clean up after animations finish
 }
 
 // Show quiz results
